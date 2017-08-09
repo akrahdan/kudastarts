@@ -1,0 +1,3613 @@
+.accordion-container {
+    clear: both;
+    overflow: hidden;
+}
+
+.js .cms-expandable .cms-expand-wrapper {
+    display: none;
+}
+
+.js .cms-expandable-open .cms-expand-wrapper {
+    display: block;
+}
+
+.accordion-container .accordion header {
+    margin: 0;
+}
+
+.accordion-container .accordion h2 {
+    border-bottom: 2px solid #dedbd2;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 13px 0 12px;
+    position: relative;
+    text-indent: 18px;
+}
+
+    .accordion-container .accordion h2:hover span {
+        text-decoration: underline;
+    }
+
+.accordion-container .accordion .expand-lnk a {
+    background: transparent url(/assets/widgets/sprite-icons-cms.png) 0 0 no-repeat;
+    bottom: 10px;
+    display: inline-block;
+    height: 19px;
+    position: absolute;
+    text-indent: -9999px;
+    right: 13px;
+    text-decoration: none;
+    width: 19px;
+}
+
+.accordion-container .accordion h2.expand-less a {
+    background-position: 0 -61px;
+}
+
+.accordion-container .accordion .accordion-content {
+    margin: 0;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+.no-js .accordion-container .accordion h2 {
+    cursor: default;
+}
+
+.no-js .accordion-container .accordion .expand-lnk a {
+    display: none;
+}
+
+.no-js .accordion-container .accordion h2:hover span {
+    text-decoration: none;
+}
+
+.shop-info-container {
+    clear: both;
+    color: #727270;
+    margin: 0 -27px 0;
+}
+
+    .shop-info-container p {
+        color: #5f5f5f !important;
+        font-weight: normal !important;
+        padding: 0 !important;
+    }
+
+#m2m-guide-overlay .shop-info-container p {
+    margin-bottom: 1em;
+}
+
+.shop-info-container .shop-tabs {
+    background: url("https://www.johnlewis.com/assets/widgets/shopinfo-tabs-border-ul.gif") repeat-x bottom left;
+    overflow-y: hidden;
+    padding: 0 0 1px 27px;
+}
+
+.ie7 .shop-info-container .shop-tabs, .ie6 .shop-info-container .shop-tabs {
+    padding-bottom: 0;
+}
+
+.shop-info-container .info-tab h2 {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.shop-info-container .shop-tabs li {
+    background: 0;
+    border: 1px solid #dedbd2;
+    border-bottom: 0;
+    float: left;
+    margin-right: 10px;
+    padding: 0;
+}
+
+.shop-info-container .shop-tabs a {
+    background-color: transparent;
+    color: #71726d;
+    display: inline-block;
+    padding: 8px 15px 6px;
+    text-decoration: none;
+}
+
+.ie7 .shop-info-container .shop-tabs a, .ie6 .shop-info-container .shop-tabs a {
+    padding-bottom: 8px;
+}
+
+.shop-info-container .shop-tabs a:active, .shop-info-container .shop-tabs a:focus {
+    outline: 0;
+}
+
+.shop-info-container .shop-tabs .selected {
+    border: 1px solid #bfbdb7;
+    border-bottom: 0;
+    box-shadow: 3px 2px #e3e3e2;
+    -webkit-box-shadow: 3px 1px #e3e3e2;
+    -moz-box-shadow: 3px 1px #e3e3e2;
+}
+
+    .shop-info-container .shop-tabs .selected a {
+        background-color: #fff;
+        cursor: default;
+        font-weight: bold;
+        margin-bottom: -2px;
+        padding-bottom: 8px;
+    }
+
+.ie7 .shop-info-container .shop-tabs .selected a, .ie6 .shop-info-container .shop-tabs .selected a {
+    margin-bottom: 0;
+}
+
+.shop-info-container .info-tab-container {
+    height: auto;
+    min-height: 200px;
+    padding-top: 34px;
+}
+
+.shop-info-container .info-tab {
+    margin: 0 27px;
+}
+
+#shop-information-tab .columns {
+    background: transparent url(/assets/widgets/shopinfo-opening-hours.gif) 0 0 repeat-y;
+    list-style: none;
+    overflow: hidden;
+}
+
+    #shop-information-tab .columns li {
+        background-image: none;
+        float: left;
+        padding: 0 20px 0 30px;
+        width: 235px;
+    }
+
+    #shop-information-tab .columns .first-col {
+        padding-left: 0;
+        width: 160px;
+    }
+
+        #shop-information-tab .columns .first-col p {
+            padding-left: 0 !important;
+        }
+
+    #shop-information-tab .columns .click-collect {
+        margin: 20px 0;
+    }
+
+    #shop-information-tab .columns .link {
+        font-size: 11px;
+        font-weight: bold !important;
+        margin-bottom: 8px;
+        padding: 0 !important;
+    }
+
+#how-to-find-tab .map-container {
+    background-color: transparent;
+    border: 1px solid #bfbdb7;
+    margin-bottom: 20px;
+    padding: 10px 13px;
+}
+
+#how-to-find-tab h3 {
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+#jl-map {
+    background-color: transparent;
+    height: 400px;
+    width: 100%;
+}
+
+    #jl-map .google-static-ie6 {
+        display: none;
+        margin: 0 auto;
+    }
+
+.ie6 #jl-map .google-static-ie6 {
+    display: block;
+}
+
+#shop-information-tab h3, #shop-information-tab h4 {
+    color: #727270;
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+#shop-information-tab h4 {
+    margin-bottom: 0;
+}
+
+.shop-info-container address {
+    font-style: normal;
+}
+
+#shop-information-tab table, #shop-information-tab address, #shop-information-tab p {
+    margin-bottom: 20px;
+}
+
+    #shop-information-tab table td {
+        border: 0;
+        padding: 0 3px 3px;
+    }
+
+    #shop-information-tab table .day {
+        font-weight: bold;
+        padding-right: 8px;
+    }
+
+.google-infowindow {
+    text-align: left;
+    width: 100px;
+}
+
+    .google-infowindow h3 {
+        font-weight: bold;
+    }
+
+    .google-infowindow p {
+        margin-bottom: 15px;
+    }
+
+.no-js .shop-info-container .info-tab {
+    margin-bottom: 30px;
+}
+
+.no-js #jl-map .google-static-ie6 {
+    display: block;
+}
+
+.three-grid-widget-container {
+    clear: both;
+    overflow: hidden;
+}
+
+    .three-grid-widget-container article {
+        display: inline;
+        float: left;
+        margin: 0 18px 0 0;
+        width: 239px;
+    }
+
+    .three-grid-widget-container h2 {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .three-grid-widget-container a:link, .three-grid-widget-container a:visited {
+        text-decoration: none;
+    }
+
+    .three-grid-widget-container a:hover {
+        text-decoration: underline;
+    }
+
+    .three-grid-widget-container article img {
+        border: 1px solid #dedbd2;
+        display: block;
+        margin: 0 auto 10px;
+        padding: 7px;
+    }
+
+    .three-grid-widget-container article a:hover img {
+        border: 1px solid #5f5f5f;
+    }
+
+    .three-grid-widget-container .last {
+        margin-right: 0;
+    }
+
+    .three-grid-widget-container h3 {
+        color: #5f5f5f;
+        font-size: 12px;
+        font-weight: bold;
+        padding-right: 10px;
+    }
+
+    .three-grid-widget-container ul {
+        float: left;
+        margin-top: 9px;
+    }
+
+    .three-grid-widget-container li {
+        background-image: none;
+        line-height: 12px;
+        list-style: none;
+        margin-bottom: 7px;
+        padding-left: 0;
+        padding-right: 10px;
+    }
+
+    .three-grid-widget-container p {
+        padding: 0 10px 0 0 !important;
+        color: #5f5f5f !important;
+        font-weight: normal !important;
+    }
+
+    .three-grid-widget-container li a {
+        background: transparent url(/assets/widgets/sprite-icons-cms.png) 0 -118px no-repeat;
+        display: inline-block;
+        font-weight: bold;
+        padding-left: 13px;
+        text-decoration: none;
+    }
+
+    .three-grid-widget-container a:hover {
+        text-decoration: underline;
+    }
+
+.three-grid-no-border article img {
+    border: 0;
+    display: block;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.three-grid-no-border article a:hover img {
+    border: 0;
+}
+
+.four-grid-widget-container {
+    clear: both;
+    overflow: hidden;
+}
+
+    .four-grid-widget-container h2 {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .four-grid-widget-container article {
+        display: inline;
+        float: left;
+        margin: 0 18px 0 0;
+        width: 175px;
+    }
+
+        .four-grid-widget-container article img {
+            border: 1px solid #dedbd2;
+            display: block;
+            margin: 0 auto 10px;
+            padding: 7px;
+        }
+
+        .four-grid-widget-container article a:hover img {
+            border: 1px solid #5f5f5f;
+        }
+
+.four-grid-eht article img {
+    background: url(https://www.johnlewis.com/assets/widgets/4grid-topblueborder.png) no-repeat 0 0;
+    border: 0;
+    display: block;
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+.four-grid-eht article a:hover img {
+    border: 0;
+}
+
+.four-grid-widget-container .last {
+    margin-left: -1px;
+    margin-right: 0;
+}
+
+.four-grid-widget-container h3 {
+    color: #5f5f5f;
+    font-size: 12px;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.four-grid-widget-container a:link, .four-grid-widget-container a:visited {
+    text-decoration: none;
+}
+
+.four-grid-widget-container a:hover {
+    text-decoration: underline;
+}
+
+.four-grid-widget-container ul {
+    float: left;
+    margin-top: 9px;
+}
+
+.four-grid-widget-container li {
+    background-image: none;
+    line-height: 12px;
+    list-style: none;
+    margin-bottom: 7px;
+    padding-left: 0;
+    padding-right: 10px;
+}
+
+.four-grid-widget-container p {
+    padding: 0 10px 0 0 !important;
+    color: #5f5f5f !important;
+    font-weight: normal !important;
+}
+
+.four-grid-widget-container li a {
+    background: transparent url(/assets/widgets/sprite-icons-cms.png) 0 -118px no-repeat;
+    display: inline-block;
+    font-weight: bold;
+    padding-left: 13px;
+    text-decoration: none;
+}
+
+.four-grid-widget-container a:hover {
+    text-decoration: underline;
+}
+
+.four-grid-no-border article img {
+    border: 0;
+    display: block;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.four-grid-no-border article a:hover img {
+    border: 0;
+}
+
+.background-image-container {
+    padding: 0 0 0 1px;
+    width: auto;
+    clear: both;
+}
+
+.ie6 .background-image-container {
+    margin-left: 0;
+    _width: 350px;
+}
+
+.background-image-container h2 {
+    font-size: 16px;
+    margin-bottom: 8px;
+    width: auto;
+}
+
+    .background-image-container h2 a {
+        text-decoration: underline;
+    }
+
+        .background-image-container h2 a:hover {
+            color: #333;
+        }
+
+.background-image-container .background-image-widget {
+    margin-right: 18px;
+    padding: 8px;
+    width: 349px;
+}
+
+.ie6 .background-image-container .background-image-widget {
+    border: 1px solid #dedbd2;
+}
+
+.background-image-container .background-image-inner {
+    height: 100%;
+    overflow: visible;
+    position: relative;
+}
+
+.ie6 .background-image-container .background-image-inner {
+    overflow: hidden;
+}
+
+.background-image-container .background-image-inner img {
+    border: 1px solid #dedbd2;
+    padding: 8px;
+    margin: -8px;
+    vertical-align: bottom;
+    float: none;
+}
+
+.ie6 .background-image-container .background-image-inner img {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.background-image-container .background-image-widget a:hover img {
+    border: 1px solid #5f5f5f;
+}
+
+.ie6 .background-image-container .background-image-widget a:hover img {
+    border: 0;
+}
+
+.background-image-container .textbox {
+    color: #fff;
+    left: 0;
+    line-height: 13px;
+    padding: 6px 0 0;
+    position: absolute;
+    top: 0;
+    width: 174px;
+    z-index: 2;
+}
+
+.background-image-container .background-image-inner .textbox img {
+    border: 0;
+    margin: 0 6px;
+    padding: 0;
+    vertical-align: bottom;
+}
+
+.background-image-container .textbox a:hover img {
+    border: 0;
+}
+
+.background-image-container .textbox h3 {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 6px 13px 5px;
+}
+
+.background-image-container .textbox p {
+    margin: 8px 13px 0;
+    padding-left: 0 !important;
+    color: #fff !important;
+    font-weight: normal !important;
+}
+
+.background-image-container .textbox ul {
+    margin: 9px 13px 0;
+}
+
+.background-image-container .textbox li {
+    background: 0;
+    list-style: none;
+    margin-bottom: 3px;
+    padding-left: 0;
+}
+
+.background-image-container .textbox a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+    .background-image-container .textbox a:hover {
+        color: #e2e2e2;
+    }
+
+.background-image-container .textbox li a {
+    background: transparent url(/assets/widgets/sprite-icons-cms.png) 0 -238px no-repeat;
+    display: inline-block;
+    font-weight: bold;
+    padding-left: 13px;
+    text-decoration: none;
+}
+
+    .background-image-container .textbox li a:hover {
+        text-decoration: underline;
+    }
+
+.background-image-container .textbox-background {
+    background-color: #000;
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: .6;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: 174px;
+    z-index: 1;
+}
+
+.background-widget-no-border .background-image-widget {
+    margin-right: 18px;
+    padding: 0;
+    border: 0;
+}
+
+.background-widget-no-border .background-image-inner {
+    margin: 0;
+}
+
+    .background-widget-no-border .background-image-inner img {
+        border: 0;
+        padding: 8px 0;
+    }
+
+    .background-widget-no-border .background-image-inner a img {
+        border: 0;
+        padding: 0;
+        margin: 0 -8px;
+    }
+
+        .background-widget-no-border .background-image-inner a img:hover {
+            border: 0;
+        }
+
+.background-widget-no-border .textbox, .background-widget-no-border .textbox-background, .background-widget-border .textbox, .background-widget-border .textbox-background {
+    display: none;
+}
+
+.background-widget-overlay-right-dark .textbox, .background-widget-overlay-right-dark .textbox-background, .background-widget-overlay-right-light .textbox, .background-widget-overlay-right-light .textbox-background {
+    right: 0;
+    left: auto;
+}
+
+.background-widget-overlay-left-light .textbox-background, .background-widget-overlay-right-light .textbox-background {
+    background-color: #dedbd2;
+    opacity: .3;
+}
+
+.ie8 .background-image-container .textbox-background, .ie7 .background-image-container .textbox-background, .ie6 .background-image-container .textbox-background {
+    filter: alpha(opacity=60);
+}
+
+.ie8 .background-widget-overlay-left-light .textbox-background, .ie8 .background-widget-overlay-right-light .textbox-background, .ie7 .background-widget-overlay-left-light .textbox-background, .ie7 .background-widget-overlay-right-light .textbox-background, .ie6 .background-widget-overlay-left-light .textbox-background, .ie6 .background-widget-overlay-right-light .textbox-background {
+    filter: alpha(opacity=30);
+}
+
+.ie6 .background-image-container .textbox-background {
+    height: 1000px;
+}
+
+.bg-last .background-image-widget {
+    margin-right: 0;
+}
+
+.hero-right-container {
+    border-top: 3px solid #dedbd2;
+    margin: 0 -27px 0;
+    position: relative;
+}
+
+    .hero-right-container img {
+        vertical-align: bottom;
+    }
+
+    .hero-right-container .hero-inner {
+        height: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .hero-right-container .content-container {
+        position: absolute;
+        top: 63px;
+        right: 83px;
+        width: 266px;
+        z-index: 2;
+    }
+
+    .hero-right-container .hero-overlay {
+        background-color: transparent;
+        display: block;
+        height: 100%;
+        padding: 0;
+        position: absolute;
+        right: 27px;
+        top: 0;
+        width: 375px;
+        z-index: 1;
+    }
+
+    .hero-right-container h3 {
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 13px;
+    }
+
+        .hero-right-container h3 a {
+            text-decoration: none;
+        }
+
+    .hero-right-container p {
+        margin-bottom: 18px;
+        padding-left: 0 !important;
+    }
+
+    .hero-right-container li {
+        background-image: none;
+        list-style: none;
+        line-height: 18px;
+        padding-left: 0;
+    }
+
+        .hero-right-container li a {
+            background: transparent url(/assets/widgets/sprite-icons-cms.png) 0 -115px no-repeat;
+            display: inline-block;
+            font-weight: bold;
+            padding-left: 13px;
+            text-decoration: none;
+        }
+
+            .hero-right-container li a:hover {
+                text-decoration: underline;
+            }
+
+    .hero-right-container .headerimg {
+        vertical-align: top;
+        margin-bottom: 20px;
+    }
+
+.hero-widget-overlay-right-dark .hero-overlay, .hero-widget-overlay-left-dark .hero-overlay {
+    background-color: #000;
+    opacity: .8;
+}
+
+.hero-widget-overlay-left-light .hero-overlay, .hero-widget-overlay-right-light .hero-overlay, .hero-widget-eht .hero-overlay {
+    background-color: #dedbd2;
+    opacity: .3;
+}
+
+.hero-widget-overlay-right-dark .content-container, .hero-widget-overlay-left-dark .content-container, .hero-widget-default-left-light .content-container, .hero-widget-default-right-light .content-container, .hero-widget-overlay-left-light .content-container, .hero-widget-overlay-right-light .content-container {
+    color: #fff;
+}
+
+.hero-widget-overlay-right-dark li a, .hero-widget-overlay-left-dark li a, .hero-widget-default-left-light li a, .hero-widget-default-right-light li a, .hero-widget-overlay-left-light li a, .hero-widget-overlay-right-light li a {
+    background-position: 0 -236px;
+}
+
+.hero-widget-overlay-right-dark a, .hero-widget-overlay-right-dark a:visited, .hero-widget-overlay-right-dark a:active, .hero-widget-overlay-left-dark a, .hero-widget-overlay-left-dark a:visited, .hero-widget-overlay-left-dark a:active, .hero-widget-default-left-light a, .hero-widget-default-left-light a:visited, .hero-widget-default-left-light a:active, .hero-widget-default-right-light a, .hero-widget-default-right-light a:visited, .hero-widget-default-right-light a:active, .hero-widget-overlay-left-light a, .hero-widget-overlay-left-light a:active, .hero-widget-overlay-left-light a:visited, .hero-widget-overlay-right-light a, .hero-widget-overlay-right-light a:active, .hero-widget-overlay-right-light a:visited {
+    color: #fff;
+}
+
+    .hero-widget-overlay-right-dark a:hover, .hero-widget-overlay-left-dark a:hover, .hero-widget-default-left-light a:hover, .hero-widget-default-right-light a:hover, .hero-widget-overlay-left-light a:hover, .hero-widget-overlay-right-light a:hover {
+        text-decoration: underline;
+        color: #e2e2e2;
+    }
+
+.hero-widget-overlay-left-dark .hero-overlay, .hero-widget-default-left-dark .hero-overlay, .hero-widget-default-left-light .hero-overlay, .hero-widget-overlay-left-light .hero-overlay, .hero-widget-home .hero-overlay, .hero-widget-eht .hero-overlay {
+    left: 27px;
+}
+
+.hero-widget-overlay-left-dark .content-container, .hero-widget-default-left-dark .content-container, .hero-widget-default-left-light .content-container, .hero-widget-overlay-left-light .content-container, .hero-widget-home .content-container, .hero-widget-eht .content-container {
+    left: 83px;
+    top: 63px;
+}
+
+.hero-widget-default-left-light .hero-overlay, .hero-widget-default-right-light .hero-overlay, .hero-widget-default-left-dark .hero-overlay, .hero-widget-default-right-dark .hero-overlay {
+    display: none;
+}
+
+.ie8 .hero-right-container .hero-overlay, .ie7 .hero-right-container .hero-overlay, .ie6 .hero-right-container .hero-overlay {
+    background: 0;
+}
+
+.ie8 .hero-widget-overlay-left-light .hero-overlay, .ie8 .hero-widget-overlay-right-light .hero-overlay, .ie7 .hero-widget-overlay-left-light .hero-overlay, .ie7 .hero-widget-overlay-right-light .hero-overlay, .ie6 .hero-widget-overlay-left-light .hero-overlay, .ie6 .hero-widget-overlay-right-light .hero-overlay {
+    background: transparent url(/assets/widgets/hero-overlay-lgt.png) 0 0 no-repeat;
+}
+
+.ie8 .hero-widget-overlay-left-dark .hero-overlay, .ie8 .hero-widget-overlay-right-dark .hero-overlay, .ie7 .hero-widget-overlay-left-dark .hero-overlay, .ie7 .hero-widget-overlay-right-dark .hero-overlay, .ie6 .hero-widget-overlay-left-dark .hero-overlay, .ie6 .hero-widget-overlay-right-dark .hero-overlay {
+    background: transparent url(/assets/widgets/hero-overlay-dark.png) 0 0 no-repeat;
+}
+
+.ie6 .hero-right-container .hero-overlay {
+    height: 1000px;
+}
+
+.hero-widget-fashion {
+    border-top: 3px solid #5e5d59;
+}
+
+.hero-widget-home {
+    border-top: 3px solid #5e5d59;
+}
+
+.author-profile-widget .author-info {
+    overflow: visible;
+    position: relative;
+}
+
+    .author-profile-widget .author-info h2 {
+        color: #5f5f5f;
+        font-size: 14px;
+        margin-bottom: 6px;
+    }
+
+.js .author-profile-widget .author-info h2 .popup-trigger {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+    .js .author-profile-widget .author-info h2 .popup-trigger:hover {
+        color: #333;
+    }
+
+.author-profile-widget .author-info h3 {
+    color: #8a8b82;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.author-profile-widget .author-info h3, .author-profile-widget .author-info p {
+    margin-bottom: 10px;
+}
+
+.author-profile-widget .author-info .author-popup {
+    box-shadow: 3px 3px #e3e3e2;
+    -webkit-box-shadow: 3px 3px #e3e3e2;
+    -moz-box-shadow: 3px 3px #e3e3e2;
+    background: none repeat scroll 0 0 white;
+    border: 1px solid #bebeb7;
+    display: none;
+    padding: 13px 13px 3px;
+    position: absolute;
+    top: -8px;
+    width: 409px;
+    z-index: 1;
+}
+
+    .author-profile-widget .author-info .author-popup p {
+        padding-left: 0 !important;
+    }
+
+.author-profile-widget .author-popup .popupArrow {
+    background: transparent url(/assets/widgets/sprite-icons-cms.png) 0 -160px no-repeat;
+    display: block;
+    height: 10px;
+    left: -5px;
+    position: absolute;
+    top: 10px;
+    width: 13px;
+}
+
+.author-profile-widget .author-info .author-popup .close {
+    background: transparent url(/assets/widgets/sprite-icons-cms.png) 0 -200px no-repeat;
+    display: block;
+    height: 19px;
+    position: absolute;
+    right: 7px;
+    text-indent: -9999px;
+    top: 7px;
+    width: 19px;
+}
+
+.author-profile-widget .author-popup header {
+    margin-left: 0;
+    margin-right: 0;
+    clear: both;
+}
+
+.author-profile-widget .author-popup .feature img, .author-profile-widget .author-popup .author-links img {
+    float: left;
+}
+
+.author-profile-widget .author-popup .feature img {
+    margin-bottom: 10px;
+}
+
+.author-profile-widget .author-popup .feature div {
+    margin-left: 90px;
+}
+
+.author-profile-widget .author-popup .author-links {
+    padding-bottom: 9px;
+}
+
+    .author-profile-widget .author-popup .author-links article {
+        margin-bottom: 10px;
+        overflow: hidden;
+    }
+
+.author-profile-widget .author-links h2 {
+    border-bottom: 1px solid #dedbd2;
+    font-size: 12px;
+    margin-bottom: 16px;
+    padding-bottom: 13px;
+}
+
+.author-profile-widget .author-links article div {
+    margin-left: 111px;
+}
+
+.author-profile-widget .author-links .noimage div {
+    margin-left: 0;
+}
+
+.author-profile-widget .author-links article h3 {
+    font-weight: bold;
+}
+
+.author-profile-widget .author-popup .author-links article h3 {
+    margin-bottom: 5px;
+}
+
+.author-profile-widget .author-links article a {
+    text-decoration: underline;
+}
+
+.author-profile-widget .author-links article p {
+    padding-left: 0 !important;
+}
+
+.author-profile-widget .author-links article a:hover, .author-profile-widget .author-links article a:active {
+    color: #333;
+}
+
+.carousel-container {
+    height: 303px;
+    position: relative;
+    width: 100%;
+    clear: both;
+}
+
+    .carousel-container .hero-right-container {
+        display: none;
+        left: 0;
+        position: absolute;
+        top: 0;
+        z-index: 0;
+    }
+
+    .carousel-container .carousel-slide-indicator {
+        bottom: 0;
+        display: none;
+        left: 0;
+        overflow: hidden;
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        z-index: 3;
+    }
+
+.ie7 .carousel-container .carousel-slide-indicator {
+    margin: 0 auto;
+    width: auto;
+}
+
+.carousel-container .carousel-slide-indicator ul {
+    -moz-border-radius: 4px 4px 0 0;
+    -webkit-border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0;
+    background-color: #fff;
+    display: inline-block;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 7px 8px 3px;
+    vertical-align: bottom;
+    width: auto;
+}
+
+.ie6 .carousel-container .carousel-slide-indicator ul {
+    display: inline;
+}
+
+.carousel-container .carousel-slide-indicator li {
+    background-image: none;
+    float: left;
+    list-style: none;
+    margin-right: 9px;
+    padding-left: 0;
+}
+
+    .carousel-container .carousel-slide-indicator li a {
+        background: transparent url(/assets/widgets/sprite-icons-cms.png) 0 -280px no-repeat;
+        display: block;
+        height: 7px;
+        width: 7px;
+    }
+
+        .carousel-container .carousel-slide-indicator li a:hover, .carousel-container .carousel-slide-indicator .active a {
+            background-position: 100% -280px;
+        }
+
+.carousel-container .carousel-slide-indicator .last {
+    margin-right: 0;
+}
+
+.carousel-container .carousel-control-bar-prev, .carousel-container .carousel-control-bar-next {
+    display: none;
+    height: 54px;
+    position: absolute;
+    text-indent: -9999px;
+    top: 42%;
+    width: 54px;
+    z-index: 3;
+}
+
+.carousel-container .carousel-control-bar-prev {
+    left: 0;
+}
+
+.carousel-container .carousel-control-bar-next {
+    right: 0;
+}
+
+    .carousel-container .carousel-control-bar-prev a, .carousel-container .carousel-control-bar-next a {
+        background: transparent url(/assets/widgets/sprite-icons-cms.png) 0 -310px no-repeat;
+        display: block;
+        height: 54px;
+        opacity: .8;
+        width: 54px;
+    }
+
+.ie8 .carousel-container .carousel-control-bar-prev a, .ie7 .carousel-container .carousel-control-bar-prev a, .ie6 .carousel-container .carousel-control-bar-prev a {
+    filter: alpha(opacity=80);
+    background: transparent url(/assets/widgets/sprite-icons-cms-ie6.gif) 0 -310px no-repeat;
+}
+
+.ie8 .carousel-container .carousel-control-bar-next a, .ie7 .carousel-container .carousel-control-bar-next a, .ie6 .carousel-container .carousel-control-bar-next a {
+    filter: alpha(opacity=80);
+    background: transparent url(/assets/widgets/sprite-icons-cms-ie6.gif) 100% -310px no-repeat;
+}
+
+.carousel-container .carousel-control-bar-next {
+    background-position: 0 -310px;
+}
+
+    .carousel-container .carousel-control-bar-next a {
+        background-position: 100% -310px;
+    }
+
+        .carousel-container .carousel-control-bar-prev a:hover, .carousel-container .carousel-control-bar-next a:hover {
+            opacity: 1;
+        }
+
+.ie8 .carousel-container .carousel-control-bar-prev a:hover, .ie8 .carousel-container .carousel-control-bar-next a:hover, .ie7 .carousel-container .carousel-control-bar-prev a:hover, .ie7 .carousel-container .carousel-control-bar-next a:hover, .ie6 .carousel-container .carousel-control-bar-prev a:hover, .ie6 .carousel-container .carousel-control-bar-next a:hover {
+    filter: alpha(opacity=100);
+}
+
+.carousel-container .carousel-slide-indicator li a:focus, .carousel-container .carousel-control-bar-prev a:focus, .carousel-container .carousel-control-bar-next a:focus {
+    outline: 0;
+}
+
+.no-js .carousel-container .no-js-visible {
+    display: block;
+}
+
+.main .col-16-transversal > * {
+    padding: 0 12px !important;
+}
+
+.promoblock {
+    display: inline-block;
+    margin-top: 16px;
+    width: 100%;
+}
+
+    .promoblock ul {
+        margin: 0;
+        width: 157px;
+        margin-bottom: 4px;
+    }
+
+    .promoblock li {
+        background: 0;
+        line-height: 16px;
+        list-style-type: none;
+        padding: 0 0 8px 0;
+    }
+
+    .promoblock header {
+        border: 0;
+        display: inline-block;
+        margin: 0;
+        padding-bottom: 4px;
+        width: 100%;
+    }
+
+    .promoblock h2 {
+        float: none;
+    }
+
+    .promoblock img {
+        padding-bottom: 12px;
+    }
+
+.promoblock-image a {
+    text-decoration: none;
+}
+
+.promoblock li a {
+    text-decoration: none;
+}
+
+    .promoblock li a:hover {
+        text-decoration: underline;
+    }
+
+.three-grid-widget-container header, .four-grid-widget-container header {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.feature-widget {
+    padding: 7px 0;
+    border-top: none !important;
+}
+
+    .feature-widget article {
+        padding: 12px 0;
+        overflow: hidden;
+    }
+
+    .feature-widget .featurecontent {
+        width: 350px;
+        margin-left: 300px;
+    }
+
+.featurenoimage .featurecontent {
+    width: 638px;
+    margin-left: 12px;
+}
+
+.feature-widget .featurecontent a {
+    font-weight: bold;
+}
+
+.feature-widget .featurecontent p {
+    padding-left: 0 !important;
+}
+
+.feature-widget .featureparagraph {
+    margin-bottom: 16px;
+}
+
+    .feature-widget .featureparagraph p {
+        padding-left: 0 !important;
+    }
+
+.feature-widget img {
+    margin-left: 12px;
+    float: left;
+}
+
+.feature-widget h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #5f5f5f;
+    margin-bottom: 14px;
+}
+
+.feature-widget .details {
+    color: #8a8b82;
+    margin-bottom: 6px;
+}
+
+.widg-feature-border2bg article {
+    background: #f9f8f6;
+}
+
+..widg-feature-border2bg {
+    border-top: 2px #dad9d1 solid;
+    border-bottom: 2px #dad9d1 solid;
+}
+
+.widg-feature-border2bg {
+    border-top: 2px #dad9d1 solid;
+    border-bottom: 2px #dad9d1 solid;
+}
+
+.featured-archive {
+    background-color: #fff;
+}
+
+    .featured-archive form {
+        background-color: #fff;
+    }
+
+    .featured-archive .widg-feature-border2 {
+        border-top: 2px #dad9d1 solid;
+        border-bottom: 2px #dad9d1 solid;
+        clear: both;
+        margin-top: 0;
+    }
+
+        .featured-archive .widg-feature-border2 .halfwidth-cms {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+            .featured-archive .widg-feature-border2 .halfwidth-cms article {
+                background: 0;
+                border-bottom: 0;
+                margin: 0;
+                width: 362px;
+                padding: 25px 0 0;
+            }
+
+                .featured-archive .widg-feature-border2 .halfwidth-cms article.left {
+                    margin: 0 25px 0 0;
+                }
+
+                .featured-archive .widg-feature-border2 .halfwidth-cms article div {
+                    margin-left: 180px;
+                    float: none !important;
+                }
+
+    .featured-archive p.archive-date {
+        margin-bottom: 0;
+    }
+
+    .featured-archive p {
+        margin-bottom: 0;
+        padding: 0;
+        font-weight: normal;
+        color: #5f5f5f;
+    }
+
+    .featured-archive .archive-date small {
+        color: #8a8b82;
+    }
+
+    .featured-archive .mod-display-products .pagination {
+        float: right;
+        width: 220px;
+        margin: 10px 0;
+    }
+
+    .featured-archive .pagination ol {
+        float: right;
+        padding: 5px 0;
+    }
+
+    .featured-archive .pagination .prev a {
+        background: #fff url("/assets/build/pagination-prev.gif") 6px 6px no-repeat !important;
+        padding: 2px 5px 3px 18px !important;
+    }
+
+    .featured-archive .pagination .next a {
+        margin-left: 5px;
+        background: #fff url("/assets/build/pagination-next.gif") 38px 6px no-repeat !important;
+        padding: 2px 18px 3px 8px !important;
+    }
+
+.widg-feature-border1-blue {
+    border-top: 2px #22758c solid;
+    border-bottom: 2px #22758c solid;
+}
+
+    .widg-feature-border1-blue .details {
+        color: #76a2ae;
+    }
+
+    .widg-feature-border1-blue .featurecontent {
+        color: #22758c;
+    }
+
+    .widg-feature-border1-blue a, .widg-feature-border1-blue a:visited, .widg-feature-border1-blue h3 {
+        color: #22758c;
+    }
+
+        .widg-feature-border1-blue a:hover {
+            color: #1d6478;
+        }
+
+.featureborder {
+    border-top: 1px #dedbd2 solid;
+    border-bottom: 1px #dedbd2 solid;
+}
+
+.featureborderimageborder {
+    border-top: 1px #dedbd2 solid;
+    border-bottom: 1px #dedbd2 solid;
+}
+
+    .featureborderimageborder img {
+        border: 1px #dedbd2 solid;
+        padding: 9px;
+    }
+
+.four-grid-carousel-widget {
+    position: relative;
+}
+
+    .four-grid-carousel-widget h2 {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+.four-grid-carousel-wrapper {
+    background-color: #f8f7f4;
+    border: 1px solid #dedbd2;
+    padding: 16px 0;
+    position: relative;
+}
+
+.four-grid-carousel-widget .grid-items-wrapper {
+    margin: 0 0 0 35px;
+    overflow: hidden;
+    position: relative;
+    width: 683px;
+}
+
+.four-grid-carousel-widget .cms-btn-prev, .four-grid-carousel-widget .cms-btn-next {
+    background-image: url(https://www.johnlewis.com/assets/widgets/sprite-icons-cms.png);
+    border: 1px solid #e0ddd4;
+    background-repeat: no-repeat;
+    display: block;
+    height: 111px;
+    position: absolute;
+    text-indent: -9999px;
+    top: 16px;
+    width: 20px;
+}
+
+    .four-grid-carousel-widget .cms-btn-prev:active, .four-grid-carousel-widget .cms-btn-next:active, .four-grid-carousel-widget .cms-btn-prev:focus, .four-grid-carousel-widget .cms-btn-next:focus {
+        outline: 0;
+    }
+
+.four-grid-carousel-widget .cms-btn-prev {
+    background-position: -50px -390px;
+    left: -1px;
+}
+
+.four-grid-carousel-widget .prev-disabled {
+    background-position: 0 -390px;
+    cursor: default;
+}
+
+.four-grid-carousel-widget .cms-btn-next {
+    background-position: -150px -390px;
+    right: -1px;
+}
+
+    .four-grid-carousel-widget .cms-btn-next:hover, .four-grid-carousel-widget .cms-btn-prev:hover, .four-grid-carousel-widget .grid-items-wrapper a:hover img {
+        border: 1px solid #5f5f5f;
+    }
+
+.four-grid-carousel-widget .next-disabled {
+    background-position: -100px -390px;
+    cursor: default;
+}
+
+    .four-grid-carousel-widget .next-disabled:hover, .four-grid-carousel-widget .prev-disabled:hover {
+        border: 1px solid #e0ddd4;
+    }
+
+.four-grid-carousel-widget .grid-items-wrapper ul {
+    overflow: hidden;
+    position: relative;
+    width: 9999px;
+}
+
+.four-grid-carousel-widget .grid-items-wrapper li {
+    background: 0;
+    float: left;
+    list-style: none;
+    margin-right: 13px;
+    padding: 0;
+    width: 161px;
+}
+
+.four-grid-carousel-widget .grid-items-wrapper h3 {
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.four-grid-carousel-widget h2 a:link, .four-grid-carousel-widget h2 a:visited, .four-grid-carousel-widget .grid-items-wrapper a:link, .four-grid-carousel-widget .grid-items-wrapper a:visited {
+    text-decoration: none;
+}
+
+.four-grid-carousel-widget h2 a:hover, .four-grid-carousel-widget .grid-items-wrapper a:hover {
+    text-decoration: underline;
+}
+
+.four-grid-carousel-widget .grid-items-wrapper li img {
+    background-color: #fff;
+    border: 1px solid #dedbd2;
+    margin-bottom: 4px;
+    padding: 7px 6px;
+}
+
+.four-carousel-border-no-background .four-grid-carousel-wrapper, .four-carousel-no-border-no-background .four-grid-carousel-wrapper {
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+}
+
+.four-carousel-border-no-background .cms-btn-prev, .four-carousel-border-no-background .cms-btn-next, .four-carousel-no-border-no-background .cms-btn-prev, .four-carousel-no-border-no-background .cms-btn-next {
+    top: 0;
+}
+
+.four-carousel-no-border-no-background .grid-items-wrapper li img {
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+}
+
+.four-carousel-no-border-no-background .grid-items-wrapper a:hover img {
+    border: 0;
+}
+
+.heading-socialbookmark-widget {
+    position: relative;
+}
+
+    .heading-socialbookmark-widget header {
+        border-bottom: 2px solid #dedbd2;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0 345px 25px 0;
+        width: auto;
+    }
+
+        .heading-socialbookmark-widget header h1 {
+            margin-bottom: 0 !important;
+        }
+
+    .heading-socialbookmark-widget .social-bookmarks {
+        position: absolute;
+        top: -5px;
+        right: 0;
+        width: 330px;
+    }
+
+.cq-share-widget .mod-share-print ul {
+    border: 1px solid #dedbd2;
+    width: 330px;
+    height: 20px;
+    padding: 10px 0 10px 10px;
+}
+
+.cq-share-widget .mod-share-print {
+    margin-bottom: 0;
+}
+
+.cq-share-widget .social-button a.pin-it-button {
+    text-indent: 0;
+}
+
+.top-products-container .halfwidth-cms {
+    width: 365px;
+}
+
+.halfwidth-cms {
+    background-color: #f3f1ed;
+    border: 1px solid #dedbd2;
+    padding: 3px 0 5px;
+}
+
+    .halfwidth-cms article {
+        border-top: 1px solid #fff;
+        border-bottom: 1px solid #dedbd2;
+        margin: 0;
+        overflow: hidden;
+        padding-top: 15px;
+    }
+
+    .halfwidth-cms .first-item {
+        border-top: 0;
+    }
+
+    .halfwidth-cms .last {
+        border-bottom: 0;
+    }
+
+    .halfwidth-cms article img {
+        float: left;
+        vertical-align: bottom;
+        padding: 0 20px;
+    }
+
+    .halfwidth-cms article div {
+        margin-left: 0;
+        float: left;
+        width: 160px;
+    }
+
+    .halfwidth-cms article p {
+        font-weight: normal !important;
+    }
+
+    .halfwidth-cms article h2, .halfwidth-cms article p {
+        color: #5f5f5f !important;
+        font-size: 12px;
+        margin-bottom: 5px;
+        padding-left: 0 !important;
+    }
+
+        .halfwidth-cms article h2 a {
+            text-decoration: underline;
+        }
+
+    .halfwidth-cms article ul {
+        list-style: none;
+        padding-top: 3px;
+    }
+
+    .halfwidth-cms article li {
+        background-image: none;
+        line-height: 16px;
+        padding-left: 0;
+    }
+
+        .halfwidth-cms article li a {
+            background: transparent url(/assets/widgets/sprite-icons-cms.png) 0 -115px no-repeat;
+            display: inline-block;
+            font-weight: bold;
+            padding-left: 13px;
+            text-decoration: none;
+        }
+
+.half-cms-widget-default {
+    width: 365px;
+}
+
+.half-cms-widget-fashion {
+    background-color: transparent;
+    border: 0;
+    width: 365px;
+}
+
+    .half-cms-widget-fashion article {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+        .half-cms-widget-fashion article img {
+            padding: 0 20px 0 0;
+        }
+
+.half-width-articles section {
+    width: 367px;
+    margin: 0 0 0 -1px;
+}
+
+.half-width-articles article {
+    border: 1px solid #ccc;
+    margin: 0 0 20px;
+    padding: 8px;
+}
+
+.half-width-articles .background-image {
+    position: relative;
+}
+
+    .half-width-articles .background-image img {
+        display: block;
+        float: none;
+    }
+
+.half-width-articles article div {
+    margin-left: 0;
+}
+
+.half-width-articles h2 {
+    font-size: 16px;
+    margin-bottom: 8px;
+    width: auto;
+}
+
+.half-width-articles .textbox-background {
+    background-color: #000;
+    height: 176px;
+    opacity: .6;
+    filter: alpha(opacity=60);
+    width: 175px;
+    position: absolute;
+    top: 0;
+}
+
+.half-width-articles .textbox {
+    height: 164px;
+    width: 163px;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    padding: 6px;
+}
+
+    .half-width-articles .textbox a {
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .half-width-articles .textbox ul {
+        padding: 6px 10px;
+    }
+
+        .half-width-articles .textbox ul li {
+            background: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+    .half-width-articles .textbox li a {
+        background: url("https://www.johnlewis.com/assets/widgets/sprite-icons-cms.png") no-repeat scroll 0 -238px transparent;
+        display: inline-block;
+        font-weight: bold;
+        padding-left: 13px;
+        text-decoration: none;
+    }
+
+    .half-width-articles .textbox img.thumb-img {
+        padding-bottom: 6px;
+    }
+
+    .half-width-articles .textbox h3 {
+        padding: 0 10px !important;
+        font-size: 12px;
+        color: #fff;
+    }
+
+    .half-width-articles .textbox p {
+        font-weight: normal !important;
+        color: #fff !important;
+        padding: 0 4px 0 10px !important;
+        margin: 0;
+    }
+
+.half-width-articles .background-widget-no-border article {
+    border: 0;
+    padding: 0;
+}
+
+.half-width-articles .overlay-left-dark .textbox, .half-width-articles .overlay-left-dark .textbox-background {
+    left: 0;
+}
+
+.half-width-articles .overlay-right-dark .textbox, .half-width-articles .overlay-right-dark .textbox-background {
+    right: -1px;
+}
+
+.half-width-articles .minimal .textbox p {
+    padding-top: 8px !important;
+}
+
+.half-width-articles .minimal .textbox h3 {
+    padding-top: 8px !important;
+}
+
+.light .textbox-background {
+    background-color: #dedbd2;
+    opacity: .3;
+    filter: alpha(opacity=30);
+}
+
+.ie6 .accordion-container .accordion .expand-lnk a, .ie6 .three-grid-widget-container li a, .ie6 .four-grid-widget-container li a, .ie6 .background-image-container .textbox li a, .ie6 .hero-right-container li a, .ie6 .hero-right-container.lightcontent li a, .ie6 .hero-right-container.darkcontent li a, .ie6 .author-profile-widget .author-popup .popupArrow, .ie6 .author-profile-widget .author-info .author-popup .close, .ie6 .carousel-container .carousel-control-bar-prev a, .ie6 .carousel-container .carousel-control-bar-next a, .ie6 .carousel-slide-indicator li a, .ie6 .halfwidth-cms article li a, .ie6 .four-grid-carousel-widget .cms-btn-prev, .ie6 .four-grid-carousel-widget .cms-btn-next {
+    background-image: url(https://www.johnlewis.com/assets/widgets/sprite-icons-cms-ie6.gif);
+}
+
+.ie7 .lt-nav header {
+    overflow: hidden;
+}
+
+.image-no-border {
+    border: 0;
+    padding: 0;
+}
+
+.image-border img {
+    border: 1px solid #dedbd2;
+    padding: 7px;
+}
+
+.image-margin {
+    margin: -7px 0 20px -7px;
+}
+
+.widget-spacer-5 {
+    height: 5px;
+}
+
+.widget-spacer-10 {
+    height: 10px;
+}
+
+.widget-spacer-18 {
+    height: 18px;
+}
+
+.widget-spacer-20 {
+    height: 20px;
+}
+
+.widget-spacer-27 {
+    height: 27px;
+}
+
+.widget-spacer-35 {
+    height: 35px;
+}
+
+.free-html p {
+    color: #5f5f5f;
+    font-weight: normal;
+    margin-bottom: 1em;
+}
+
+.text p {
+    color: #5f5f5f;
+    font-weight: normal;
+    margin: 0 0 10px;
+    line-height: 16px;
+    padding: 0;
+}
+
+    .text p a:link, .free-html p a:link, .text p a:visited, .free-html p a:visited {
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+    .text p a:hover, .free-html p a:hover {
+        text-decoration: none;
+    }
+
+.text a:link, .free-html a:link, .text a:visited, .free-html a:visited {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.text a:hover, .free-html a:hover {
+    text-decoration: underline;
+}
+
+a.underlined-link:link, a.underlined-link:visited {
+    text-decoration: underline;
+}
+
+a.underlined-link:hover {
+    text-decoration: none;
+}
+
+.text h1, .free-html h1 {
+    font-size: 2.167em;
+    margin: 0 0 20px;
+}
+
+.text h2, .free-html h2 {
+    font-size: 1.333em;
+    margin: 0 0 15px;
+}
+
+.text h3, .free-html h3 {
+    font-size: 1em;
+}
+
+.title h1 {
+    font-size: 2.167em !important;
+    margin-bottom: 0 !important;
+}
+
+ul.bulleted-list, .text ul, .free-html ul {
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: .5em;
+}
+
+    ul.bulleted-list li, .text ul li, .free-html ul li {
+        list-style-type: square;
+        padding-left: .3em;
+        margin-bottom: .5em;
+        margin-left: 1.5em;
+    }
+
+ol.numbered-list, .text ol, .free-html ol {
+    margin-left: .5em;
+    padding-left: 0;
+    margin-bottom: .5em;
+}
+
+    ol.numbered-list li, .text ol li, .free-html ol li {
+        list-style: decimal;
+        padding-left: 0;
+        margin-bottom: .5em;
+        margin-left: 1.3em;
+    }
+
+.table table {
+    border: 2px #e0ded5 solid;
+}
+
+    .table table td {
+        height: 20px;
+        vertical-align: middle;
+        padding: 5px 15px;
+    }
+
+    .table table .odd {
+        background: #f8f7f4;
+    }
+
+    .table table thead td {
+        font-weight: bold;
+    }
+
+    .table table thead td {
+        height: 25px;
+        vertical-align: middle;
+        padding: 10px 15px;
+    }
+
+.column-padding-eighteen {
+    margin-right: 18px;
+}
+
+.column-padding-nineteen {
+    margin-right: 19px;
+}
+
+.column-padding-twentyseven {
+    margin-right: 27px;
+}
+
+.column-indented {
+    margin: 0 18px;
+}
+
+.one-columns {
+    width: 100%;
+}
+
+.two-block {
+    width: 48.7%;
+    float: left;
+}
+
+.two-indented-block {
+    width: 48.6%;
+    float: left;
+}
+
+.three-block {
+    width: 31.7%;
+    float: left;
+}
+
+.four-block {
+    width: 23.1%;
+    float: left;
+}
+
+.two-thirds {
+    width: 65.9%;
+    float: left;
+}
+
+.two-thirds-i {
+    width: 75.3%;
+    float: left;
+}
+
+.one-third-i {
+    width: 20.9%;
+    float: left;
+}
+
+.georgia-text {
+    font-family: georgia,arial,helvetica,sans serif;
+}
+
+p.georgia-text {
+    font-size: 1.333em !important;
+    margin: 0 0 15px 0 !important;
+}
+
+.hr-no-margin {
+    margin: 0;
+}
+
+.hr-blue {
+    background: #22758c;
+    height: 2px;
+}
+
+.hr-5 {
+    margin: 5px 0;
+}
+
+.cqgen-hr-3 {
+    background: #dedbd2;
+    height: 3px;
+}
+
+.cqgen-hr-1 {
+    background: #dedbd2;
+    height: 1px;
+}
+
+.cqdark-hr-3 {
+    background: #5e5d59;
+    height: 3px;
+}
+
+.cqdark-hr-1 {
+    background: #5e5d59;
+    height: 1px;
+}
+
+.fill-width {
+    float: left;
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.dark-tagline {
+    background: #1e1e1c;
+    padding: 3px 4px;
+    color: #fff;
+    font-size: .917em;
+    float: left;
+}
+
+.light-grey-tagline {
+    background: #6f6d66;
+    padding: 3px 4px;
+    color: #fff;
+    font-size: .917em;
+    float: left;
+}
+
+.red-tagline {
+    color: #900 !important;
+    font-weight: bold;
+    clear: both;
+}
+
+h2.cqcat-heading {
+    font-size: 1.167em;
+    margin: 14px 0 15px;
+}
+
+.bodycopy-large {
+    font-size: 1.167em;
+}
+
+ul.chevron-link li {
+    list-style-type: none;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.chevron-link li a:link, .chevron-link li a:visited {
+    background: url("https://www.johnlewis.com/assets/widgets/sprite-icons-cms.png") no-repeat scroll 0 -117px transparent;
+    display: inline-block;
+    font-weight: bold;
+    padding-left: 13px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.chevron-link li a:hover {
+    text-decoration: underline;
+}
+
+.cq5-black-bkgd {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+}
+
+.cq-sch-layout {
+    width: 754px;
+    height: 100px;
+    float: none;
+}
+
+    .cq-sch-layout p {
+        font-size: 16px;
+        line-height: 27px;
+        float: left;
+        color: #fff !important;
+        padding: 0 !important;
+    }
+
+#sch-address-sq p {
+    margin: 10px 0 0 134px;
+}
+
+#sch-address-long p {
+    margin: 10px 0 0 210px;
+}
+
+#sch-address-none p {
+    margin: 10px 0 0 20px;
+}
+
+#cq-sch-bnr {
+    background: url(//johnlewis.scene7.com/is/image/JohnLewis/am_ubsch_bnr_110612);
+    width: 754px;
+    height: 190px;
+}
+
+    #cq-sch-bnr p {
+        font-size: 18px;
+        line-height: 24px;
+        color: #fff !important;
+        padding: 76px 0 0 42px;
+    }
+
+#cq-auto-bnr {
+    width: 807px;
+    margin: 0 -27px 20px;
+    padding: 0;
+    border-top: #dedbd2 3px solid;
+}
+
+    #cq-auto-bnr .bnr-cont {
+        position: relative;
+        height: 189px;
+        width: 807px;
+    }
+
+    #cq-auto-bnr .bnr-overlay {
+        width: 379px;
+        background-color: #000;
+        float: left;
+        margin: 0 27px;
+        opacity: .8;
+        filter: alpha(opacity=80);
+        height: 100%;
+        padding: 0;
+    }
+
+    #cq-auto-bnr .bnr-cont h2 {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        left: 54px;
+        top: 30px;
+        z-index: 1;
+        width: 323px;
+        color: #fff;
+    }
+
+    #cq-auto-bnr .bnr-cont p {
+        position: absolute;
+        color: #fff;
+        margin: 0;
+        padding: 0;
+        left: 54px;
+        top: 67px;
+        z-index: 2;
+        width: 323px;
+    }
+
+    #cq-auto-bnr .bnr-cont ul {
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        left: 54px;
+        top: 150px;
+        z-index: 3;
+    }
+
+        #cq-auto-bnr .bnr-cont ul li {
+            color: #fff;
+            margin: 0;
+            padding: 0 0 5px;
+            background: url("https://www.johnlewis.com/assets/widgets/sprite-icons-cms.png") no-repeat 0 -238px transparent;
+            list-style-type: none;
+            margin: 0;
+            padding: 0 0 5px 15px;
+        }
+
+            #cq-auto-bnr .bnr-cont ul li a {
+                color: #fff;
+            }
+
+    #cq-auto-bnr.cq-nbdr-ctr .bnr-overlay {
+        margin: 0;
+    }
+
+    #cq-auto-bnr.cq-nbdr-ctr .bnr-overlay-rght .bnr-overlay, #cq-auto-bnr .bnr-overlay-rght .bnr-overlay {
+        float: right;
+    }
+
+    #cq-auto-bnr .bnr-cont.bnr-overlay-rght h2 {
+        left: 428px;
+    }
+
+    #cq-auto-bnr .bnr-cont.bnr-overlay-rght p {
+        left: 428px;
+    }
+
+    #cq-auto-bnr .bnr-cont.bnr-overlay-rght ul {
+        left: 428px;
+    }
+
+    #cq-auto-bnr.cq-nbdr-ctr h2 {
+        left: 27px;
+    }
+
+    #cq-auto-bnr.cq-nbdr-ctr p {
+        left: 27px;
+    }
+
+    #cq-auto-bnr.cq-nbdr-ctr ul {
+        left: 27px;
+    }
+
+    #cq-auto-bnr.cq-nbdr-ctr {
+        width: 753px;
+        margin: 0 0 20px;
+        border: 0;
+    }
+
+        #cq-auto-bnr.cq-nbdr-ctr .bnr-cont {
+            width: 753px;
+        }
+
+            #cq-auto-bnr.cq-nbdr-ctr .bnr-cont.bnr-overlay-rght h2 {
+                left: 406px;
+            }
+
+            #cq-auto-bnr.cq-nbdr-ctr .bnr-cont.bnr-overlay-rght p {
+                left: 406px;
+            }
+
+            #cq-auto-bnr.cq-nbdr-ctr .bnr-cont.bnr-overlay-rght ul {
+                left: 406px;
+            }
+
+    #cq-auto-bnr .bnr-white h2, #cq-auto-bnr .bnr-white p, #cq-auto-bnr .bnr-white ul li, #cq-auto-bnr .bnr-white ul li a {
+        color: #5f5f5f;
+    }
+
+    #cq-auto-bnr .bnr-white ul li {
+        background: transparent url("/assets/widgets/sprite-icons-cms.png") no-repeat 0 -117px;
+    }
+
+    #cq-auto-bnr .bnr-white .bnr-overlay {
+        background-color: #fff;
+    }
+
+    #cq-auto-bnr .bnr-cont.bnr-overlay-none h2, #cq-auto-bnr .bnr-cont.bnr-overlay-none p, #cq-auto-bnr .bnr-cont.bnr-overlay-none ul {
+        left: 27px;
+    }
+
+    #cq-auto-bnr .bnr-cont.bnr-overlay-rght.bnr-overlay-none h2, #cq-auto-bnr .bnr-cont.bnr-overlay-rght.bnr-overlay-none p, #cq-auto-bnr .bnr-cont.bnr-overlay-rght.bnr-overlay-none ul {
+        left: 407px;
+    }
+
+#cq-shops .shop-header {
+    width: 655px;
+    float: left;
+}
+
+    #cq-shops .shop-header img {
+        width: 217px;
+        height: 217px;
+        float: left;
+    }
+
+    #cq-shops .shop-header .right-cont {
+        width: 405px;
+        float: right;
+        margin: 10px 0 0;
+    }
+
+        #cq-shops .shop-header .right-cont h2 {
+            font-size: 24px;
+            font-weight: 400;
+            border-bottom: 1px #f3f1ed solid;
+            float: left;
+            margin: 0 0 12px;
+            padding: 0 0 10px;
+        }
+
+        #cq-shops .shop-header .right-cont p {
+            width: 335px;
+            font-weight: 400;
+            color: #5f5f5f;
+            padding: 0 0 14px;
+        }
+
+    #cq-shops .shop-header .address-cont {
+        width: 405px;
+        float: right;
+        margin: 10px 0 0;
+    }
+
+        #cq-shops .shop-header .address-cont h2 {
+            font-size: 24px;
+            font-weight: 400;
+            border-bottom: 1px #f3f1ed solid;
+            float: left;
+            margin: 0 0 12px;
+            padding: 0 0 10px;
+        }
+
+        #cq-shops .shop-header .address-cont p {
+            width: 335px;
+            font-weight: 400;
+            color: #5f5f5f;
+            padding: 0 0 14px;
+        }
+
+#cq-shops .shop-header {
+    width: 655px;
+    float: left;
+}
+
+    #cq-shops .shop-header img {
+        width: 217px;
+        height: 217px;
+        float: left;
+    }
+
+    #cq-shops .shop-header .right-cont {
+        width: 405px;
+        float: right;
+        margin: 10px 0 0;
+    }
+
+        #cq-shops .shop-header .right-cont h2 {
+            font-size: 24px;
+            font-weight: 400;
+            border-bottom: 1px #f3f1ed solid;
+            float: left;
+            margin: 0 0 12px;
+            padding: 0 0 10px;
+        }
+
+        #cq-shops .shop-header .right-cont p {
+            width: 335px;
+            font-weight: 400;
+            color: #5f5f5f;
+            padding: 0 0 14px;
+        }
+
+    #cq-shops .shop-header .address-cont {
+        width: 405px;
+        float: right;
+        margin: 10px 0 0;
+    }
+
+        #cq-shops .shop-header .address-cont h2 {
+            font-size: 24px;
+            font-weight: 400;
+            border-bottom: 1px #f3f1ed solid;
+            float: left;
+            margin: 0 0 12px;
+            padding: 0 0 10px;
+        }
+
+        #cq-shops .shop-header .address-cont p {
+            width: 335px;
+            font-weight: 400;
+            color: #5f5f5f;
+            padding: 0 0 14px;
+        }
+
+#cq-twl-right-col {
+    width: 367px;
+}
+
+    #cq-twl-right-col h3 {
+        font-size: 1.167em;
+        font-weight: bold;
+        padding: 0;
+        margin: 10px 0 17px 0;
+    }
+
+    #cq-twl-right-col h4 {
+        font-size: 1em;
+        padding: 0;
+        margin: 17px 0 3px 0;
+        font-weight: bold;
+    }
+
+    #cq-twl-right-col p {
+        margin: 0 0 10px 0;
+    }
+
+    #cq-twl-right-col ul li {
+        padding: 0 0 2px 12px;
+        list-style: none;
+        background: url(https://www.johnlewis.com/assets/build/cq-bullet-grey.gif) 0 3px no-repeat;
+        margin: 0;
+    }
+
+        #cq-twl-right-col ul li a {
+            text-decoration: none;
+            color: #5f5f5f;
+            font-weight: bold;
+        }
+
+            #cq-twl-right-col ul li a:hover {
+                text-decoration: underline;
+            }
+
+    #cq-twl-right-col .twl-left {
+        width: 174px;
+        margin: 0 0 30px 0;
+        float: left;
+    }
+
+    #cq-twl-right-col .twl-right {
+        width: 174px;
+        margin: 0 0 30px 0;
+        float: right;
+    }
+
+    #cq-twl-right-col .twl-left-bottom {
+        width: 174px;
+        margin: 0;
+        float: left;
+    }
+
+    #cq-twl-right-col .twl-right-bottom {
+        width: 174px;
+        margin: 0;
+        float: right;
+    }
+
+#cq-trends-container {
+    width: 367px;
+}
+
+    #cq-trends-container h3 {
+        font-size: 1.333em;
+        font-weight: normal;
+        font-family: Georgia,"Times New Roman",Times,serif;
+        line-height: 19px;
+        padding: 0;
+        margin: 0 0 9px;
+    }
+
+    #cq-trends-container h4 {
+        font-size: 1.167em;
+        font-weight: normal;
+        padding: 0;
+        margin: 0 0 8px;
+        font-weight: bold;
+    }
+
+    #cq-trends-container p {
+        margin: 0 0 20px;
+    }
+
+    #cq-trends-container ul {
+        margin: 0;
+        padding: 0;
+    }
+
+        #cq-trends-container ul li {
+            padding: 0 0 0 12px;
+            background: url(https://www.johnlewis.com/assets/build/cq-bullet-grey.gif) 0 3px no-repeat;
+            margin: 0;
+            list-style: none;
+        }
+
+            #cq-trends-container ul li a {
+                text-decoration: none;
+                color: #5f5f5f;
+                font-weight: bold;
+            }
+
+                #cq-trends-container ul li a:hover {
+                    text-decoration: underline;
+                }
+
+    #cq-trends-container .trend-large {
+        width: 367px;
+        padding: 0 0 15px;
+        float: left;
+        border-bottom: #dedbd2 1px solid;
+    }
+
+        #cq-trends-container .trend-large .trend-copy {
+            width: 174px;
+            float: left;
+            padding: 14px 0 0;
+        }
+
+            #cq-trends-container .trend-large .trend-copy .trend-title {
+                margin: 0 0 18px;
+                padding: 0;
+            }
+
+        #cq-trends-container .trend-large .trend-image {
+            width: 174px;
+            float: right;
+        }
+
+    #cq-trends-container .feature-small {
+        width: 367px;
+        padding: 15px 0;
+        float: left;
+        border-bottom: #dedbd2 1px solid;
+    }
+
+        #cq-trends-container .feature-small.noline {
+            border-bottom: 0;
+            padding: 15px 0 0;
+        }
+
+        #cq-trends-container .feature-small .trend-copy {
+            width: 174px;
+            float: left;
+            padding: 0;
+        }
+
+        #cq-trends-container .feature-small .trend-image {
+            width: 174px;
+            float: right;
+        }
+
+    #cq-trends-container .service-small {
+        width: 367px;
+        margin: 15px 0 0;
+        float: left;
+    }
+
+        #cq-trends-container .service-small .trend-left {
+            width: 174px;
+            float: left;
+        }
+
+        #cq-trends-container .service-small .trend-right {
+            width: 174px;
+            float: right;
+        }
+
+    #cq-trends-container .line-margin {
+        margin-bottom: 15px;
+    }
+
+#cq-trends-container-light {
+    width: 367px;
+}
+
+    #cq-trends-container-light h3 {
+        font-size: 1.333em;
+        font-weight: normal;
+        font-family: Georgia,"Times New Roman",Times,serif;
+        line-height: 19px;
+        padding: 0;
+        margin: 0 0 9px 0;
+    }
+
+    #cq-trends-container-light .side-h3 h3 {
+        margin: 0 0 18px 0;
+    }
+
+    #cq-trends-container-light h4 {
+        font-size: 1.167em;
+        padding: 0;
+        margin: 0 0 8px 0;
+        font-weight: bold;
+    }
+
+    #cq-trends-container-light p {
+        margin: 0 0 18px 0;
+    }
+
+    #cq-trends-container-light ul {
+        margin: 0;
+        padding: 0;
+    }
+
+#cq-trends-container -lightul li {
+    padding: 0 0 4px 12px;
+    background: url(https://www.johnlewis.com/assets/build/cq-bullet-grey.gif) 0 3px no-repeat;
+    margin: 0;
+    list-style: none;
+}
+
+#cq-trends-container-light ul li a {
+    text-decoration: none;
+    color: #5f5f5f;
+    font-weight: bold;
+}
+
+    #cq-trends-container-light ul li a:hover {
+        text-decoration: underline;
+    }
+
+#cq-trends-container-light .trend-large {
+    width: 367px;
+    padding: 0;
+    float: left;
+}
+
+    #cq-trends-container-light .trend-large .trends-copy {
+        width: 174px;
+        float: left;
+        padding: 14px 0 0 0;
+    }
+
+    #cq-trends-container-light .trend-large .trends-title {
+        margin: 0 0 18px 0;
+    }
+
+    #cq-trends-container-light .trend-large .trends-image {
+        width: 174px;
+        float: right;
+    }
+
+#cq-trends-container-light .feature-small {
+    width: 367px;
+    padding: 15px 0;
+    float: right;
+    border-bottom: #dedbd2 1px solid;
+}
+
+    #cq-trends-container-light .feature-small .trends-noline {
+        border-bottom: 0;
+        padding: 15px 0 0 0;
+    }
+
+    #cq-trends-container-light .feature-small .trends-copy {
+        width: 174px;
+        float: left;
+        padding: 0;
+    }
+
+    #cq-trends-container-light .feature-small .trends-image {
+        width: 174px;
+        float: right;
+    }
+
+.cq-shop-pdf {
+    background: #f8f7f4;
+    float: left;
+    border: solid 1px #dedbd2;
+    height: 63px;
+    padding: 13px 35px;
+    width: 683px;
+}
+
+    .cq-shop-pdf p {
+        float: left;
+        padding: 0;
+        margin: 0;
+    }
+
+    .cq-shop-pdf img {
+        width: 62px;
+        height: 65px;
+        float: left;
+    }
+
+    .cq-shop-pdf .pdf-left {
+        float: left;
+    }
+
+        .cq-shop-pdf .pdf-left p {
+            width: 230px;
+            margin: 17px 0 0 20px;
+            padding: 0 0 3px 0;
+            font-weight: 700;
+        }
+
+        .cq-shop-pdf .pdf-left a {
+            text-decoration: none;
+        }
+
+    .cq-shop-pdf .pdf-right {
+        float: left;
+        width: 300px;
+    }
+
+        .cq-shop-pdf .pdf-right p {
+            width: 300px;
+            font-size: .917em;
+            padding: 1px 0 6px 0;
+        }
+
+        .cq-shop-pdf .pdf-right a {
+            font-weight: 700;
+            padding: 0;
+            margin: 0;
+        }
+
+    .cq-shop-pdf .pdf-line {
+        width: 1px;
+        height: 59px;
+        background: #dedbd2;
+        float: left;
+        margin: 3px 30px;
+    }
+
+#cat_cont {
+    height: 545px;
+    margin: 0 0 18px 0;
+}
+
+    #cat_cont #bs_t3_hero {
+        width: 486px;
+        height: 545px;
+        margin: 0 18px 0 0;
+        float: left;
+    }
+
+    #cat_cont #bs_t3_3cats {
+        width: 233px;
+        height: 545px;
+        float: left;
+    }
+
+        #cat_cont #bs_t3_3cats ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            float: left;
+        }
+
+            #cat_cont #bs_t3_3cats ul li {
+                width: 284px;
+                margin: 0 0 12px 0;
+                padding: 0;
+                list-style: none;
+            }
+
+                #cat_cont #bs_t3_3cats ul li a {
+                    text-decoration: none;
+                    color: #5f5f5f;
+                    font-size: 1em;
+                    font-weight: bold;
+                    line-height: 20px;
+                }
+
+                    #cat_cont #bs_t3_3cats ul li a:hover {
+                        color: #000;
+                    }
+
+                    #cat_cont #bs_t3_3cats ul li a:active {
+                        color: #000;
+                    }
+
+                    #cat_cont #bs_t3_3cats ul li a img {
+                        border: #dedbd2 solid 1px;
+                        background: #FFF;
+                        display: block;
+                        padding: 7px;
+                        margin: 0 0 4px;
+                    }
+
+                    #cat_cont #bs_t3_3cats ul li a:hover img {
+                        border: #000 solid 1px;
+                    }
+
+#cq-feature {
+    height: 303px;
+}
+
+    #cq-feature .feat-hero {
+        width: 753px;
+        height: 303px;
+        float: left;
+    }
+
+        #cq-feature .feat-hero .col-line-brands {
+            width: 753px;
+            height: 3px;
+            background: #dedbd2;
+            margin: 0;
+            padding: 0;
+            float: left;
+        }
+
+        #cq-feature .feat-hero .col-line-services {
+            width: 753px;
+            height: 3px;
+            background: #a3ae6f;
+            margin: 0;
+            padding: 0;
+            float: left;
+        }
+
+        #cq-feature .feat-hero .col-line-buy {
+            width: 753px;
+            height: 3px;
+            background: #7a3051;
+            margin: 0;
+            padding: 0;
+            float: left;
+        }
+
+        #cq-feature .feat-hero .col-line-ins {
+            width: 753px;
+            height: 3px;
+            background: #618ba6;
+            margin: 0;
+            padding: 0;
+            float: left;
+        }
+
+        #cq-feature .feat-hero .feat-hero-main {
+            width: 753px;
+            height: 50px;
+            padding-top: 250px;
+            float: left;
+            margin: 0;
+            border: 0;
+        }
+
+        #cq-feature .feat-hero h1 {
+            height: 35px;
+            font-size: 2.167em;
+            margin: 0;
+            background: #fff;
+            color: #333;
+            float: left;
+            font-weight: normal;
+            margin: 0;
+            font-weight: 400;
+            border: 0;
+            padding: 15px 33px 0 18px;
+        }
+
+#cq-columns_cont {
+    width: 753px;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+    #cq-columns_cont .left_col {
+        width: 239px;
+        margin: 0 18px 0;
+        float: left;
+        padding: 0;
+    }
+
+    #cq-columns_cont .no_margin {
+        margin: 0;
+    }
+
+    #cq-columns_cont .dept_col {
+        width: 162px;
+        margin: 0;
+        float: left;
+    }
+
+        #cq-columns_cont .dept_col ul {
+            margin: 0;
+            padding: 0 0 15px;
+        }
+
+        #cq-columns_cont .dept_col li {
+            list-style: none;
+            font-size: 1em;
+            padding: 0 0 3px;
+            color: #5f5f5f;
+            margin: 0;
+        }
+
+    #cq-columns_cont .floor_col {
+        width: 61px;
+        margin: 0;
+        float: right;
+    }
+
+        #cq-columns_cont .floor_col ul {
+            margin: 0;
+            padding: 0 0 15px;
+        }
+
+        #cq-columns_cont .floor_col li {
+            list-style: none;
+            font-size: 1em;
+            padding: 0 0 3px;
+            font-weight: bold;
+            color: #5f5f5f;
+            margin: 0;
+        }
+
+#cq-feature-products {
+    width: 150px;
+    float: right;
+    margin: 0 18px 0;
+}
+
+    #cq-feature-products ul {
+        width: 150px;
+        padding: 0;
+        margin: 0;
+    }
+
+    #cq-feature-products li {
+        list-style: none;
+        margin: 0 0 17px;
+        color: #8a8b82;
+        text-align: left;
+        background: 0;
+        width: 150px;
+    }
+
+    #cq-feature-products img {
+        padding: 0;
+        margin: 0 0 10px;
+    }
+
+#cq-author-adjusted {
+    margin: 0 0 13px;
+}
+
+    #cq-author-adjusted h2 {
+        font-size: 1.167em;
+        padding: 0 0 3px;
+        margin: 0;
+        color: #444;
+        font-weight: normal;
+    }
+
+    #cq-author-adjusted h3 {
+        font-size: .917em;
+        color: #8a8b82;
+        font-weight: normal;
+    }
+
+#cq-anchor-box {
+    width: 715px;
+    height: 72px;
+    background: #f8f7f4;
+    border: 1px solid #dedbd2;
+    padding: 18px;
+}
+
+    #cq-anchor-box .anchor-section h2 {
+        margin: 0;
+        padding: 0;
+        font-size: 1.333em;
+    }
+
+    #cq-anchor-box .anchor-section ul {
+        width: 200px;
+        float: left;
+        margin: 10px 0 0;
+        padding: 0;
+    }
+
+        #cq-anchor-box .anchor-section ul li {
+            padding: 0 0 10px 12px;
+            background: url(https://www.johnlewis.com/assets/build/cq-bullet-grey.gif) 0 3px no-repeat;
+            margin: 0;
+            list-style: none;
+        }
+
+#cq-services-tabs-inset .feat-thmb {
+    float: left;
+    width: 753px;
+    padding: 0;
+    margin: 0;
+}
+
+    #cq-services-tabs-inset .feat-thmb ul {
+        padding: 0;
+        margin: 0 0 40px;
+        width: 753px;
+        float: left;
+    }
+
+    #cq-services-tabs-inset .feat-thmb li {
+        padding: 0;
+        margin: 0 18px 0 0;
+        width: 239px;
+        float: left;
+        list-style: none;
+    }
+
+        #cq-services-tabs-inset .feat-thmb li.no-margin {
+            margin: 0;
+        }
+
+#cq-services-tabs-inset ul.shop-tabs li {
+    list-style: none !important;
+    margin-bottom: 0 !important;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+}
+
+#cq-services-tabs-inset .feat-blck {
+    width: 239px;
+}
+
+    #cq-services-tabs-inset .feat-blck .tabs-col-line {
+        width: 239px;
+        height: 3px;
+        background: #a6b174;
+        margin: 0;
+        padding: 0;
+    }
+
+    #cq-services-tabs-inset .feat-blck .tabs-main {
+        width: 239px;
+        height: 150px;
+        background: #000;
+        padding: 0;
+        margin: 0 0 6px;
+        border: 0;
+    }
+
+    #cq-services-tabs-inset .feat-blck h3 {
+        margin: 125px 0 0;
+        height: 13px;
+        font-size: 12px;
+        background: #fff;
+        float: left;
+        font-weight: 700;
+        border: 0;
+        padding: 12px 13px 3px 0;
+    }
+
+    #cq-services-tabs-inset .feat-blck p {
+        padding: 0;
+        margin: 0;
+        width: 239px;
+        color: #5f5f5f;
+        font-weight: 400;
+    }
+
+    #cq-services-tabs-inset .feat-blck ul {
+        margin: 7px 0 0 0;
+        padding: 0;
+        width: 239px;
+    }
+
+        #cq-services-tabs-inset .feat-blck ul li {
+            padding: 0 0 3px 15px;
+            background: url(https://www.johnlewis.com/assets/build/cq-bullet-grey.gif) 0 3px no-repeat;
+            margin: 0;
+            list-style: none;
+            width: 220px;
+        }
+
+            #cq-services-tabs-inset .feat-blck ul li a {
+                text-decoration: none;
+                font-weight: 700;
+                color: #5f5f5f;
+            }
+
+                #cq-services-tabs-inset .feat-blck ul li a:hover {
+                    text-decoration: underline;
+                    color: #000;
+                }
+
+#cq-buy-guides {
+    width: 754px;
+    margin: 0 0 39px 0;
+    float: left;
+    padding: 0;
+}
+
+    #cq-buy-guides p {
+        font-size: 1em;
+        padding: 7px 11px 10px;
+        float: left;
+    }
+
+    #cq-buy-guides h3 {
+        height: 16px;
+        font-size: 1.333em;
+        margin: 0;
+        padding: 11px 20px 0 11px;
+        background: #fff;
+        color: #333;
+        float: left;
+        margin: 0;
+        float: left;
+        font-weight: normal;
+    }
+
+    #cq-buy-guides .guides-left {
+        width: 363px;
+        float: left;
+        padding: 0;
+    }
+
+    #cq-buy-guides .guides-right {
+        width: 363px;
+        float: right;
+        padding: 0 14px 0 0;
+    }
+
+    #cq-buy-guides .hero_cont {
+        width: 342px;
+        float: left;
+        margin: 0 0 18px 0;
+    }
+
+        #cq-buy-guides .hero_cont .col_line {
+            width: 342px;
+            height: 2px;
+            background: #7f3757;
+            margin: 0;
+            padding: 0;
+            float: left;
+        }
+
+        #cq-buy-guides .hero_cont .guides-main {
+            width: 342px;
+            height: 82px;
+            float: left;
+        }
+
+            #cq-buy-guides .hero_cont .guides-main .guides-space {
+                height: 55px;
+                width: 342px;
+                float: left;
+            }
+
+#cq-inspiration-ad {
+    width: 753px;
+}
+
+    #cq-inspiration-ad .feat-ad ul {
+        padding: 0;
+        margin: 0 0 18px 0;
+        float: left;
+    }
+
+    #cq-inspiration-ad .feat-ad li {
+        list-style: none;
+        padding: 0;
+        margin: 0 18px 0 0;
+        width: 367px;
+        float: left;
+    }
+
+        #cq-inspiration-ad .feat-ad li.no-margin {
+            margin: 0;
+        }
+
+    #cq-inspiration-ad .feat-ad .ad-cont .col-line {
+        height: 3px;
+        background: #618ba6;
+    }
+
+    #cq-inspiration-ad .feat-ad .ad-cont .ins-feat-hero {
+        width: 367px;
+        height: 230px;
+        float: left;
+        background-position: top left;
+    }
+
+    #cq-inspiration-ad .feat-ad .ad-cont a span {
+        font-size: 24px;
+        float: left;
+        font-weight: 400;
+        margin: 182px 0 0;
+        padding: 20px 30px 20px 13px;
+        background: #fff url("/assets/build/ins_lrg_arrow.gif") 90% 50% no-repeat;
+    }
+
+        #cq-inspiration-ad .feat-ad .ad-cont a span:hover {
+            text-decoration: underline;
+        }
+
+    #cq-inspiration-ad .feat-ad .ad-cont p {
+        padding: 18px 13px 0 13px;
+        margin: 0;
+        float: left;
+        font-size: 12px;
+    }
+
+    #cq-inspiration-ad .feat-ad .ad-cont a {
+        text-decoration: none;
+        display: block;
+        cursor: pointer;
+    }
+
+        #cq-inspiration-ad .feat-ad .ad-cont a:hover {
+            text-decoration: underline;
+            color: #333;
+            font-weight: 700;
+        }
+
+#cq-men-editorial .editorial-cont {
+    width: 753px;
+    height: 303px;
+    padding: 0;
+    margin: 0;
+}
+
+    #cq-men-editorial .editorial-cont .mens-copy-left {
+        padding: 14px 0 0 0;
+        width: 174px;
+        margin: 0 19px 0 0;
+        float: left;
+    }
+
+        #cq-men-editorial .editorial-cont .mens-copy-left .mens-title {
+            margin: 0 0 12px 0;
+            padding: 0;
+        }
+
+        #cq-men-editorial .editorial-cont .mens-copy-left h3 {
+            font-size: 1.333em;
+            font-weight: normal;
+            font-family: Georgia,"Times New Roman",Times,serif;
+            line-height: 19px;
+            padding: 0;
+            margin: 0 0 9px 0;
+        }
+
+    #cq-men-editorial .editorial-cont .mens-middle-cont {
+        padding: 0;
+        width: 367px;
+        margin: 0;
+        float: left;
+    }
+
+    #cq-men-editorial .editorial-cont .mens-copy-right {
+        padding: 14px 0 0 0;
+        width: 174px;
+        margin: 0;
+        float: right;
+    }
+
+        #cq-men-editorial .editorial-cont .mens-copy-right p {
+            margin: 0 0 8px 0;
+        }
+
+        #cq-men-editorial .editorial-cont .mens-copy-right ul {
+            margin: 18px 0 0 0;
+        }
+
+            #cq-men-editorial .editorial-cont .mens-copy-right ul li {
+                margin: 0 0 6px 0;
+            }
+
+.cq-brands-block .feature-small {
+    width: 367px;
+    padding: 0;
+    min-height: 160px;
+}
+
+    .cq-brands-block .feature-small h3 {
+        font-size: 1.333em;
+        font-weight: normal;
+        font-family: Georgia,"Times New Roman",Times,serif;
+        line-height: 19px;
+        padding: 0;
+        margin: 0 0 9px 0;
+    }
+
+    .cq-brands-block .feature-small .brands-block {
+        padding: 15px 0 0 0;
+    }
+
+    .cq-brands-block .feature-small .brands-noline {
+        border-bottom: 0;
+        padding: 15px 0 0 0;
+    }
+
+    .cq-brands-block .feature-small .brands-copy {
+        width: 174px;
+        float: left;
+        padding: 0;
+    }
+
+    .cq-brands-block .feature-small .brands-image {
+        width: 174px;
+        float: right;
+    }
+
+#cq-solid-feature {
+    width: 331px;
+    height: 124px;
+    padding: 18px;
+}
+
+    #cq-solid-feature p {
+        font-size: 1.333em;
+        width: 175px;
+        padding: 0 0 10px 0;
+    }
+
+    #cq-solid-feature ul {
+        width: 175px;
+        margin: 0 0 0 15px;
+        padding: 0;
+    }
+
+        #cq-solid-feature ul li {
+            font-size: 12px;
+            margin: 0;
+            list-style-image: url(/assets/build/cq-bullet-grey.gif);
+            padding: 0;
+            font-weight: 700;
+        }
+
+            #cq-solid-feature ul li a {
+                text-decoration: none;
+            }
+
+                #cq-solid-feature ul li a:hover {
+                    text-decoration: underline;
+                }
+
+.cq-brands-feat {
+    width: 367px;
+    clear: both;
+}
+
+    .cq-brands-feat p {
+        margin: 0 0 10px 0;
+    }
+
+    .cq-brands-feat ul {
+        margin: 0;
+        padding: 0;
+    }
+
+        .cq-brands-feat ul li {
+            padding: 0 0 0 12px;
+            background: url(https://www.johnlewis.com/assets/build/cq-bullet-grey.gif) 0 3px no-repeat;
+            margin: 0;
+            list-style: none;
+        }
+
+            .cq-brands-feat ul li a {
+                text-decoration: none;
+                color: #5f5f5f;
+                font-weight: bold;
+            }
+
+                .cq-brands-feat ul li a:hover {
+                    text-decoration: underline;
+                }
+
+    .cq-brands-feat .feature-small {
+        width: 367px;
+        padding: 15px 0 0 0;
+        min-height: 140px;
+    }
+
+        .cq-brands-feat .feature-small .brands-feat-copy {
+            width: 174px;
+            float: left;
+            padding: 0;
+        }
+
+            .cq-brands-feat .feature-small .brands-feat-copy img {
+                float: left;
+                margin: 0 0 12px 0;
+            }
+
+        .cq-brands-feat .feature-small .brands-feat-image {
+            width: 174px;
+            float: right;
+        }
+
+img.cq-part-disc-img {
+    float: left;
+}
+
+.cq-part-disc-info {
+    margin-left: 87px;
+}
+
+    .cq-part-disc-info p {
+        margin-bottom: 10px;
+    }
+
+#export-team-message {
+    margin-top: 27px;
+}
+
+    #export-team-message p {
+        margin-bottom: 10px;
+    }
+
+    #export-team-message ul.bulleted-list {
+        margin-bottom: 20px;
+    }
+
+    #export-team-message a:link, #export-team-message a:visited {
+        text-decoration: underline;
+        font-weight: bold;
+    }
+
+    #export-team-message a:hover {
+        text-decoration: none;
+    }
+
+#cq-returns-info p a {
+    padding: 0;
+}
+
+#cq-returns-info h3 {
+    padding: 18px 0 0;
+}
+
+#cq-returns-info p {
+    padding: 0 0 6px;
+}
+
+.mod-promo-highlights .prod-returns {
+    background: url("https://www.johnlewis.com/assets/build/return_icon.gif") no-repeat 0 0 transparent;
+    min-height: 34px;
+}
+
+#cq-store-map .cq-store-information, #cq-store-map .cq-address-left {
+    float: left;
+    margin: 20px 70px 27px 0;
+}
+
+.free-html #cq-store-map .cq-store-information {
+    margin-right: 50px;
+}
+
+.ie7 .free-html #cq-store-map .cq-store-information {
+    margin-bottom: 0;
+}
+
+.free-html #cq-store-map h3 {
+    margin: 0 0 20px 0;
+}
+
+.free-html #cq-store-map .cq-store-information ul {
+    float: left;
+    margin-right: 20px;
+}
+
+.free-html #cq-store-map ul {
+    margin: 0;
+    padding: 0;
+}
+
+    .free-html #cq-store-map ul li {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        font-style: normal;
+    }
+
+#cq-store-map .cq-store-information li span {
+    width: 38px;
+    float: left;
+    margin: 0 20px 0 0;
+}
+
+#cq-store-map .cq-store-image {
+    background-color: #f4f0ed;
+    clear: both;
+}
+
+    #cq-store-map .cq-store-image img {
+        margin: 0 auto;
+        display: block;
+    }
+
+.cq-h1-hidden {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+}
+
+.cms-checkout-footer {
+    margin: 0 27px;
+}
+
+body.clear-body {
+    background-image: none;
+}
+
+.body-bg {
+    background: url('/assets/header/header-bck.gif') 0 0 repeat-x #f3f1ed;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+body.checkout-body .body-bg {
+    background-image: url('https://www.johnlewis.com/assets/header/checkout-header-bck.gif');
+}
+
+#top-messaging {
+    width: 100%;
+    text-align: left;
+    font-size: 14px;
+}
+
+    #top-messaging .messaging-content {
+        margin: 0 auto;
+        max-width: 996px;
+        position: relative;
+        width: 98%;
+        min-height: 65px;
+        line-height: 65px;
+        background: url('/assets/build/bckg-row-important.png') 17px 15px no-repeat;
+    }
+
+    #top-messaging .messaging-text {
+        padding: 17px 24px 8px 72px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+        #top-messaging .messaging-text, #top-messaging .messaging-text p {
+            line-height: 1.4285em;
+            font-size: 1em;
+        }
+
+    #top-messaging .messaging-close {
+        background: url('/assets/build/close-icon.gif') no-repeat;
+        width: 19px;
+        height: 19px;
+        position: absolute;
+        top: 17px;
+        right: 3px;
+        text-indent: -9999px;
+        overflow: hidden;
+    }
+
+    #top-messaging .messaging-content a {
+        text-decoration: underline;
+        display: inline-block;
+    }
+
+        #top-messaging .messaging-content a:hover {
+            text-decoration: none;
+        }
+
+.cq-sushi {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+}
+
+    .cq-sushi > ul {
+        position: relative;
+        width: 100000px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        -webkit-transform: translate3d(0,0,0);
+    }
+
+        .cq-sushi > ul > li {
+            line-height: 0;
+            position: relative;
+            float: left;
+            padding: 0 !important;
+            border: 0 !important;
+            margin: 0 20px 0 0;
+            cursor: default;
+            cursor: -webkit-grab;
+            cursor: -moz-grab;
+            -webkit-transform: translate3d(0,0,0);
+        }
+
+            .cq-sushi > ul > li a {
+                position: relative;
+                display: block;
+                background: #fff;
+            }
+
+                .cq-sushi > ul > li a .cq-sushi__slide__desc {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    height: 100%;
+                    width: 100%;
+                    text-align: center;
+                }
+
+                .cq-sushi > ul > li a .cq-sushi__slide__blur {
+                    opacity: .2;
+                }
+
+                .cq-sushi > ul > li a .cq-sushi__slide__over {
+                    display: block;
+                }
+
+                .cq-sushi > ul > li a .cq-sushi__slide__desc span {
+                    color: #fff;
+                    font-family: 'Gill Sans',Arial,sans-serif;
+                    font-size: 2.3em;
+                    font-weight: 300;
+                    left: 0;
+                    width: 100%;
+                    top: 50%;
+                    position: absolute;
+                    line-height: 27px;
+                    text-shadow: 0 1px 5px rgba(0,0,0,.8);
+                }
+
+    .cq-sushi.cq-sushi--swipe-grab ul > li {
+        cursor: default;
+        cursor: -webkit-grabbing;
+        cursor: -moz-grabbing;
+    }
+
+    .cq-sushi > ul img {
+        width: 100%;
+        height: auto;
+        max-width: none;
+    }
+
+    .cq-sushi.cq-sushi__slides--ready {
+        background: 0;
+    }
+
+.cq-sushi__slides {
+    visibility: hidden;
+}
+
+.cq-sushi__slides--ready ul {
+    visibility: visible;
+}
+
+.cq-sushi__navigation {
+    z-index: 10;
+}
+
+    .cq-sushi__navigation a {
+        position: absolute;
+        top: 50%;
+        margin-top: -17px;
+        padding: 7px;
+        background-color: #000;
+    }
+
+    .cq-sushi__navigation .cq-sushi__prev {
+        left: 0;
+    }
+
+    .cq-sushi__navigation .cq-sushi__next {
+        right: 0;
+    }
+
+    .cq-sushi__navigation .cq-suhsi--first, .cq-sushi__navigation .cq-sushi--last {
+        opacity: .5;
+        filter: alpha(opacity=50);
+        cursor: default;
+    }
+
+    .cq-sushi__navigation a span {
+        display: block;
+        width: 20px;
+        height: 20px;
+        text-indent: -9999px;
+    }
+
+    .cq-sushi__navigation .cq-sushi__prev span {
+        background: url(//johnlewis.scene7.com/is/image/JohnLewis/cq-mini-carousel-arrows?$alpha$) no-repeat;
+    }
+
+    .cq-sushi__navigation .cq-sushi__next span {
+        background: url(//johnlewis.scene7.com/is/image/JohnLewis/cq-mini-carousel-arrows?$alpha$) -20px 0 no-repeat;
+    }
+
+    .cq-sushi__navigation .cq-sushi__prev span.cq-sushi__alt-arrow {
+        background: url(//johnlewis.scene7.com/is/image/JohnLewis/cq-mini-carousel-arrows?$alpha$) 0 -20px no-repeat;
+    }
+
+    .cq-sushi__navigation .cq-sushi__next span.cq-sushi__alt-arrow {
+        background: url(//johnlewis.scene7.com/is/image/JohnLewis/cq-mini-carousel-arrows?$alpha$) -20px -20px no-repeat;
+    }
+
+.cq-sushi__pagination {
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+}
+
+.cq-sushi__ticker {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+    .cq-sushi__ticker a {
+        display: block;
+        padding: 7px;
+        background: #eee;
+    }
+
+        .cq-sushi__ticker a span {
+            display: block;
+            width: 20px;
+            height: 20px;
+            text-indent: -9999px;
+        }
+
+.cq-sushi > ul > li {
+    list-style: none;
+}
+
+.cq-sushi .cq-sushi__ticker {
+    display: none;
+}
+
+html.ie8 .cq-sushi .cq-sushi__navigation a {
+    z-index: 10;
+}
+
+.atg-cut-over-asset {
+    display: none;
+}

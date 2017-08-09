@@ -1,0 +1,1741 @@
+.clearfix:after {
+    content: " ";
+    clear: both;
+    display: table
+}
+
+.tablet-jl a:link,.change-country a:link,.io-basket a:link,.io-delivery a:link {
+    text-decoration: none
+}
+
+.tablet-jl a:hover,.change-country a:hover,.io-basket a:hover,.io-delivery a:hover,.tablet-jl a:focus,.change-country a:focus,.io-basket a:focus,.io-delivery a:focus,.tablet-jl a:active,.change-country a:active,.io-basket a:active,.io-delivery a:active {
+    text-decoration: underline;
+    color: #333;
+    outline: 0
+}
+
+#int-choose-country-wrapper {
+    position: relative;
+    top: -12px
+}
+
+.int-choose-country-media-overlay {
+    width: 875px;
+    border: 1px solid #dedbd2!important
+}
+
+.int-choose-country-media-overlay.tablet-jl h2 {
+    font-size: 1.625em;
+    margin-bottom: 27px;
+    width: auto;
+    padding: 0;
+    display: block
+}
+
+#int-choose-country-desc {
+    background: none repeat scroll 0 0 #fff;
+    display: block;
+    float: left;
+    margin-top: 36px;
+    width: 326px;
+    z-index: 0
+}
+
+#int-choose-country-desc ul.choose-country-content {
+    margin: 11px 0
+}
+
+#int-choose-country-desc ul.choose-country-content li {
+    line-height: 18px;
+    list-style-position: inside;
+    list-style-type: square
+}
+
+#int-choose-country-desc img {
+    margin: 20px 10px 0 0
+}
+
+#int-choose-country-desc a.tab-link {
+    font-weight: bold
+}
+
+.int-choose-country-selection {
+    background: none repeat scroll 0 0 #fff;
+    display: block;
+    float: left;
+    margin-top: 36px;
+    margin-left: 19px;
+    width: 160px;
+    z-index: 0
+}
+
+.int-choose-country-selection p.title2 {
+    margin: 18px 0 0;
+    font-weight: bold
+}
+
+.int-choose-country-selection p.title {
+    font-weight: bold;
+    margin: 0 0 18px 0
+}
+
+.int-choose-country-selection ul {
+    margin-top: 7px
+}
+
+.int-choose-country-selection ul li {
+    margin: 0 0 6px 0;
+    vertical-align: bottom
+}
+
+.int-choose-country-selection ul li span {
+    display: block;
+    width: 140px;
+    padding-left: 22px;
+    vertical-align: bottom;
+    position: relative;
+    font-size: .813em
+}
+
+.flag-sm {
+    background: url("//johnlewis.scene7.com/is/image/JohnLewis/flags-sprite-standard-sm2?fmt=png") no-repeat;
+    position: relative;
+    width: 18px;
+    height: 13px;
+    display: inline-block;
+    border: 1px solid #dedbd2;
+    background-size: 160px 55px;
+    cursor: pointer
+}
+
+.flag-sm.at {
+    background-position: 0 0
+}
+
+.flag-sm.be {
+    background-position: -16px 0
+}
+
+.flag-sm.bg {
+    background-position: -32px 0
+}
+
+.flag-sm.cy {
+    background-position: -48px 0
+}
+
+.flag-sm.cz {
+    background-position: -64px -0px
+}
+
+.flag-sm.dk {
+    background-position: -80px 0
+}
+
+.flag-sm.ee {
+    background-position: -96px 0
+}
+
+.flag-sm.fi {
+    background-position: -112px 0
+}
+
+.flag-sm.fr {
+    background-position: -128px 0
+}
+
+.flag-sm.de {
+    background-position: -144px 0
+}
+
+.flag-sm.gr {
+    background-position: 0 -11px
+}
+
+.flag-sm.hu {
+    background-position: -16px -11px
+}
+
+.flag-sm.ie {
+    background-position: -32px -11px
+}
+
+.flag-sm.it {
+    background-position: -48px -11px
+}
+
+.flag-sm.lv {
+    background-position: -64px -11px
+}
+
+.flag-sm.lt {
+    background-position: -80px -11px
+}
+
+.flag-sm.lu {
+    background-position: -96px -11px
+}
+
+.flag-sm.mt {
+    background-position: -112px -11px
+}
+
+.flag-sm.nl {
+    background-position: -128px -11px
+}
+
+.flag-sm.no {
+    background-position: -144px -11px
+}
+
+.flag-sm.pl {
+    background-position: 0 -22px
+}
+
+.flag-sm.pt {
+    background-position: -16px -22px
+}
+
+.flag-sm.ro {
+    background-position: -32px -22px
+}
+
+.flag-sm.sk {
+    background-position: -48px -22px
+}
+
+.flag-sm.si {
+    background-position: -64px -22px
+}
+
+.flag-sm.es {
+    background-position: -80px -22px
+}
+
+.flag-sm.se {
+    background-position: -96px -22px
+}
+
+.flag-sm.gb {
+    background-position: -112px -22px
+}
+
+.flag-sm.au {
+    background-position: -128px -22px
+}
+
+.flag-sm.ca {
+    background-position: -144px -22px
+}
+
+.flag-sm.nz {
+    background-position: 0 -33px
+}
+
+.flag-sm.sg {
+    background-position: -16px -33px
+}
+
+.flag-sm.za {
+    background-position: -32px -33px
+}
+
+.flag-sm.us {
+    background-position: -48px -33px
+}
+
+.flag-sm.bh {
+    background-position: -64px -33px
+}
+
+.flag-sm.cl {
+    background-position: -80px -33px
+}
+
+.flag-sm.hk {
+    background-position: -96px -33px
+}
+
+.flag-sm.my {
+    background-position: -112px -33px
+}
+
+.flag-sm.qa {
+    background-position: -128px -33px
+}
+
+.flag-sm.sa {
+    background-position: -144px -33px
+}
+
+.flag-sm.kr {
+    background-position: 0 -44px
+}
+
+.flag-sm.ch {
+    background-position: -16px -44px
+}
+
+.flag-sm.tr {
+    background-position: -32px -44px
+}
+
+.flag-sm.ae {
+    background-position: -48px -44px
+}
+
+.flag-sm.kw {
+    background-position: -64px -44px
+}
+
+.flag-sm.om {
+    background-position: -80px -44px
+}
+
+.flag-sm.ph {
+    background-position: -96px -44px
+}
+
+.int-choose-country-selection li a.flag {
+    text-decoration: none
+}
+
+.int-choose-country-selection li:hover a.flag,.int-choose-country-selection li:active a.flag {
+    text-decoration: underline
+}
+
+ul.after-rest-world {
+    margin-top: 11px
+}
+
+h3.restworld {
+    font-size: 15px;
+    margin: 25px 0 0 0
+}
+
+h3.europe {
+    font-size: 15px;
+    margin: 3px 0 11px 0
+}
+
+.tablet-jl.overlay {
+    font-size: 15px
+}
+
+.tablet-jl.selected-country {
+    width: 700px;
+    padding-bottom: 0
+}
+
+.selected-country #int-choose-country-desc .col-50 {
+    width: 350px
+}
+
+.selected-country #int-choose-country-desc .col-50 {
+    width: 350px;
+    margin-left: 0
+}
+
+.tablet-jl.media-overlay h1 {
+    font-size: 1.25em;
+    margin-bottom: 12px
+}
+
+.tablet-jl.media-overlay p:first-child {
+    margin-top: 3px
+}
+
+.tablet-jl.overlay a:link.close-panel {
+    font-size: .8em
+}
+
+.selected-country-dropdown-list {
+    position: relative;
+    margin-bottom: 20px
+}
+
+.tablet-jl.selected-country input.green-btn {
+    width: 100%
+}
+
+.ie8 .tablet-jl.selected-country input.green-btn {
+    line-height: 40px;
+    padding-top: 0
+}
+
+.tablet-jl.selected-country select {
+    width: 80%
+}
+
+.ie8 .tablet-jl.selected-country select {
+    line-height: 40px;
+    padding-top: 8px;
+    padding-bottom: 9px;
+    vertical-align: middle
+}
+
+.tablet-jl.selected-country .grey-btn.submit {
+    border-radius: 0;
+    position: absolute;
+    right: 0
+}
+
+.ie8 .tablet-jl.selected-country .grey-btn.submit {
+    padding-top: 0;
+    padding-bottom: 0;
+    line-height: 40px;
+    width: 40px
+}
+
+.tablet-jl.selected-country .selected-country-dropdown-list label {
+    text-align: center;
+    cursor: auto;
+    margin: 10px 0;
+    font-weight: normal
+}
+
+#int-choose-country-wrapper img.grey-map {
+    position: relative;
+    top: 40px
+}
+
+#int-choose-country-wrapper a.tab-link {
+    font-size: .831em
+}
+
+#selected-country-header {
+    padding: 0
+}
+
+#selected-country-header h2 {
+    position: relative;
+    left: 5px;
+    font-size: 1.25em;
+    padding: 0;
+    margin-bottom: 12px;
+    display: block
+}
+
+.flag-md {
+    background: url("//johnlewis.scene7.com/is/image/JohnLewis/flags-sprite-standard-md2?fmt=png") no-repeat;
+    width: 26px;
+    height: 20px;
+    display: inline-block;
+    border: 1px solid #dedbd2;
+    float: left;
+    background-size: 240px 90px
+}
+
+.flag-md.at {
+    background-position: 0 0
+}
+
+.flag-md.be {
+    background-position: -24px 0
+}
+
+.flag-md.bg {
+    background-position: -48px 0
+}
+
+.flag-md.cy {
+    background-position: -72px 0
+}
+
+.flag-md.cz {
+    background-position: -96px 0
+}
+
+.flag-md.dk {
+    background-position: -120px 0
+}
+
+.flag-md.ee {
+    background-position: -144px 0
+}
+
+.flag-md.fi {
+    background-position: -168px 0
+}
+
+.flag-md.fr {
+    background-position: -192px 0
+}
+
+.flag-md.de {
+    background-position: -216px 0
+}
+
+.flag-md.gr {
+    background-position: 0 -18px
+}
+
+.flag-md.hu {
+    background-position: -24px -18px
+}
+
+.flag-md.ie {
+    background-position: -48px -18px
+}
+
+.flag-md.it {
+    background-position: -72px -18px
+}
+
+.flag-md.lv {
+    background-position: -96px -18px
+}
+
+.flag-md.lt {
+    background-position: -120px -18px
+}
+
+.flag-md.lu {
+    background-position: -144px -18px
+}
+
+.flag-md.mt {
+    background-position: -168px -18px
+}
+
+.flag-md.nl {
+    background-position: -192px -18px
+}
+
+.flag-md.no {
+    background-position: -216px -18px
+}
+
+.flag-md.pl {
+    background-position: 0 -36px
+}
+
+.flag-md.pt {
+    background-position: -24px -36px
+}
+
+.flag-md.ro {
+    background-position: -48px -36px
+}
+
+.flag-md.sk {
+    background-position: -72px -36px
+}
+
+.flag-md.si {
+    background-position: -96px -36px
+}
+
+.flag-md.es {
+    background-position: -120px -36px
+}
+
+.flag-md.se {
+    background-position: -144px -36px
+}
+
+.flag-md.gb {
+    background-position: -168px -36px
+}
+
+.flag-md.au {
+    background-position: -192px -36px
+}
+
+.flag-md.ca {
+    background-position: -216px -36px
+}
+
+.flag-md.nz {
+    background-position: 0 -54px
+}
+
+.flag-md.sg {
+    background-position: -24px -54px
+}
+
+.flag-md.za {
+    background-position: -48px -54px
+}
+
+.flag-md.us {
+    background-position: -72px -54px
+}
+
+.flag-md.bh {
+    background-position: -96px -54px
+}
+
+.flag-md.cl {
+    background-position: -120px -54px
+}
+
+.flag-md.hk {
+    background-position: -144px -54px
+}
+
+.flag-md.my {
+    background-position: -168px -54px
+}
+
+.flag-md.qa {
+    background-position: -192px -54px
+}
+
+.flag-md.sa {
+    background-position: -216px -54px
+}
+
+.flag-md.kr {
+    background-position: 0 -72px
+}
+
+.flag-md.ch {
+    background-position: -24px -72px
+}
+
+.flag-md.tr {
+    background-position: -48px -72px
+}
+
+.flag-md.ae {
+    background-position: -72px -72px
+}
+
+.flag-md.kw {
+    background-position: -96px -72px
+}
+
+.flag-md.om {
+    background-position: -120px -72px
+}
+
+.flag-md.ph {
+    background-position: -144px -72px
+}
+
+.media-overlay.basket-warning {
+    width: 620px;
+    padding-bottom: 0
+}
+
+.change-country #int-choose-country-desc.col-100 {
+    width: 100%;
+    padding: 0 28px
+}
+
+.change-country .tablet-jl .red-msg-box {
+    text-align: left
+}
+
+.change-country .red-msg-box p:first-child {
+    padding-bottom: 10px
+}
+
+.change-country #int-choose-country-desc .basket-options {
+    margin: 20px 0
+}
+
+.change-country #int-choose-country-desc .basket-options .grey-btn {
+    border-radius: 0;
+    padding: 12px;
+    width: 48%;
+    font-weight: normal;
+    min-height: 44px;
+    float: left;
+    margin-top: 0
+}
+
+.change-country #int-choose-country-desc .basket-options .green-btn {
+    width: 48%;
+    padding: 12px;
+    min-height: 44px;
+    float: right;
+    margin-top: 0
+}
+
+.ie8 .change-country #int-choose-country-desc .basket-options .grey-btn,.ie8 .change-country #int-choose-country-desc .basket-options .green-btn {
+    line-height: 40px;
+    padding-top: 0;
+    padding-bottom: 0
+}
+
+.tablet-jl .red-msg-box {
+    margin-top: 21px;
+    text-align: center
+}
+
+.tablet-jl .red-msg-box a {
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer
+}
+
+.tablet-jl .red-msg-box a:hover,.tablet-jl .red-msg-box a:active,.tablet-jl .red-msg-box a:focus {
+    text-decoration: none;
+    color: #a50000
+}
+
+.mod-size-guide a {
+    margin-right: 15px
+}
+
+.mod-size-guide a.int-size {
+    margin-right: 0
+}
+
+.mod-prod-info-tab div p a {
+    padding-top: 0
+}
+
+#cq-io-returns-info h2 {
+    border-bottom: 1px solid #bfbdb7;
+    font-size: 18px;
+    padding-top: 18px;
+    padding-bottom: 16px;
+    margin-bottom: 12px
+}
+
+.js .col-10 .mod-promo-highlights.io-multi-avail li:last-child {
+    border-bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 0
+}
+
+#cq-io-returns-info a {
+    padding-top: 0;
+    font-weight: normal;
+    display: inline
+}
+
+#cq-io-returns-info .more-return-link {
+    margin-top: 10px
+}
+
+#tabinfo-delivery a.more:hover,#tabinfo-delivery a.more:focus,#tabinfo-delivery a.more:active,#cq-io-returns-info a:hover,#cq-io-returns-info a:focus,#cq-io-returns-info a:active {
+    text-decoration: none
+}
+
+#cq-io-returns-info h3 {
+    padding: 18px 0 0
+}
+
+#cq-io-returns-info p {
+    padding: 0 0 10px
+}
+
+#basket-info li {
+    font-size: 12px;
+    vertical-align: middle;
+    margin-top: 10px
+}
+
+#basket-info li:last-child {
+    margin-top: 10px
+}
+
+.io-multi-not-avail .red-msg-box,.io-multi-avail .red-msg-box {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 12px 3.53535354%
+}
+
+.highlight.io-highlight,.mod-add-to-basket .highlight.io-highlight {
+    padding-bottom: 16px
+}
+
+.highlight.io-highlight.mod-wish-list-links .popup-info {
+    padding-bottom: 0
+}
+
+.col-6.last .highlight.io-highlight .tablet-jl .red-msg-box {
+    margin-bottom: 0
+}
+
+.io-multi-not-avail .red-msg-box h3,.io-multi-avail .red-msg-box h3,.col-6.last .mod .highlight .io-multi-not-avail h3,.col-6.last .mod .highlight .io-multi-avail h3 {
+    border: 0;
+    padding: 0;
+    margin: 0
+}
+
+.tablet-jl .red-msg-box h3 {
+    margin-bottom: 0
+}
+
+.mod-promo-highlights.io-multi-not-avail li.int-delivery,.mod-promo-highlights.io-multi-avail li.int-delivery {
+    width: 75%
+}
+
+.mod-promo-highlights.io-multi-not-avail li.int-delivery:last-child .mod-promo-highlights.io-multi-avail li.int-delivery:last-child {
+    border-bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 0
+}
+
+.io-multi-not-avail li.int-delivery a,.io-multi-avail li.int-delivery a {
+    text-decoration: underline
+}
+
+.io-multi-not-avail li.int-delivery a:hover,.io-multi-avail li.int-delivery a:hover,.io-multi-not-avail li.int-delivery a:active,.io-multi-avail li.int-delivery a:active {
+    text-decoration: none
+}
+
+.io-multi-not-avail li.int-delivery a:focus,.io-multi-avail li.int-delivery a:focus {
+    text-decoration: none;
+    outline: 0;
+    color: #333
+}
+
+.int-delivery .no-wrap {
+    white-space: nowrap
+}
+
+.main.io-basket {
+    clear: both
+}
+
+.io-basket .del-opt .io-del p {
+    padding-left: 0
+}
+
+.io-basket .flag-sm {
+    margin-right: .35em;
+    vertical-align: middle;
+    position: relative
+}
+
+.io-basket-container {
+    float: left;
+    margin: 0 0 30px;
+    line-height: 16px;
+    width: 996px
+}
+
+.io-basket-payment {
+    width: 420px;
+    margin: 13px 40px 0 27px;
+    padding: 12px 18px;
+    border: 1px solid #dedbd2;
+    float: left;
+    background: #f3f1ed
+}
+
+.cq-io-basket-payment .logos li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 0 5px;
+    text-indent: -9999px;
+    background-image: url("//johnlewis.scene7.com/is/image/JohnLewis/checkout-sprite_export?$alpha$");
+    background-repeat: no-repeat;
+    vertical-align: middle
+}
+
+.cq-io-basket-payment .logos li.logo-visa {
+    background-position: 100% -58px;
+    width: 50px;
+    height: 35px
+}
+
+.cq-io-basket-payment .logos li.logo-mastercard {
+    background-position: 100% -118px;
+    width: 70px;
+    height: 35px
+}
+
+.cq-io-basket-payment .logos li.card-caption {
+    text-indent: 0;
+    width: 250px;
+    height: auto;
+    margin: 0 0 0 20px;
+    background-image: none
+}
+
+.io-country-info {
+    float: left;
+    min-width: 400px
+}
+
+.io-country-info .sel-type-icon {
+    display: inline-block;
+    position: relative;
+    top: 8px;
+    font-size: 2em;
+    line-height: 1em;
+    color: #63c36b
+}
+
+.io-country-info h2 {
+    font-size: 1.5em;
+    font-weight: normal;
+    color: #63c36b;
+    margin-bottom: 5px
+}
+
+.io-country-info p {
+    font-size: 1.25em;
+    line-height: 1.25em;
+    margin-bottom: 0;
+    margin-left: 2.8em;
+    font-weight: normal
+}
+
+.io-basket-container a:link {
+    font-weight: normal;
+    text-decoration: underline;
+    color: #5f5f64;
+    font-size: 12px
+}
+
+.io-basket-container a:hover,.io-basket-container a:active {
+    text-decoration: none;
+    color: #333
+}
+
+.io-basket .flag-sm {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.io-basket .row {
+    background: 0
+}
+
+.io-basket .js-save-for-later-wrap .row {
+    background-color: #fff
+}
+
+.io-basket .io-not-avail {
+    margin: 23px 27px 40px;
+    padding: 0;
+    border: #60bd68 solid 2px;
+    border-left: 0;
+    border-right: 0;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    clear: both
+}
+
+.io-basket .io-not-avail .mod-important {
+    border-width: 0;
+    background: url('/assets/build/bckg-row-important.gif') no-repeat 44px 15px #fff;
+    min-height: 56px
+}
+
+.io-basket .io-not-avail #int-del-not-available .product-list,.io-basket .io-not-avail .remove-continue {
+    margin-left: 0
+}
+
+.io-basket .io-not-avail .remove-continue {
+    border-top: 0
+}
+
+.io-not-avail #int-del-not-available .mod-important-center h2,.io-not-avail #int-del-not-available .mod-important-center p {
+    margin-left: 96px
+}
+
+.io-not-avail #int-del-not-available .mod-important-center a:hover,.io-not-avail #int-del-not-available .mod-important-center a:active {
+    text-decoration: none;
+    color: #076c2b
+}
+
+.io-basket .hide-contsec {
+    display: none
+}
+
+.btn-remove-basket {
+    width: 200px;
+    background: url("/assets/buttons/btn-remove-basket.gif") 0 0 no-repeat
+}
+
+#banner .header-block {
+    position: absolute;
+    right: 18px;
+    top: 43px;
+    font-size: 11px;
+    z-index: 1003
+}
+
+#header-menu {
+    float: left
+}
+
+.cq-io-header-links,.free-html .cq-io-header-links {
+    text-align: right;
+    float: right;
+    margin: 5px 0 0 0;
+    font-weight: normal
+}
+
+.cq-io-header-links li,.free-html .cq-io-header-links li {
+    display: inline;
+    padding: 0;
+    margin: 0
+}
+
+.cq-io-header-links li span,.free-html .cq-io-header-links li span {
+    color: #dedbd2;
+    margin: 0 6px 0 8px
+}
+
+.cq-io-header-links li a,.free-html .cq-io-header-links li a {
+    text-decoration: none;
+    font-weight: normal
+}
+
+.cq-io-header-links li a:hover,.free-html .cq-io-header-links li a:hover,.cq-io-header-links li a:active,.free-html .cq-io-header-links li a:active,.cq-io-header-links a:focus,.free-html .cq-io-header-links a:focus {
+    text-decoration: underline;
+    outline: 0
+}
+
+div.io-menu {
+    float: right;
+    padding-left: 8px
+}
+
+.io-menu .flag-sm {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+ul.io-primary {
+    margin: 5px 0 0 0
+}
+
+.io-primary li {
+    display: inline
+}
+
+.io-primary li.flag-shift {
+    margin-right: 2.1em
+}
+
+.io-primary li a {
+    text-decoration: none;
+    display: inline-block
+}
+
+.io-primary li a:hover,.io-primary li a:focus,.io-primary li a:active {
+    text-decoration: underline;
+    color: #333;
+    outline: 0
+}
+
+.io-primary li span.divider {
+    color: #dedbd2;
+    margin: 0 8px 0 0
+}
+
+.io-primary li span.iso-code {
+    padding: 0 0 0 20px;
+    display: inline-block
+}
+
+.io-primary li a:hover span.iso-code,.io-primary li a:active span.iso-code,.io-primary li a:focus span.iso-code {
+    text-decoration: underline;
+    color: #333
+}
+
+li.io-currency {
+    width: 4.5em;
+    position: relative;
+    cursor: pointer
+}
+
+.io-currency span.io-arrow-right,.io-currency span.io-arrow-down {
+    display: inline-block;
+    vertical-align: top;
+    margin: 3px 0 0 1px;
+    font-size: .8em;
+    line-height: 1em;
+    color: #333
+}
+
+ul.io-secondary {
+    position: absolute;
+    top: -10px;
+    left: -3px;
+    width: 5em;
+    display: none;
+    padding: 9px 10px 9px 15px;
+    margin: 0;
+    border: 1px solid #bebeb7;
+    background-color: white;
+    -webkit-box-shadow: 3px 3px #e3e3e2;
+    -moz-box-shadow: 3px 3px #e3e3e2;
+    box-shadow: 3px 3px #e3e3e2;
+    z-index: 212;
+    cursor: default
+}
+
+.io-currency.drop-active .io-secondary,.io-currency:focus .io-secondary {
+    outline: 0;
+    display: block
+}
+
+.io-secondary li a {
+    display: block;
+    color: #5f5f5f
+}
+
+.io-secondary li.active a,.io-secondary li.active {
+    text-decoration: none;
+    cursor: default;
+    color: #333;
+    font-weight: bold
+}
+
+.main .delivery-charge {
+    overflow: hidden;
+    padding: 14px 0 35px 14px;
+    width: 450px
+}
+
+.main .pay-logo-bar {
+    background: #f4f2ec;
+    border: 1px solid #dedbd2;
+    margin: 10px 0 0 27px;
+    overflow: hidden;
+    padding: 10px;
+    width: 450px
+}
+
+.pay-logo-bar .col-box {
+    border-right: 0
+}
+
+.io-delivery #address-picker-int {
+    margin-top: 25px
+}
+
+.io-delivery span#delivery-country-price {
+    padding-left: 10px
+}
+
+.io-delivery .flag-sm {
+    margin-right: .35em;
+    bottom: -1px
+}
+
+.io-delivery .int-del-price {
+    padding-top: 10px;
+    margin-top: 10px
+}
+
+.io-delivery .int-del-price p,.io-delivery .int-del-price a {
+    margin-left: .7em
+}
+
+.io-delivery .sel-type-icon {
+    display: inline;
+    position: relative;
+    top: 8px;
+    font-size: 2em;
+    line-height: 1em;
+    color: #63c36b
+}
+
+.io-delivery .grey-box {
+    padding: 0 8px
+}
+
+.io-delivery div.not-deliver {
+    display: inline-block;
+    font-size: .813em;
+    margin-left: 1.81818182%;
+    position: relative;
+    top: 25px
+}
+
+.io-delivery .wrap-postcode {
+    margin-bottom: 31px
+}
+
+.io-delivery div.not-deliver a.small-link {
+    font-size: 1em;
+    font-weight: normal;
+    text-decoration: underline
+}
+
+.io-delivery div.not-deliver a.small-link:hover,.io-delivery div.not-deliver a.small-link:focus,.io-delivery div.not-deliver a.small-link:active {
+    text-decoration: none;
+    color: #333
+}
+
+.io-delivery .small-link {
+    margin-top: 0;
+    text-decoration: underline
+}
+
+.io-delivery .int-del-price .small-link {
+    margin-top: 12px;
+    text-decoration: underline
+}
+
+.io-delivery a.small-link:hover,a.small-link:hover span,.io-delivery a.small-link:focus,a.small-link:focus span,.io-delivery a.small-link:active,a.small-link:active span {
+    text-decoration: none;
+    color: #333
+}
+
+.io-checkout #billing-address-header.row {
+    margin-top: 30px
+}
+
+.io-checkout #order-summary .form-divider {
+    margin-bottom: 0
+}
+
+.io-checkout #check-address-delivery {
+    margin-top: 0
+}
+
+.io-checkout #order-summary .check-delivery {
+    margin: 31px 0
+}
+
+.io-checkout #order-summary .delivery-details li:last-child {
+    margin-top: 20px
+}
+
+.io-checkout .item-price p,.io-checkout .item-total .product-total span {
+    white-space: nowrap
+}
+
+.io-checkout #orderSummaryItems tbody td.item-qty fieldset .increase-qty span,.io-checkout #orderSummaryItems tbody td.item-qty fieldset .decrease-qty span {
+    margin: 11px 6px 0 6px
+}
+
+.io-checkout .item-qty-holder .increase-qty,.io-checkout .item-qty-holder .decrease-qty {
+    width: 30px;
+    text-align: center
+}
+
+.io-checkout #orderSummaryItems tbody td.item-qty input {
+    text-align: center
+}
+
+.io-not-auth .red-msg-box {
+    margin-top: 30px
+}
+
+.io-not-auth .red-msg-box p {
+    margin-top: 1em
+}
+
+.io-not-auth .red-msg-box p:first-child {
+    margin-top: 0
+}
+
+.io-not-auth .grey-btn {
+    margin-bottom: 1em;
+    padding: 5px 3.181818%
+}
+
+.prog-bar-non-resp {
+    padding: 35px 0 0;
+    margin: 0 auto;
+    width: 740px;
+    overflow: auto;
+    font-size: 16px;
+    display: block;
+    color: #5f5f5f;
+    font-family: arial;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.prog-bar-non-resp #progress-bar {
+    margin-bottom: 85px;
+    font-size: .938em
+}
+
+.prog-bar-non-resp #progress-bar .line {
+    position: relative;
+    background: #dedbd2;
+    border: 0;
+    color: #dedbd2;
+    height: 2px
+}
+
+.prog-bar-non-resp #progress-bar .spot {
+    position: absolute;
+    width: 28px;
+    height: 25px;
+    top: -12px;
+    background: #fff;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 3px;
+    border: 1px solid #dedbd2;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%
+}
+
+.prog-bar-non-resp #progress-bar .step-2 .spot {
+    margin: 0 auto;
+    position: relative
+}
+
+.prog-bar-non-resp #progress-bar .step-3 .spot {
+    right: 0
+}
+
+.prog-bar-non-resp #progress-bar .step-text {
+    position: absolute;
+    top: 21px;
+    font-size: .867em;
+    color: #5f5f5f;
+    opacity: .5;
+    filter: alpha(opacity = 50)
+}
+
+.prog-bar-non-resp #progress-bar .step-1 .step-text {
+    left: 0
+}
+
+.prog-bar-non-resp #progress-bar .step-2 .step-text {
+    width: 45.45454%;
+    top: -9px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative
+}
+
+.prog-bar-non-resp #progress-bar .step-3 .step-text {
+    right: 0
+}
+
+.prog-bar-non-resp #progress-bar .current .number,.prog-bar-non-resp #progress-bar .current .step-text,.prog-bar-non-resp #progress-bar .complete .step-text {
+    opacity: 1.0;
+    filter: alpha(opacity = 100)
+}
+
+.prog-bar-non-resp #progress-bar .current .spot {
+    border: 1px solid #60bd68;
+    background: #60bd68;
+    color: #fff;
+    width: 32px;
+    height: 28px;
+    top: -15px
+}
+
+.prog-bar-non-resp #progress-bar .number {
+    color: #5f5f5f;
+    opacity: .5;
+    filter: alpha(opacity = 50)
+}
+
+.prog-bar-non-resp #progress-bar .current .number {
+    color: #fff;
+    padding-top: 3px;
+    display: inline-block
+}
+
+.prog-bar-non-resp #progress-bar .complete .number {
+    text-indent: -9999px;
+    display: inline-block
+}
+
+.prog-bar-non-resp #progress-bar .complete .icon-tick {
+    color: #58bf60;
+    display: inline-block;
+    padding: 3px 5px 0 0
+}
+
+.prog-bar-non-resp #progress-bar a:link {
+    text-decoration: underline
+}
+
+.prog-bar-non-resp #progress-bar a:hover,.prog-bar-non-resp #progress-bar a:focus,.prog-bar-non-resp #progress-bar a:active {
+    text-decoration: none
+}
+
+.ie8 .prog-bar-non-resp #progress-bar .spot {
+    background: #fff url("//johnlewis.scene7.com/is/image/JohnLewis/sprite-checkout-master?$alpha$") no-repeat -136px -181px;
+    border: 0
+}
+
+.ie8 .prog-bar-non-resp #progress-bar .current .spot {
+    background-position: -104px -181px;
+    height: 30px
+}
+
+.ie8 .prog-bar-non-resp #progress-bar .complete .icon-tick {
+    padding: 3px 5px 0 0
+}
+
+.ie8 .prog-bar-non-resp #progress-bar .current .number {
+    padding-top: 3px;
+    display: inline-block
+}
+
+.prog-bar-non-resp .step-2 {
+    position: relative
+}
+
+.prog-bar-non-resp #progress-bar .step-2 .spot {
+    position: absolute;
+    left: 33%;
+    margin: 0
+}
+
+.prog-bar-non-resp #progress-bar .step-2 .step-text {
+    position: absolute;
+    top: 21px;
+    left: 24%;
+    margin: 0;
+    width: 25%;
+    text-align: center
+}
+
+.prog-bar-non-resp #progress-bar .step-3 .spot {
+    left: 66%
+}
+
+.prog-bar-non-resp #progress-bar .step-3 .step-text {
+    position: absolute;
+    top: 21px;
+    left: 56%;
+    margin: 0;
+    width: 25%;
+    text-align: center
+}
+
+.prog-bar-non-resp #progress-bar .step-4 .spot,.prog-bar-non-resp #progress-bar .step-4 .step-text {
+    right: 0
+}
+
+.ie8 .prog-bar-non-resp #progress-bar .spot {
+    background: #fff url("//johnlewis.scene7.com/is/image/JohnLewis/sprite-checkout-master?$alpha$") no-repeat -136px -181px;
+    border: 0
+}
+
+.ie8 .prog-bar-non-resp #progress-bar .current .spot {
+    background-position: -104px -181px
+}
+
+.ie8 .prog-bar-non-resp #progress-bar .complete .icon-tick {
+    padding: 1px 5px 0 0
+}
+
+.ie8 .prog-bar-non-resp #progress-bar .current .number {
+    padding-top: 2px;
+    display: inline-block
+}
+
+.ie8 .prog-bar-non-resp {
+    margin-left: 120px
+}
+
+.io-progress-bar .step-2 {
+    position: relative
+}
+
+#progress-bar.io-progress-bar .step-2 .spot {
+    position: absolute;
+    left: 33%;
+    margin: 0
+}
+
+#progress-bar.io-progress-bar .step-2 .step-text {
+    position: absolute;
+    top: 21px;
+    left: 24%;
+    margin: 0;
+    width: 25%;
+    text-align: center
+}
+
+#progress-bar.io-progress-bar .step-3 .spot {
+    left: 66%
+}
+
+#progress-bar.io-progress-bar .step-3 .step-text {
+    position: absolute;
+    top: 21px;
+    left: 56%;
+    margin: 0;
+    width: 25%;
+    text-align: center
+}
+
+#progress-bar.io-progress-bar .step-4 .spot,#progress-bar.io-progress-bar .step-4 .step-text {
+    right: 0
+}
+
+body.io-non-resp {
+    background: url('/assets/header/header-bck.gif') center top repeat-x #f3f1ed;
+    height: 100%
+}
+
+.io-non-resp .main {
+    margin: 30px auto 0;
+    border: 0
+}
+
+header.header-non-resp {
+    margin: 7px 0 12px;
+    padding: 0 0 10px 0;
+    font-size: 16px;
+    width: 996px;
+    font-family: Arial,Helvetica,sans-serif
+}
+
+header.header-non-resp .header-bkgd {
+    margin: 0 auto;
+    max-width: 996px;
+    width: 100%;
+    position: relative
+}
+
+.header-non-resp .row {
+    width: 100%;
+    display: block;
+    clear: both;
+    background: 0;
+    padding-top: 2px
+}
+
+.header-non-resp .global-12 {
+    width: 97%;
+    float: left;
+    display: block
+}
+
+.header-non-resp .main-logo {
+    display: block;
+    line-height: 51px;
+    color: #274d35;
+    height: 51px;
+    margin: 25px 0 15px 18px;
+    background: #fff url("//johnlewis.scene7.com/is/image/JohnLewis/sprite-checkout-master?$alpha$") 0 -420px no-repeat
+}
+
+.header-non-resp .main-logo span {
+    text-indent: -9999px;
+    display: inline-block
+}
+
+.header-non-resp .contact-nav {
+    padding: 0 18px
+}
+
+.header-non-resp .contact-nav ul li {
+    display: inline;
+    margin-right: 10px
+}
+
+.header-non-resp .contact-nav a,.contact-nav a:visited,.contact-nav .nav-telephone,.contact-nav .nav-tel-int,.contact-nav .nav-secure {
+    color: #264c34
+}
+
+.header-non-resp .contact-nav span {
+    margin-left: 7px;
+    color: #264c34;
+    font-size: .9em;
+    font-family: Arial,Helvetica,sans-serif
+}
+
+.header-non-resp .nav-right {
+    float: right;
+    font-weight: bold
+}
+
+.header-non-resp a {
+    text-decoration: none
+}
+
+.header-non-resp a:hover,.header-non-resp a:focus,.header-non-resp a:active {
+    text-decoration: underline
+}
+
+footer.io-footer .logos li {
+    float: right
+}
+
+footer.io-footer .header-cms-block .footer-right p,footer.io-footer .header-cms-block .footer-right div {
+    text-align: right
+}
+
+footer.io-footer .header-cms-block .footer-right a {
+    text-decoration: none
+}
+
+footer.io-footer .header-cms-block .footer-right a:hover,footer.io-footer .header-cms-block .footer-right a:focus,footer.io-footer .header-cms-block .footer-right a:active {
+    text-decoration: #333;
+    text-decoration: underline
+}
+
+footer.io-footer .header-cms-block .footer-left li {
+    list-style: none;
+    margin: 0 0 5px;
+    padding: 0
+}
+
+footer.io-footer .header-cms-block .footer-left .copyright {
+    padding-bottom: 0
+}
+
+footer.footer-non-resp {
+    margin: 19px auto;
+    padding: 0;
+    width: 960px;
+    clear: both;
+    position: relative;
+    font-size: 13px;
+    line-height: 1.2em
+}
+
+footer.footer-non-resp .cms-checkout-footer {
+    margin: 0
+}
+
+.footer-non-resp .footer-left {
+    float: left;
+    text-align: left
+}
+
+.footer-non-resp .footer-left .copyright {
+    padding-bottom: 20px
+}
+
+.footer-non-resp .footer-left li {
+    list-style: none;
+    margin: 0 0 5px;
+    padding: 0;
+    display: block
+}
+
+.footer-non-resp .footer-right {
+    font-weight: bold;
+    text-align: right;
+    float: right
+}
+
+.ie8 .footer-non-resp .footer-right,.ie9 .footer-non-resp .footer-right {
+    position: absolute;
+    top: 0;
+    right: 0
+}
+
+.footer-non-resp ul.logos {
+    margin: 15px 0;
+    text-align: right
+}
+
+footer.footer-non-resp .logos li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 0 5px;
+    text-indent: -9999px;
+    text-align: left;
+    background-image: url("//johnlewis.scene7.com/is/image/JohnLewis/checkout-sprite_export?$alpha$");
+    background-repeat: no-repeat
+}
+
+.footer-non-resp .logos li.logo-visa {
+    background-position: 100% -58px;
+    width: 70px;
+    height: 35px
+}
+
+.footer-non-resp .logos li.logo-mastercard {
+    background-position: 100% -118px;
+    width: 70px;
+    height: 35px
+}
+
+.footer-non-resp img.verisign {
+    display: none
+}
+
+.footer-non-resp ul li span {
+    background-image: url("//johnlewis.scene7.com/is/image/JohnLewis/cq-head-sprite");
+    background-repeat: no-repeat;
+    border: 0;
+    display: block;
+    font-size: 20px;
+    height: 17px;
+    line-height: 17px;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    text-indent: -9999px
+}
+
+.footer-non-resp a,.footer-non-resp a:visited {
+    text-decoration: none
+}
+
+.footer-non-resp a,.footer-non-resp a:visited,.footer-non-resp a:hover,.footer-non-resp a:focus,.footer-non-resp a:active {
+    cursor: pointer;
+    outline-style: none
+}
+
+.footer-non-resp .footer-right a:hover,.footer-non-resp .footer-right a:focus,.footer-non-resp .footer-right a:active {
+    text-decoration: underline;
+    color: #333
+}
+
+.footer-non-resp .logos li.logo-norton a:focus {
+    border: 2px solid #dedbd2
+}
+
+.footer-non-resp address {
+    font-style: normal
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),only screen and (min--moz-device-pixel-ratio:2),only screen and (-o-min-device-pixel-ratio:2/1),only screen and (min-device-pixel-ratio:2),only screen and (min-resolution:192dpi),only screen and (min-resolution:2dppx) {
+    .flag-sm {
+        background:url("//johnlewis.scene7.com/is/image/JohnLewis/flags-sprite-retina-sm2?fmt=png") no-repeat;
+        background-size: 160px 55px
+    }
+
+    .flag-md {
+        background: url("//johnlewis.scene7.com/is/image/JohnLewis/flags-sprite-retina-md2?fmt=png") no-repeat;
+        background-size: 240px 90px
+    }
+}
+
+@media screen and (max-width : 700px) {
+    .io-delivery div.not-deliver {
+        margin-left:0;
+        position: relative;
+        top: 0
+    }
+
+    .contact-nav ul li {
+        padding-top: 5px;
+        padding-bottom: 5px
+    }
+
+    .contact-nav ul li span {
+        font-size: .750em
+    }
+
+    #uk-select-address .span-3.float.not-deliver {
+        width: 100%
+    }
+
+    #uk-select-address .small-link {
+        display: block
+    }
+}
+
+@media screen and (max-width : 540px) {
+    .content-nav ul li {
+        padding:5px 0;
+        margin-right: 0
+    }
+
+    .nav-right {
+        float: none;
+        display: block;
+        padding-bottom: 15px;
+        margin: 5px 0 0
+    }
+
+    .contact-nav span {
+        margin-left: 0
+    }
+}

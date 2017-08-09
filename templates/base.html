@@ -1,0 +1,53 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en" class="desktop js flexbox flexboxlegacy touch history rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface no-generatedcontent video">
+  <head>
+    <link rel="alternate" href="https://m.kudakidsworld.com/">
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+   <meta name="author" content="">
+   <title>Kudakids World | Dress, Shoes, Shirts</title>
+   <meta name="description" content="Shop for Sofas, Beds, TVs, iPads &amp; Fashion online. Free Delivery on orders over £50.">
+   <link rel="canonical" href="https://www.kudakidsworld.com/">
+   <meta property="og:title" content="Kudakids World | Shoes, Shirts, Dress, Fashion">
+   <meta property="og:type" content="Website">
+   <meta property="og:description" content="Shop All Types of Kids Clothing">
+   <meta property="og:url" content="https://www.johnlewis.com/">
+   <meta property="og:image" content="https://www.johnlewis.com/store/assets/header/john-lewis-logo.gif">
+   <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+
+    <title>{% block head_title %}Kudakids{% endblock %}</title>
+
+    {% include 'head_css.html' %}
+
+      <style>
+      {% block style %}{% endblock %}
+      </style>
+
+
+
+  </head>
+
+  <body class="header-banner ua-portrait">
+
+
+{% block jumbotron %}
+
+            {% endblock %}
+    <div class="container">
+
+
+
+            {% block content %}
+
+            {% endblock %}
+
+
+    </div> <!-- /container -->
+
+
+
+     {% include "footer.html" %}
+  </body>
+</html>
