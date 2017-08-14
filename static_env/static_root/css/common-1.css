@@ -197,7 +197,7 @@ button, input, select, textarea {
 }
 
 form label.required, form fieldset fieldset legend.required, p.required > small, small.required, .highlight.pay-sec-code label.required {
-    background: url('https://www.johnlewis.com/assets/build/chk-star.gif') 100% 3px no-repeat;
+    background: url('static/img/chk-star.gif') 100% 3px no-repeat;
 }
 
 button, input.button {
@@ -338,7 +338,7 @@ article, aside, div, footer, form, header, nav, section, ul, fieldset, form, pre
 }
 
 .hori-3, .hori-4, .hori-10, .hori-13 {
-    background: url('https://www.johnlewis.com/assets/build/hori-2.gif') 0 0 repeat-y;
+    background: url('static/img/hori-2.gif') 0 0 repeat-y;
 }
 
 .hori-3 {
@@ -358,11 +358,11 @@ article, aside, div, footer, form, header, nav, section, ul, fieldset, form, pre
 }
 
 .hori-64 {
-    background: url('https://www.johnlewis.com/assets/build/hori-64.gif') 0 0 repeat-y;
+    background: url('static/img/hori-64.gif') 0 0 repeat-y;
 }
 
 .vert-2, .vert-3, .vert-4, .vert-6, .vert-8, .vert-10, .vert-12, .vert-13, .vert-14 {
-    background: url('https://www.johnlewis.com/assets/build/vert-2.gif') 114px 0 repeat-y #fff;
+    background: url('static/img/vert-2.gif') 114px 0 repeat-y #fff;
 }
 
 .vert-3 {
@@ -382,17 +382,17 @@ article, aside, div, footer, form, header, nav, section, ul, fieldset, form, pre
 }
 
 .vert-64 {
-    background: url('https://www.johnlewis.com/assets/build/vert-64.gif') 0 0 repeat-y #fff;
+    background: url('static/img/vert-64.gif') 0 0 repeat-y #fff;
 }
 
 .hori-3-alt {
-    background: url('https://www.johnlewis.com/assets/build/hori-2-alt.gif') -769px 0 repeat-y;
+    background: url('static/img/hori-2-alt.gif') -769px 0 repeat-y;
     border-right: 0;
     width: 997px;
 }
 
     .hori-3-alt .vert-3 {
-        background: url('https://www.johnlewis.com/assets/build/vert-2-alt.gif') -61px 0 repeat-y transparent;
+        background: url('static/img/vert-2-alt.gif') -61px 0 repeat-y transparent;
         width: 997px;
     }
 
@@ -414,7 +414,7 @@ article, aside, div, footer, form, header, nav, section, ul, fieldset, form, pre
     padding: 39px 1px 0 1px;
     width: 100%;
     border: 0;
-    background: url('https://www.johnlewis.com/assets/build/split.gif') 0 0 repeat-x;
+    background: url('static/img/split.gif') 0 0 repeat-x;
 }
 
 .first {

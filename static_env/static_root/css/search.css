@@ -1,0 +1,2762 @@
+.mod-brand-refine {
+    border: 1px solid #bfbdb7;
+    margin: 20px 0;
+    padding: 10px;
+    position: relative
+}
+
+.search-results .mod-brand-refine h1 {
+    font-size: 16px;
+    margin-bottom: 0
+}
+
+.clear-active-brands {
+    cursor: pointer;
+    font-size: 11px;
+    position: absolute;
+    right: 20px;
+    text-decoration: underline;
+    top: 18px
+}
+
+.mod-brand-refine .index-navigation {
+    margin: 10px 0 20px;
+    width: 734px
+}
+
+.mod-brand-refine .index-navigation li * {
+    background: url('https://johnlewis.com/assets/build/index-brand-nav-border.gif') no-repeat left center;
+    padding: 4px 10px
+}
+
+.index-navigation li.first * {
+    background: 0
+}
+
+.mod-brand-refine .index-navigation li span {
+    color: #bfbdb7;
+    display: block
+}
+
+.mod-brand-refine .index-navigation li.selected a {
+    padding: 7px 9px 5px
+}
+
+.mod-brand-refine .index-navigation li.selected.first a {
+    padding-left: 10px
+}
+
+.brand-carousel-container {
+    position: relative
+}
+
+.brand-carousel {
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    width: 625px
+}
+
+.brand-carousel,.brand-carousel ol {
+    min-height: 135px
+}
+
+.js .brand-carousel {
+    display: none
+}
+
+.js .brand-carousel.first {
+    display: block
+}
+
+.no-js .mod-brand-refine {
+    display: none
+}
+
+.brand-carousel div {
+    position: relative;
+    width: 10000px;
+    z-index: 2
+}
+
+.brand-carousel ol {
+    float: left;
+    padding-right: 15px;
+    position: relative;
+    width: 150px
+}
+
+.brand-carousel li {
+    background: 0;
+    float: left;
+    margin: 0 0 5px;
+    padding: 0;
+    width: 145px
+}
+
+.brand-carousel label {
+    display: inline-block;
+    float: none;
+    margin: 1px 0 0;
+    padding-right: 0;
+    text-align: left;
+    width: auto
+}
+
+.brand-carousel .checkbox {
+    margin: -4px 5px 0 0
+}
+
+.brand-carousel-nav {
+    position: absolute;
+    top: 35px;
+    width: 100%;
+    z-index: 1
+}
+
+.ie7 .brand-carousel-nav,.ie8 .brand-carousel-nav,.ie9 .brand-carousel-nav {
+    top: 30px
+}
+
+.brand-carousel-nav li {
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -webkit-user-select: none;
+    border: 1px solid #dedbd2;
+    border-radius: 2px;
+    cursor: pointer;
+    height: 22px;
+    padding: 0;
+    text-indent: -10000px;
+    width: 22px
+}
+
+.brand-carousel-nav li:hover {
+    border: 1px solid #5f5f5f
+}
+
+.brand-carousel-nav .prev {
+    background: #FFF url(https://johnlewis.com/assets/build/brand-carousel-nav-prev-active.gif) center center no-repeat;
+    float: left;
+    left: 0
+}
+
+.brand-carousel-nav .next {
+    background: #FFF url(https://johnlewis.com/assets/build/brand-carousel-nav-next-active.gif) center center no-repeat;
+    float: right;
+    right: 0
+}
+
+.brand-carousel-nav .prev.disabled {
+    background: #FFF url(https://johnlewis.com/assets/build/brand-carousel-nav-prev-disabled.gif) center center no-repeat
+}
+
+.brand-carousel-nav .next.disabled {
+    background: #FFF url(https://johnlewis.com/assets/build/brand-carousel-nav-next-disabled.gif) center center no-repeat
+}
+
+.active-brands {
+    overflow: hidden
+}
+
+.active-brands li {
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    background: 0;
+    border: 1px solid #dedbd2;
+    border-radius: 2px;
+    display: block;
+    float: left;
+    margin: 5px 5px 0 0;
+    padding: 4px
+}
+
+.active-brands li span.activeBrandClose {
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    background: url(https://johnlewis.com/assets/build/active-brand-close.gif) center center no-repeat;
+    border: 1px solid #dedbd2;
+    border-radius: 2px;
+    cursor: pointer;
+    display: inline-block;
+    height: 15px;
+    margin-left: 20px;
+    text-indent: -10000px;
+    width: 15px
+}
+
+.ie7 .active-brands li {
+    white-space: nowrap
+}
+
+.ie7 .active-brands li span {
+    display: inline
+}
+
+.mod-no-results .mod-important h2 {
+    color: #076c2b;
+    font-size: 21px;
+    font-weight: normal;
+    margin: 0 0 25px 128px;
+    width: auto
+}
+
+.mod-no-results p {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 7px
+}
+
+.mod-no-results .infoMsg p {
+    font-weight: normal
+}
+
+.mod-no-results .mod-important {
+    border-color: #60bd68;
+    min-height: 56px;
+    margin: 32px 0 30px 0;
+    word-wrap: break-all
+}
+
+.mod-no-results .mod-important a {
+    text-decoration: underline
+}
+
+.mod-no-results ul li {
+    background: 0
+}
+
+.search-results {
+    width: 753px
+}
+
+.search-results h1 {
+    font-size: 1.833em;
+    margin-bottom: 17px
+}
+
+.search-results h1 span {
+    font-size: 14px
+}
+
+#search-results .search-results h1 .parsys {
+    float: left;
+    display: inline;
+    margin-right: 6px
+}
+
+.search-results header {
+    margin: 0 0 27px
+}
+
+.search-results footer {
+    clear: both;
+    float: left;
+    width: 100%
+}
+
+.search-results nav {
+    border: 0;
+    border-bottom: 1px solid #dedbd2;
+    display: inline-block;
+    width: 100%;
+    padding: 10px 0
+}
+
+.search-results nav.nav-paging {
+    padding: 9px 0
+}
+
+.search-results nav.nav-paging.search-paging {
+    border-top: 1px solid #dedbd2
+}
+
+.search-results footer nav {
+    border: 0;
+    border-top: 1px solid #dedbd2;
+    padding-top: 10px;
+    min-height: 27px
+}
+
+.seo-divider {
+    border-top: 1px solid #dedbd2;
+    padding-top: 20px
+}
+
+.cms-area {
+    background: #f6f6f6;
+    border: 1px solid #dedbd2;
+    height: 70px;
+    margin: 20px 0
+}
+
+.search-again {
+    float: right;
+    width: 122px;
+    height: 26px;
+    line-height: 26px;
+    text-indent: -9999px;
+    padding: 0;
+    background: green url(https://johnlewis.com/assets/buttons/btn-search-again.gif) 0 0 no-repeat;
+    cursor: pointer
+}
+
+.search-again:hover {
+    background-position: 0 -26px
+}
+
+#search-results .search-again {
+    float: none;
+    margin: 31px 0 0 128px
+}
+
+.article-grid {
+    margin: 0 12px;
+    overflow: hidden
+}
+
+.product-grid {
+    margin: 0 12px;
+    overflow: hidden;
+    position: relative
+}
+
+.ie7 .product-grid {
+    overflow: visible
+}
+
+.ie7 .search-results footer {
+    padding: 25px 0 0 0
+}
+
+.product-grid .result-row {
+    width: 762px;
+    margin-bottom: 30px;
+    float: left;
+    position: relative;
+    margin-left: -34px;
+    clear: left
+}
+
+.product-grid .products {
+    filter: inherit;
+    display: block
+}
+
+.product-grid article {
+    float: left;
+    margin-left: 34px;
+    width: 220px;
+    position: relative;
+    overflow: hidden
+}
+
+.product-grid ul.selection-grid img {
+    width: 28px;
+    height: 24px
+}
+
+.product-grid a:link,.product-grid a:visited {
+    text-decoration: none
+}
+
+.product-grid a:hover,.product-grid a:active,.product-grid .product-link:hover strong,.product-grid .product-link:active strong {
+    text-decoration: underline
+}
+
+.product-grid .product-link {
+    line-height: 1.2em;
+    font-weight: bold
+}
+
+.product-grid .product-link img {
+    margin-bottom: 10px
+}
+
+.product-grid .product-link img.secondary-view {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    -webkit-transition: opacity .25s ease;
+    -moz-transition: opacity .25s ease;
+    -ms-transition: opacity .25s ease;
+    transition: opacity .25s ease
+}
+
+.no-touch .product-grid .product-link img.secondary-view {
+    opacity: 0;
+    -ms-filter: "alpha(opacity=0)";
+    filter: alpha(opacity=0);
+    -webkit-transition: opacity .25s ease;
+    -moz-transition: opacity .25s ease;
+    -ms-transition: opacity .25s ease;
+    transition: opacity .25s ease
+}
+
+.no-touch .product-grid .product-link.secondary-view img.secondary-view {
+    opacity: 1;
+    -ms-filter: "alpha(opacity=100)";
+    filter: alpha(opacity=100)
+}
+
+.touch .product-grid .product-link img {
+    -webkit-transition: all .65s ease;
+    -moz-transition: all .65s ease;
+    -ms-transition: all .65s ease;
+    transition: all .65s ease
+}
+
+.touch .product-grid .product-link img.secondary-view {
+    opacity: 1;
+    -webkit-transform: translate3d(101%,0,0);
+    transform: translate3d(101%,0,0)
+}
+
+.touch .product-grid .product-link.secondary-view img {
+    opacity: 1;
+    -webkit-transform: translate3d(-101%,0,0);
+    transform: translate3d(-101%,0,0)
+}
+
+.touch .product-grid .product-link.secondary-view img.secondary-view {
+    opacity: 1;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0)
+}
+
+.product-grid .product-link strong {
+    display: block
+}
+
+.product-grid .price {
+    margin: 8px 0;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1em
+}
+
+.product-grid .price a {
+    color: #393939
+}
+
+.product-grid .price.previous-prices {
+    font-size: 12px;
+    line-height: 16px
+}
+
+.product-grid .price.previous-prices a {
+    color: #5f5f5f
+}
+
+.product-grid .price.previous-prices a:hover,.product-grid .price.previous-prices a:focus {
+    color: #393939
+}
+
+.product-grid .price.previous-prices .discounted {
+    font-size: 14px
+}
+
+.product-grid .price.previous-prices .discounted:hover,.product-grid .price.previous-prices .discounted:focus {
+    text-decoration: underline
+}
+
+.product-grid .price strong {
+    color: #393939
+}
+
+.product-grid .price .discounted {
+    color: #900;
+    display: block
+}
+
+.product-grid .out-of-stock {
+    line-height: 1em
+}
+
+.product-grid .out-of-stock,.product-grid .out-of-stock-email,.product-grid .value-offer,.product-grid .bundle-offer,.product-grid .availability-of-stock,.product-grid .special-offer {
+    margin-top: 5px
+}
+
+.product-grid .value-offer,.product-grid .value-offer a {
+    color: #900;
+    font-weight: bold
+}
+
+.product-grid .bundle-offer {
+    color: #aa2b2b;
+    font-weight: bold
+}
+
+.product-grid .special-offer {
+    font-size: 12px;
+    line-height: 1.25em
+}
+
+.product-grid .warranty-info li {
+    background: 0;
+    line-height: 16px;
+    padding: 0 0 3px
+}
+
+.product-grid .warranty-info .guaranty-info,.product-list-view-wrapper .warranty-info .guaranty-info {
+    padding: 7px 0 3px;
+    margin-bottom: 8px
+}
+
+.product-grid .warranty-info .icon-tick,.product-list-view-wrapper .warranty-info .icon-tick {
+    color: #50a853;
+    margin-top: -3px;
+    display: table-cell;
+    width: 16px;
+    font-size: 16px;
+    padding: 0 4px 0 0;
+    vertical-align: top
+}
+
+.product-grid .warranty-info .icon-tick+a,.product-list-view-wrapper .warranty-info .icon-tick+a {
+    display: table-cell
+}
+
+.product-list-view-wrapper .warranty-info .guaranty-info {
+    margin-top: 0
+}
+
+.product-grid .warranty-info .guaranty-info a,.product-list-view-wrapper .warranty-info .guaranty-info a {
+    padding-top: 1px
+}
+
+.product-grid p.price,.row .product-grid .first p.price,.row .product-grid .first p.special-offer {
+    float: none
+}
+
+.product-grid .more-colours {
+    display: block;
+    background: url(https://johnlewis.com/assets/build/grid-colour-wheel.png) no-repeat 0 center transparent;
+    line-height: 18px;
+    padding-left: 22px
+}
+
+.product-grid p.inline-ratings {
+    margin-top: 6px;
+    margin-bottom: 1px
+}
+
+.product-grid .selection-grid {
+    margin-bottom: 8px;
+    padding-left: 3px
+}
+
+.product-grid .selection-grid li {
+    float: left;
+    position: relative
+}
+
+.product-grid .selection-grid li:nth-child(5n+1) {
+    clear: left
+}
+
+.product-grid .selection-grid li.last-in-row+li {
+    clear: left
+}
+
+.product-grid .selection-grid a {
+    line-height: 0;
+    padding: 2px;
+    width: 28px;
+    margin: 10px 10px 0 0
+}
+
+.product-grid .selection-grid .selected {
+    position: relative;
+    top: 2px;
+    margin-right: 2px
+}
+
+.product-grid .selection-grid .selected a {
+    border-width: 2px;
+    cursor: default;
+    font-weight: bold;
+    padding: 2px 1px;
+    margin: 8px 8px 0 0
+}
+
+.product-grid .selection-grid .selected a img {
+    height: 22px;
+    width: 26px
+}
+
+.product-grid .mask {
+    z-index: 500;
+    position: absolute;
+    left: 0;
+    top: 0
+}
+
+#product-grid .mask {
+    background-position: top center
+}
+
+.swatches .compare-item-control-container {
+    height: 40px;
+    clear: both
+}
+
+.swatches .compare-item-control {
+    background: 0;
+    border: 1px solid #dedbd2;
+    bottom: 0;
+    clear: both;
+    font-weight: bold;
+    padding: 4px 8px 5px 8px;
+    position: absolute;
+    width: 202px
+}
+
+form .swatches .compare-item-control label {
+    line-height: 1.2;
+    float: none;
+    text-align: left;
+    padding-top: 1px;
+    margin: 0
+}
+
+.warning {
+    border: 1px solid #60bd68;
+    margin: 0 0 -25px 0
+}
+
+.result-row .warning .msg {
+    color: #60bd68;
+    display: block;
+    font-size: 11px;
+    font-weight: normal;
+    margin: 5px 0 0 0;
+    height: 25px
+}
+
+.compare-item-control .msg {
+    display: none
+}
+
+.sn-search-feedback-container {
+    padding-top: 10px
+}
+
+.sn-search-feedback {
+    border: solid 1px #dfdbd2;
+    padding: 18px 15px;
+    text-align: right;
+    position: relative
+}
+
+.sn-search-feedback-title {
+    color: #606060;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    float: left;
+    position: relative;
+    top: 4px
+}
+
+.sn-search-feedback-message {
+    color: #606060;
+    display: inline-block;
+    margin-right: 8px
+}
+
+.sn-search-feedback .grey-btn {
+    box-sizing: border-box;
+    color: #606060;
+    display: inline-block;
+    font-size: 12px;
+    width: 78px;
+    margin-left: 14px;
+    padding: 6px 0
+}
+
+.product-list-view-wrapper * {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box
+}
+
+.product-list-view-wrapper .image-holder {
+    height: 220px;
+    position: relative
+}
+
+.product-list-view-wrapper ul {
+    margin: 0;
+    padding: 0
+}
+
+.product-list-view {
+    max-width: 750px;
+    border: solid 1px #dddad1;
+    margin: 0 auto 50px;
+    padding-top: 25px;
+    width: 100%
+}
+
+.product-list-view-wrapper .image-holder,.product-list-view-wrapper .qv-image-holder {
+    overflow: hidden
+}
+
+.product-list-view-wrapper .image-holder img,.product-list-view-wrapper .qv-image-holder img {
+    width: 100%;
+    max-width: 220px;
+    height: auto
+}
+
+.product-list-view a.product-link img.secondary-view {
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.no-touch .product-list-view a.product-link img.secondary-view {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    opacity: 0;
+    -ms-filter: "alpha(opacity=0)";
+    filter: alpha(opacity=0);
+    -webkit-transition: opacity .25s ease;
+    -moz-transition: opacity .25s ease;
+    -ms-transition: opacity .25s ease;
+    transition: opacity .25s ease
+}
+
+.no-touch .product-list-view a.product-link.secondary-view img.secondary-view {
+    opacity: 1;
+    -ms-filter: "alpha(opacity=100)"
+}
+
+.touch .product-list-view .product-link img {
+    -webkit-transition: all .65s ease;
+    -moz-transition: all .65s ease;
+    -ms-transition: all .65s ease;
+    transition: all .65s ease
+}
+
+.touch .product-list-view .product-link img.secondary-view {
+    opacity: 1;
+    -webkit-transform: translate3d(101%,0,0);
+    transform: translate3d(101%,0,0)
+}
+
+.touch .product-list-view .product-link.secondary-view img {
+    opacity: 1;
+    -webkit-transform: translate3d(-101%,0,0);
+    transform: translate3d(-101%,0,0)
+}
+
+.touch .product-list-view .product-link.secondary-view img.secondary-view {
+    opacity: 1;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0)
+}
+
+.product-list-view .list-wrapper {
+    margin: 0 auto
+}
+
+.product-list-view p {
+    margin-bottom: 12px
+}
+
+.product-list-view .col-wrapper {
+    position: relative;
+    width: 100%;
+    padding-bottom: 30px
+}
+
+.product-list-view p.special-offer+.price {
+    margin-top: 36px
+}
+
+.product-list-view .price a {
+    font-size: 1.6em;
+    color: #393939;
+    text-decoration: none
+}
+
+.product-list-view .price.previous-prices a {
+    font-size: 100%;
+    color: #5f5f5f
+}
+
+.product-list-view .price.previous-prices a:hover,.product-list-view .price.previous-prices a:focus {
+    color: #393939
+}
+
+.product-list-view .price.previous-prices .discounted {
+    font-size: 1.6em;
+    display: block;
+    line-height: normal
+}
+
+.product-list-view .out-of-stock,.product-list-view .out-of-stock a {
+    text-decoration: none;
+    font-weight: bold
+}
+
+.product-list-view p.product-title a {
+    text-decoration: none;
+    font-weight: bold
+}
+
+.product-list-view .out-of-stock-email {
+    margin-bottom: 24px
+}
+
+.product-list-view .out-of-stock-email a {
+    text-decoration: none
+}
+
+.product-list-view .availability-of-stock a {
+    text-decoration: none
+}
+
+.product-list-view p a:hover,.product-list-view p a:focus {
+    text-decoration: underline
+}
+
+.product-list-view p.product-title+ul.product-specs {
+    padding-top: 4px
+}
+
+.product-list-view p.inline-ratings+ul.product-specs {
+    padding-top: 4px
+}
+
+.product-list-view .col-wrapper .column {
+    display: table-cell;
+    vertical-align: top
+}
+
+.product-list-view .col-wrapper .column.column-1 {
+    padding: 0 0 0 22px;
+    text-align: center;
+    width: 32.5%
+}
+
+.product-list-view .col-wrapper .column.column-2 {
+    padding: 0 35px 0 22px;
+    width: 47.5%
+}
+
+.product-list-view .col-wrapper .column.column-3 {
+    padding: 0 22px 50px 0;
+    text-align: right;
+    position: relative;
+    width: 20%
+}
+
+.product-list-view a.details.grey-btn {
+    padding: 6px 25px;
+    font-size: 13px;
+    position: absolute;
+    bottom: 22px;
+    right: 22px;
+    margin: 0
+}
+
+.product-list-view p.special-offer a {
+    font-weight: bold;
+    text-decoration: none
+}
+
+.product-list-view p.special-offer a:hover,.product-list-view p.special-offer a:focus {
+    text-decoration: underline
+}
+
+.product-list-view .compare-item-control-container {
+    padding-top: 25px;
+    display: inline-block;
+    margin: 0 auto
+}
+
+.product-list-view .compare-item-control-container label {
+    margin-top: 0
+}
+
+.product-list-view ul.product-specs {
+    margin: 0 0 16px 16px
+}
+
+.product-list-view ul.product-warranty-services {
+    margin-left: 0
+}
+
+.product-list-view ul.product-specs,.product-list-view ul.product-warranty-services {
+    padding-top: 12px;
+    line-height: 16px
+}
+
+.product-list-view ul.product-specs+ul.product-warranty-services {
+    padding-top: 0
+}
+
+.product-list-view ul.product-specs li {
+    list-style: square;
+    margin-bottom: 3px
+}
+
+.product-list-view ul.product-warranty-services li {
+    list-style: none;
+    margin-bottom: 3px
+}
+
+.product-list-view ul.product-warranty-services ul.warranty-info:last-child li:last-child {
+    margin-bottom: 0
+}
+
+.product-list-view ul li a {
+    text-decoration: none
+}
+
+.product-list-view ul li a:hover {
+    text-decoration: underline
+}
+
+.product-list-view ul.delivery-options {
+    border-top: solid 1px #dddad1;
+    font-size: 11px;
+    margin: 0 auto;
+    padding: 10px 0;
+    width: 710px;
+    min-height: 47px
+}
+
+.product-list-view ul.delivery-options>li {
+    display: inline-block;
+    float: left;
+    list-style: none;
+    margin-right: 65px;
+    padding-left: 37px;
+    position: relative
+}
+
+.product-list-view ul.delivery-options>li:before {
+    color: #aeaeae;
+    font-family: 'jlicons';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    font-size: 27px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.product-list-view ul.delivery-options>li.standard:before {
+    content: "\e60c"
+}
+
+.product-list-view ul.delivery-options>li.express-named:before {
+    content: "\e62a";
+    font-size: 28px;
+    top: 2px;
+    left: -7px
+}
+
+.product-list-view ul.delivery-options>li.click-collect:before {
+    content: "\e605"
+}
+
+.product-list-view ul.delivery-options>li.international {
+    margin-right: 0
+}
+
+.product-list-view ul.delivery-options>li.international:before {
+    content: "\e60a"
+}
+
+.product-list-view ul.delivery-options>li>ul>li {
+    color: #5f5f5f;
+    padding-left: 10px;
+    position: relative
+}
+
+.product-list-view ul.delivery-options>li>ul>li:before {
+    content: "\25A0";
+    position: absolute;
+    left: 0;
+    top: 3px;
+    font-size: 6px
+}
+
+.product-list-view ul.delivery-options>li>ul.singular-option>li {
+    top: 7px
+}
+
+.product-list-view-wrapper .more-colours {
+    text-decoration: none;
+    display: inline-block;
+    background: url(https://johnlewis.com/assets/build/grid-colour-wheel.png) no-repeat 0 center transparent;
+    line-height: 18px;
+    padding-left: 22px
+}
+
+.product-list-view-wrapper .more-colours:hover {
+    text-decoration: underline
+}
+
+.product-list-view .info.tooltip-trigger {
+    background: 0;
+    top: -1px
+}
+
+.product-list-view .info.tooltip-trigger:after {
+    content: "\e624";
+    font-size: 1.7em;
+    font-family: 'jlicons';
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: .8em;
+    text-transform: none;
+    display: inline;
+    position: absolute
+}
+
+.listview-compare-btn-container {
+    text-align: right;
+    margin-left: 12px
+}
+
+.listview-compare-btn-container a {
+    padding: 4px 8px 4px;
+    position: relative;
+    top: 5px;
+    font-size: 13px
+}
+
+.change-view-container {
+    float: left;
+    margin: 3px 0 0 10px;
+    position: relative;
+    top: -3px
+}
+
+.change-view-container .change-view-text {
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+    top: -4px
+}
+
+.change-view-container a {
+    display: inline-block;
+    border: solid 1px #dedbd4;
+    color: #5f5f5f;
+    font-size: 19px;
+    -webkit-font-smoothing: none;
+    text-decoration: none;
+    padding: 2px 6px;
+    cursor: pointer
+}
+
+.change-view-container a.active {
+    background: #f3f2ed;
+    cursor: default
+}
+
+.change-view-container a.icon-list-view {
+    font-size: 16px;
+    margin-left: 4px;
+    padding: 4px 6px 3px;
+    float: right;
+    top: -1px
+}
+
+.change-view-container .icon-grid-view:before {
+    content: "\e628"
+}
+
+.change-view-container .icon-list-view:before {
+    content: "\e61f"
+}
+
+.compare-item-control .msg a {
+    text-decoration: underline;
+    color: #60bd68;
+    font-weight: bold
+}
+
+.compare-item-control input[type="checkbox"] {
+    height: 13px;
+    margin: 0 5px 2px 0;
+    width: 13px
+}
+
+.ie8 .compare-item-control input[type="checkbox"],.ie9 .compare-item-control input[type="checkbox"] {
+    margin-bottom: -2px
+}
+
+.no-js .compare-item-control,.no-js .btn-compare-now {
+    display: none
+}
+
+.input-cover {
+    background: url(https://johnlewis.com/assets/build/shim.gif);
+    height: 25px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%
+}
+
+.mod-display-products .wrapper {
+    width: 430px;
+    float: right
+}
+
+.mod-display-products .wrapper.paging-holder {
+    width: 100%;
+    float: none
+}
+
+.mod-display-products .btn-compare-now-container {
+    margin-left: 10px
+}
+
+.ie7 .mod-display-products .btn-compare-now-inactive {
+    display: block
+}
+
+.mod-display-products .sort {
+    float: left;
+    margin: 5px 0 0 0
+}
+
+.mod-display-products .sort label {
+    float: left;
+    width: 50px;
+    text-align: left;
+    margin: 0;
+    padding: 0
+}
+
+.mod-display-products.nav-paging .sort {
+    margin: 4px 0 0
+}
+
+.mod-display-products .sort select {
+    width: 180px;
+    float: left;
+    margin: 0 10px 0 0
+}
+
+.mod-display-products.nav-paging .sort select {
+    width: 195px
+}
+
+.mod-display-products .btn-compare-now-inactive,.mod-display-products .btn-order-swatches-inactive {
+    opacity: .5;
+    filter: alpha(opacity=50);
+    -ms-filter: "alpha(opacity=50)"
+}
+
+.central.search-results {
+    width: auto
+}
+
+.central.search-results nav.nav-paging {
+    padding: 27px 0
+}
+
+.central.search-results .mod-display-products .pagination {
+    text-align: center
+}
+
+.central.search-results .mod-display-products .pagination ul {
+    float: none;
+    display: inline-block
+}
+
+.no-border.search-results nav {
+    border: 0
+}
+
+.tablet-jl .mod-display-products .paging-holder .pagination li a {
+    height: 26px;
+    min-width: 25px;
+    font-size: .750em;
+    padding-top: 5px
+}
+
+.ie8 .tablet-jl .mod-display-products .paging-holder .pagination li a {
+    min-width: 23px
+}
+
+.mod-display-products .button.enabled {
+    width: 130px;
+    height: 26px
+}
+
+.mod-display-products .btn-ssml-submit {
+    display: none
+}
+
+.qv-image-holder {
+    position: relative
+}
+
+.qv-button {
+    background: #fff;
+    bottom: 16px;
+    color: #5f5f5f;
+    font-size: 10px;
+    display: none;
+    left: 3px;
+    padding: 4.5px 7px 4px 4.5px;
+    position: absolute;
+    text-decoration: none;
+    z-index: 10
+}
+
+.touch .qv-button {
+    padding-right: 4px
+}
+
+.product-list-view-wrapper .qv-button {
+    bottom: 6px
+}
+
+.product-grid .qv-button:hover {
+    text-decoration: none
+}
+
+.qv-button .qv-icon {
+    background: url(https://johnlewis.com/assets/build/quick-view-icon-x1.png) no-repeat;
+    height: 21px;
+    margin: 0 2px 0 0;
+    width: 20px
+}
+
+.touch .qv-button .qv-icon {
+    margin-right: 0
+}
+
+.qv-button .text {
+    margin: 3px 0 0;
+    text-transform: uppercase
+}
+
+.touch .qv-button {
+    display: block
+}
+
+.qv-button .qv-icon,.qv-button .text {
+    display: inline-block;
+    vertical-align: middle
+}
+
+.touch .qv-button .text {
+    display: none
+}
+
+#quick-view-content {
+    float: right;
+    width: 297px;
+    height: 578px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    z-index: 0;
+    margin-top: 41px;
+    -webkit-overflow-scrolling: touch
+}
+
+.qv-content-inner {
+    overflow: hidden
+}
+
+.qv-content-inner.scroll-on {
+    padding-right: 15px
+}
+
+#quick-view-content #prod-title {
+    margin-bottom: 10px;
+    font-size: 20px
+}
+
+#quick-view-content p.price {
+    line-height: normal
+}
+
+.qv-rating a {
+    line-height: 22px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block
+}
+
+.qv-rating img {
+    display: inline;
+    vertical-align: top
+}
+
+#quick-view-content .out-of-stock-email {
+    margin: 16px 0 0
+}
+
+#quick-view-content .mod-product-size {
+    margin-top: 14px
+}
+
+#quick-view-content .mod-product-size .selection-grid {
+    float: none;
+    overflow: visible
+}
+
+#quick-view-content .mod-product-size .selection-grid:after {
+    clear: both;
+    content: "";
+    display: block
+}
+
+#quick-view-content .mod-product-size .mod-stock-availability {
+    margin: 24px 0 0
+}
+
+#quick-view-content .mod-product-size .selection-grid-xlarge a {
+    width: 110px
+}
+
+#quick-view-content .mod-divider {
+    display: none
+}
+
+#quick-view-content .mod-product-colour {
+    display: block
+}
+
+#quick-view-carousel {
+    position: relative;
+    width: 64%
+}
+
+#quick-view-carousel div.media-controls {
+    display: none
+}
+
+#quick-view-carousel .wrapper,#quick-view-carousel .media-player,#quick-view-carousel .media-player ul {
+    width: 100%;
+    text-align: center
+}
+
+#quick-view-carousel .media-player img {
+    width: 600px;
+    height: 600px
+}
+
+#quick-view-carousel div.dots {
+    position: relative;
+    bottom: 16px;
+    height: 16px
+}
+
+#quick-view-carousel ul.dot-indicator {
+    background: white;
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    padding: 1px 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px
+}
+
+#quick-view-carousel .dot-indicator .dot {
+    background: lightgray;
+    border-radius: 3px;
+    display: inline-block;
+    height: 6px;
+    width: 6px;
+    margin: 0 3px
+}
+
+#quick-view-carousel .dot-indicator .ie span {
+    display: none
+}
+
+.no-borderradius #quick-view-carousel .dot-indicator .ie {
+    background: 0;
+    color: lightgray
+}
+
+.no-borderradius #quick-view-carousel .dot-indicator .ie.active {
+    background: 0;
+    color: gray
+}
+
+.no-borderradius #quick-view-carousel .dot-indicator .dot.ie {
+    display: inline-block;
+    background: 0
+}
+
+.no-borderradius #quick-view-carousel .dot-indicator .ie span {
+    display: inline;
+    background: 0
+}
+
+.touch #quick-view-carousel .media-player .carousel ul li {
+    width: 664px
+}
+
+#quick-view-carousel .dot-indicator .dot.active {
+    background: gray
+}
+
+.js .compare .custom-chkbox label .chkbox-img {
+    width: 15px;
+    height: 15px;
+    background: url(https://johnlewis.com/assets/build/tick-box.gif) no-repeat -15px 0;
+    margin-top: 1px
+}
+
+.js .compare .custom-chkbox-select label .chkbox-img {
+    background-position: 0 -15px
+}
+
+.js .compare .custom-chkbox.disabled label .chkbox-img {
+    -ms-filter: "alpha(opacity=50)";
+    opacity: .5
+}
+
+.js .compare .custom-chkbox.custom-chkbox-select .chkbox-text {
+    display: none
+}
+
+.compare .compare-item-control-container {
+    clear: both;
+    padding-top: 10px
+}
+
+.compare .compare-item-control {
+    position: relative
+}
+
+.compare .compare-item-control:after {
+    content: "";
+    display: block;
+    clear: both
+}
+
+.compare-item-control-container .custom-chkbox-select span.compare-button {
+    display: inline-block
+}
+
+.compare-item-control-container .helper-class span.compare-button {
+    display: none
+}
+
+.compare-item-control-container .helper-class.custom-chkbox-select a.compare-button {
+    display: inline-block
+}
+
+.compare-item-control-container .custom-chkbox-select a.compare-button {
+    display: none
+}
+
+.compare .compare-item-control label {
+    width: auto;
+    min-height: 20px;
+    color: #515151;
+    padding-right: 0;
+    margin: 4px 0 0 0;
+    line-height: 20px
+}
+
+.compare .compare-item-control label .chkbox-text {
+    padding-top: 4px
+}
+
+.js .compare .compare-item-control.disabled label {
+    color: #949494
+}
+
+.compare .compare-item-control .compare-button-pres,.compare-popup .compare-button-pres,.btn-compare-now-container .compare-button-pres {
+    border: 1px solid #b3b2ae;
+    font-weight: bold;
+    line-height: 24px;
+    min-height: 24px;
+    padding: 0 8px;
+    float: left;
+    margin-left: 6px;
+    display: none;
+    text-decoration: none;
+    color: #5f5f5f;
+    background: #fefdfd;
+    background: -moz-linear-gradient(top,#fefdfd 0,#ebe8e3 100%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#fefdfd),color-stop(100%,#ebe8e3));
+    background: -webkit-linear-gradient(top,#fefdfd 0,#ebe8e3 100%);
+    background: -o-linear-gradient(top,#fefdfd 0,#ebe8e3 100%);
+    background: -ms-linear-gradient(top,#fefdfd 0,#ebe8e3 100%);
+    background: linear-gradient(to bottom,#fefdfd 0,#ebe8e3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fefdfd',endColorstr='#ebe8e3',GradientType=0)
+}
+
+.compare-popup .compare-button-pres,.btn-compare-now-container .compare-button-pres {
+    display: block
+}
+
+.compare .compare-item-control a.compare-button-pres:hover {
+    color: #515151
+}
+
+.compare .compare-item-control span.compare-button-pres,.btn-compare-now-container span.compare-button-pres {
+    border-color: #b3b2ae;
+    color: #999;
+    cursor: default;
+    background: #fefdfd;
+    background: -moz-linear-gradient(top,#fefdfd 0,#ebe8e3 100%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#fefdfd),color-stop(100%,#ebe8e3));
+    background: -webkit-linear-gradient(top,#fefdfd 0,#ebe8e3 100%);
+    background: -o-linear-gradient(top,#fefdfd 0,#ebe8e3 100%);
+    background: -ms-linear-gradient(top,#fefdfd 0,#ebe8e3 100%);
+    background: linear-gradient(to bottom,#fefdfd 0,#ebe8e3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fefdfd',endColorstr='#ebe8e3',GradientType=0)
+}
+
+.compare .compare-item-control .compare-button-pres:hover {
+    text-decoration: none
+}
+
+.compare .input-cover {
+    width: 152px
+}
+
+.compare-popup {
+    left: -9999px;
+    top: -9999px;
+    position: absolute;
+    z-index: 10;
+    margin-top: -7px;
+    width: 190px
+}
+
+.popupPaginationButtons {
+    width: 170px
+}
+
+.compare-popup .inner-content {
+    background: #fff;
+    color: #5f5f5f;
+    border: 1px solid #bfbdb7;
+    font-size: 11px;
+    line-height: 14px;
+    font-weight: normal;
+    text-align: left;
+    padding: 10px;
+    -moz-box-shadow: 2px 2px 0 rgba(198,198,196,.5);
+    -webkit-box-shadow: 2px 2px 0 rgba(198,198,196,.5);
+    box-shadow: 2px 2px 0 rgba(198,198,196,.5);
+    z-index: 10
+}
+
+.compare-popup .title {
+    font-size: 14px
+}
+
+.compare-popup .text {
+    line-height: 13px
+}
+
+.compare-popup .popup-arrow {
+    background: url('https://johnlewis.com/assets/build/tooltip-arrow-down.gif') no-repeat 0 0;
+    width: 9px;
+    height: 5px;
+    position: absolute;
+    bottom: -4px;
+    right: 50%;
+    margin-right: -5px
+}
+
+.compare-popup .buttons-holder {
+    padding: 10px 0 0
+}
+
+.compare-popup .buttons-holder:after {
+    content: "";
+    display: block;
+    clear: both
+}
+
+.compare-popup .buttons-holder .compare-button-pres {
+    margin-left: 0
+}
+
+.compare-popup .clear-all-pres {
+    float: right;
+    margin: 6px 12px 0 0;
+    padding: 0 0 0 10px;
+    background: url(https://johnlewis.com/assets/build/clear-recent-links.gif) no-repeat center left;
+    color: #727270;
+    font-size: 12px;
+    text-decoration: none;
+    width: auto;
+    border: 0
+}
+
+.compare-popup .clear-all-pres:hover {
+    text-decoration: underline
+}
+
+.popupGridCompareReady {
+    width: 210px
+}
+
+.audible {
+    left: -999em;
+    position: absolute
+}
+
+.mod-display-products .pagination {
+    width: 290px;
+    float: right;
+    margin: 6px 0 0 0;
+    text-align: right
+}
+
+.mod-display-products .paging-holder .pagination {
+    width: 100%;
+    float: none;
+    margin: 0
+}
+
+.mod-display-products .pagination ol,.mod-display-products .pagination ul {
+    float: right
+}
+
+.mod-display-products .pagination li {
+    display: inline;
+    background: 0;
+    padding: 0
+}
+
+.mod-display-products .paging-holder .pagination li {
+    float: left;
+    background: 0;
+    padding: 0 7px 0 0
+}
+
+.mod-display-products .paging-holder .pagination li.ellipse {
+    height: 20px;
+    width: 26px;
+    text-align: center;
+    padding: 0;
+    margin-left: -7px
+}
+
+.mod-display-products .paging-holder .pagination li.ellipse span {
+    display: block;
+    padding-top: 7px
+}
+
+.mod-display-products .paging-holder .pagination li.next {
+    padding: 0
+}
+
+.mod-display-products .pagination li a {
+    text-decoration: none;
+    padding: 0 3px 0 3px;
+    color: #5f5f5f;
+    font-weight: bold
+}
+
+.mod-display-products .paging-holder .pagination li a {
+    padding: 4px 2px 0;
+    font-weight: normal;
+    display: block;
+    height: 19px;
+    min-width: 19px;
+    text-align: center;
+    text-decoration: underline;
+    border: 1px solid #fff
+}
+
+.mod-display-products .paging-holder .pagination li a.skipped-pages {
+    padding: 0
+}
+
+.mod-display-products .pagination li a:hover {
+    color: #393939;
+    text-decoration: underline
+}
+
+.mod-display-products .paging-holder .pagination li a:hover {
+    font-weight: bold
+}
+
+.mod-display-products .paging-holder .pagination li a:focus {
+    font-weight: bold
+}
+
+.mod-display-products .pagination li.prev a,.mod-display-products .pagination li.next a {
+    border-radius: 3px 3px 3px 3px;
+    border: 1px solid #dedbd2;
+    overflow: hidden;
+    min-width: 24px
+}
+
+.mod-display-products .paging-holder .pagination li.prev a,.mod-display-products .paging-holder .pagination li.next a {
+    border-radius: 0
+}
+
+.mod-display-products .pagination li.prev a:hover,.mod-display-products .pagination li.next a:hover {
+    text-decoration: none
+}
+
+.mod-display-products .pagination li a.disabled {
+    text-decoration: none;
+    color: #afafaf;
+    cursor: default
+}
+
+.mod-display-products .paging-holder .pagination li a.disabled {
+    color: #606060;
+    background: #f3f1ed;
+    font-weight: bold;
+    border: 1px solid #dedbd2;
+    padding-left: 2px;
+    padding-right: 2px
+}
+
+.mod-display-products .pagination li.prev a.disabled,.mod-display-products .pagination li.next a.disabled,.mod-display-products .pagination li.prev a.disabled:hover,.mod-display-products .pagination li.next a.disabled:hover {
+    border: 1px solid #dedbd2;
+    text-decoration: none
+}
+
+.mod-display-products .pagination li.prev a {
+    background: url(https://johnlewis.com/assets/build/pagination-prev.gif) no-repeat 6px 6px;
+    padding: 3px 7px 3px 17px
+}
+
+.mod-display-products .pagination li.prev a:hover {
+    background-position: 6px -34px;
+    border: 1px solid #393939
+}
+
+.mod-display-products .pagination li.prev a.disabled {
+    background-position: 6px -74px
+}
+
+.mod-display-products .paging-holder .pagination li.prev a,.mod-display-products .paging-holder .pagination li.prev a:hover,.mod-display-products .paging-holder .pagination li.prev a.disabled,.mod-display-products .paging-holder .pagination li.next a,.mod-display-products .paging-holder .pagination li.next a:hover,.mod-display-products .paging-holder .pagination li.next a.disabled {
+    background: #fff url("//johnlewis.scene7.com/is/image/JohnLewis/sprite-JL-main-v02?$alpha_png$") no-repeat;
+    padding: 4px 0 0
+}
+
+.mod-display-products .paging-holder .pagination li.prev a {
+    background-position: -792px -73px;
+    border: 1px solid #bfbdb7;
+    margin-left: 17px
+}
+
+.mod-display-products .paging-holder .pagination li.prev a:hover {
+    background-position: -792px -93px;
+    border: 1px solid #333;
+    margin-left: 17px
+}
+
+.mod-display-products .paging-holder .pagination li.prev a.disabled {
+    background-position: -792px -53px;
+    border: 1px solid #cfcfcf;
+    margin-left: 17px
+}
+
+.mod-display-products .pagination li.next a {
+    background: url(https://johnlewis.com/assets/build/pagination-next.gif) no-repeat 38px 6px;
+    padding: 3px 17px 3px 7px
+}
+
+.mod-display-products .pagination li.next a:hover {
+    background-position: 38px -34px;
+    border: 1px solid #393939
+}
+
+.mod-display-products .pagination li.next a.disabled {
+    background-position: 38px -74px
+}
+
+.mod-display-products .paging-holder .pagination li.next a {
+    background-position: -791px -13px;
+    border: 1px solid #bfbdb7
+}
+
+.mod-display-products .paging-holder .pagination li.next a:hover {
+    background-position: -791px -33px;
+    border: 1px solid #333
+}
+
+.mod-display-products .paging-holder .pagination li.next a.disabled {
+    background-position: -791px 7px;
+    border: 1px solid #cfcfcf
+}
+
+.mod-display-products .pagination .show-all-link {
+    text-decoration: none;
+    float: right;
+    font-size: 11px;
+    font-weight: bold;
+    margin: 0 20px 0 0
+}
+
+.mod-display-products .paging-holder .pagination .show-all-link {
+    font-size: 1em;
+    margin: 6px 0 0 0;
+    font-weight: normal
+}
+
+.mod-display-products .paging-holder .pagination .show-all-link :hover {
+    text-decoration: underline;
+    font-weight: normal
+}
+
+.mod-display-products .pagination .show-all-link .show-all {
+    text-decoration: underline;
+    display: block
+}
+
+.mod-display-products .pagination .show-all-link .show-all-disabled {
+    display: block;
+    color: #b5b5b5;
+    cursor: default
+}
+
+.mod-display-products.nav-paging .pagination .show-all-link .show-all-disabled {
+    font-weight: normal;
+    text-decoration: none
+}
+
+.mod-display-products .pagination .show-first-page {
+    font-size: 11px;
+    float: right
+}
+
+.mod-display-products .paging-holder .pagination .show-first-page {
+    float: left;
+    margin-top: 6px
+}
+
+.mod-display-products .pagination .show-first-page a {
+    font-weight: bold;
+    margin-left: 10px
+}
+
+.mod-display-products .pagination .tooltip {
+    text-decoration: none;
+    margin: 7px 0 0 0
+}
+
+.ie7 .mod-display-products .wrapper {
+    width: 420px
+}
+
+.ie7 .mod-display-products .pagination {
+    width: 275px
+}
+
+.ie7 .mod-display-products .pagination ol,.ie7 .mod-display-products .pagination ul {
+    margin-top: -4px
+}
+
+.ie7 .mod-display-products .pagination li a {
+    padding: 5px 4px 2px 5px;
+    display: inline-block
+}
+
+.ie7 .mod-display-products .pagination li.next a {
+    padding: 1px 17px 2px 7px
+}
+
+.ie7 .mod-display-products .pagination li.prev a {
+    padding: 1px 7px 2px 17px
+}
+
+.ie8 .mod-display-products .pagination li.next a {
+    padding: 2px 17px 3px 7px
+}
+
+.ie8 .mod-display-products .pagination li.prev a {
+    padding: 2px 7px 3px 17px
+}
+
+.ie8 .mod-display-products .paging-holder .pagination li.prev a,.ie8 .mod-display-products .paging-holder .pagination li.next a {
+    padding: 4px 0 0
+}
+
+.no-js .mod-display-products .btn-ssml-submit {
+    display: block;
+    float: left
+}
+
+.mod-advice-articles {
+    padding: 20px 0 36px;
+    margin-top: 20px
+}
+
+.mod-advice-articles p a:link,.mod-advice-articles p a:visited {
+    display: inline-block;
+    text-decoration: none
+}
+
+.mod-advice-articles p a:hover,.mod-advice-articles p a:active {
+    text-decoration: underline
+}
+
+.mod-advice-articles h2 {
+    font-size: 16px;
+    margin-left: 22px
+}
+
+.mod-advice-articles h3 {
+    font-size: 12px;
+    margin-bottom: 6px
+}
+
+.mod-advice-articles .article-row {
+    float: left
+}
+
+.mod-advice-articles article {
+    background: 0;
+    float: left;
+    padding: 16px 0 14px 20px;
+    vertical-align: top;
+    width: 224px
+}
+
+.mod-advice-articles img,.mod-advice-articles div {
+    float: left
+}
+
+.mod-advice-articles article div {
+    margin-left: 10px;
+    width: 153px
+}
+
+.refinement-overlay .overlay {
+    overflow: visible;
+    padding-top: 21px;
+    text-align: center
+}
+
+.refinement-overlay h2 {
+    font-size: 24px;
+    padding: 0 100px
+}
+
+.refinement-overlay a.button {
+    margin: 22px 0 0;
+    float: none
+}
+
+.ie7 .refinement-overlay a.button {
+    margin-left: 174px
+}
+
+.refinement-overlay hr {
+    margin: 27px 0 26px
+}
+
+.ie7 .refinement-overlay hr {
+    margin: 20px 0 19px
+}
+
+.refinement-overlay h3 {
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 1;
+    margin: 0
+}
+
+.refinement-overlay form {
+    display: inline-block;
+    width: 100%
+}
+
+.refinement-overlay .btn-yerr,.refinement-overlay .btn-nerr {
+    float: left;
+    margin: 13px 0 0
+}
+
+.ie7 .refinement-overlay .btn-yerr div {
+    margin-right: 158px
+}
+
+.refinement-overlay fieldset {
+    float: left
+}
+
+.refinement-overlay fieldset input {
+    color: #b5b5b5;
+    float: left;
+    margin: 16px 0 0 161px;
+    width: 177px;
+    vertical-align: top
+}
+
+.refinement-overlay .focus input {
+    color: #5f5f5f
+}
+
+#brandSearch {
+    position: absolute;
+    top: 57px;
+    right: 10px;
+    width: 175px
+}
+
+.rich-snippet-category {
+    clear: both;
+    margin-top: 10px
+}
+
+.rich-snippet-category div,.rich-snippet-category img {
+    float: left;
+    display: inline
+}
+
+.rich-snippet-category img {
+    width: 85px;
+    height: 14px;
+    margin: 0 5px;
+    line-height: 1em;
+    position: relative;
+    top: -1px;
+    vertical-align: baseline
+}
+
+.rs-value {
+    font-weight: bold
+}
+
+.search-no-results-notice {
+    font-size: 1.2em;
+    margin-bottom: 17px
+}
+
+.search-no-results-notice span {
+    font-weight: bold
+}
+
+.search-results h1 span.search-related-information-pages {
+    float: right;
+    font-size: .63em;
+    line-height: 1.7em;
+    margin-top: .37em;
+    font-weight: normal
+}
+
+.search-related-information-pages a,.search-did-you-mean a {
+    text-decoration: none
+}
+
+.search-related-information-pages a span.related-search-result-text,.search-did-you-mean a span.related-search-result-text {
+    text-decoration: underline
+}
+
+.search-results .search-did-you-mean {
+    font-size: 1.2em;
+    margin-bottom: 17px
+}
+
+.search-related-information-pages span.search-count,.search-results .search-did-you-mean span.search-count {
+    font-size: .9em
+}
+
+.search-results h1 a.btn-back-to-products {
+    display: inline-block;
+    font-size: .55em;
+    height: 24px;
+    width: 178px;
+    float: right;
+    text-align: center;
+    line-height: 24px;
+    border: 1px solid #bbb;
+    text-decoration: none;
+    font-weight: normal;
+    background: #fff;
+    background: -moz-linear-gradient(top,#fff 0,#e8e5e0 100%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#fff),color-stop(100%,#e8e5e0));
+    background: -webkit-linear-gradient(top,#fff 0,#e8e5e0 100%);
+    background: -o-linear-gradient(top,#fff 0,#e8e5e0 100%);
+    background: -ms-linear-gradient(top,#fff 0,#e8e5e0 100%);
+    background: linear-gradient(to bottom,#fff 0,#e8e5e0 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',endColorstr='#e8e5e0',GradientType=0);
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-border-radius: 0
+}
+
+.search-results h1 a.btn-back-to-products:hover {
+    background: #eceae7;
+    background: -moz-linear-gradient(top,#eceae7 0,#dedcd6 100%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#eceae7),color-stop(100%,#dedcd6));
+    background: -webkit-linear-gradient(top,#eceae7 0,#dedcd6 100%);
+    background: -o-linear-gradient(top,#eceae7 0,#dedcd6 100%);
+    background: -ms-linear-gradient(top,#eceae7 0,#dedcd6 100%);
+    background: linear-gradient(to bottom,#eceae7 0,#dedcd6 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eceae7',endColorstr='#dedcd6',GradientType=0)
+}
+
+.search-results h1 a.btn-back-to-products:active {
+    background: #dbd9d3;
+    background: -moz-linear-gradient(top,#dbd9d3 0,#e0ddd7 100%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#dbd9d3),color-stop(100%,#e0ddd7));
+    background: -webkit-linear-gradient(top,#dbd9d3 0,#e0ddd7 100%);
+    background: -o-linear-gradient(top,#dbd9d3 0,#e0ddd7 100%);
+    background: -ms-linear-gradient(top,#dbd9d3 0,#e0ddd7 100%);
+    background: linear-gradient(to bottom,#dbd9d3 0,#e0ddd7 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dbd9d3',endColorstr='#e0ddd7',GradientType=0)
+}
+
+.search-results h1 a.btn-back-to-products span.left-arrow {
+    padding-right: 3px;
+    font-size: 12px;
+    font-weight: normal;
+    background: url('//johnlewis.scene7.com/is/image/JohnLewis/sprite-JL-main-v02?$alpha_png$') no-repeat -800px -120px;
+    width: 8px;
+    height: 15px;
+    display: inline-block;
+    vertical-align: text-top
+}
+
+.ie8 .search-results h1 a.btn-back-to-products span.left-arrow {
+    vertical-align: middle
+}
+
+.mod-advice-articles.advice-articles {
+    margin-top: 0;
+    border: 0;
+    border-top: 1px solid #dedbd2
+}
+
+.mod-advice-articles.advice-articles.highlight {
+    background: #fff
+}
+
+.mod-advice-articles article {
+    padding: 16px 0 14px 20px
+}
+
+.mod-advice-articles.advice-articles article div {
+    margin-left: 15px;
+    width: 148px
+}
+
+.mod-advice-articles.advice-articles .article-icon {
+    width: 39px;
+    height: 51px;
+    background: url('//johnlewis.scene7.com/is/image/JohnLewis/sprite-JL-main-v02?$alpha_png$') no-repeat -295px -150px;
+    float: left;
+    margin-left: 0
+}
+
+.no-product-tips h2 {
+    font-size: 1.833em;
+    font-weight: normal;
+    margin-bottom: 1em;
+    padding-top: 30px;
+    border-top: 1px solid #dedbd2
+}
+
+.no-product-tips ul {
+    padding-bottom: 36px
+}
+
+.no-product-tips ul li {
+    list-style-type: square;
+    padding-left: .3em;
+    margin-bottom: .5em;
+    margin-left: 1.5em
+}
+
+#content .modMask {
+    background-position: center 150px
+}
+
+.ie7 .endeca-two-column-page .modMask,.ie8 .endeca-two-column-page .modMask {
+    width: 996px;
+    display: block;
+    margin-top: 40px;
+    border: 1px solid #dedbd2
+}
+
+nav.horizontal-facets {
+    height: 37px;
+    padding: 0 0 18px 0;
+    border-bottom: 0
+}
+
+nav.horizontal-facets.browse {
+    border-bottom: 1px solid #dedbd2
+}
+
+body#chanel .horizontal-facets {
+    display: none
+}
+
+#product-list-banner+.horizontal-facets {
+    padding-top: 15px
+}
+
+.horizontal-facets-label {
+    float: left;
+    font-weight: bold;
+    width: 49px;
+    max-width: 49px;
+    height: 19px;
+    padding: 10px 0 8px 0;
+    line-height: 19px
+}
+
+.horizontal-facets-section {
+    position: relative;
+    float: left;
+    z-index: 20;
+    width: 148px;
+    height: 17px;
+    margin-left: 6px;
+    padding: 10px 10px 8px 10px;
+    border: 1px solid #d7d7d5;
+    font-weight: bold;
+    line-height: 17px;
+    cursor: pointer;
+    background: url(https://johnlewis.com/assets/build/plus-icon-sml.gif) 144px center no-repeat
+}
+
+.horizontal-facets-section.open {
+    background-image: url(https://johnlewis.com/assets/build/minus-icon-sml.gif)
+}
+
+.horizontal-facets-spacer {
+    width: 6px
+}
+
+.horizontal-facets-dropdown {
+    display: none;
+    position: absolute;
+    z-index: 19;
+    top: 43px;
+    left: -1px;
+    border: 1px solid #d7d7d5;
+    background: #fff;
+    font-weight: normal;
+    cursor: default
+}
+
+.horizontal-facets-dropdown-inner {
+    position: relative;
+    min-width: 149px;
+    top: -9px;
+    margin: 0 -1px;
+    padding: 28px 10px 8px 11px;
+    background: url(https://johnlewis.com/assets/build/horizontal-facets-dropdown-background.gif) top left no-repeat
+}
+
+.horizontal-facets-dropdown ul {
+    display: table-cell
+}
+
+.horizontal-facets-dropdown ul.facet-without-tabs {
+    display: block;
+    margin-top: 8px
+}
+
+.horizontal-facets-dropdown ul li {
+    margin-bottom: 8px;
+    line-height: 20px;
+    white-space: nowrap
+}
+
+ul.horizontal-facet-info li {
+    padding-left: 20px;
+    font-size: .9em;
+    font-weight: normal;
+    color: #9d9d9d
+}
+
+.horizontal-facets-section form .button {
+    margin-right: 0
+}
+
+.horizontal-facets-dropdown .search-box input {
+    width: 88%;
+    padding-right: 20px;
+    border: 1px solid #dedbd2;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    color: #b5b5b5
+}
+
+.horizontal-facets {
+    scrollbar-face-color:#fff;scrollbar-highlight-color:#fff;scrollbar-3dlight-color: #bfbdb7;
+    scrollbar-shadow-color:#bfbdb7;scrollbar-darkshadow-color: #bfbdb7;
+    scrollbar-arrow-color:#7f7f7f;scrollbar-track-color:#f3f1ed}
+
+.horizontal-facets ::-webkit-scrollbar {
+    width: 14px;
+    height: 14px
+}
+
+.horizontal-facets .search-box .btn-reset {
+    height: 20px;
+    width: 20px;
+    background: url(https://johnlewis.com/assets/build/active-brand-close.png) no-repeat 50% 50% transparent;
+    position: absolute;
+    top: 29px;
+    right: 6%;
+    text-indent: -9999px;
+    font-size: 1px;
+    line-height: 1px
+}
+
+.horizontal-facets .no-results {
+    margin-top: 10px
+}
+
+span.swatch-out-of-stock,.selected span.swatch-out-of-stock {
+    border: 1px solid #8d8c8c;
+    box-shadow: 0 1px 0 0 #fff;
+    content: "";
+    left: -6px;
+    position: absolute;
+    top: 49%;
+    transform: rotate(-42deg);
+    -webkit-transform: rotate(-42deg);
+    -ms-transform: rotate(-42deg);
+    width: 42px;
+    z-index: 3;
+    margin: 0;
+    background: #8d8c8c
+}
+
+.selected span.swatch-out-of-stock {
+    left: -7px
+}
+
+.ie8 span.swatch-out-of-stock,.ie8 .selected span.swatch-out-of-stock {
+    background: transparent url('https://johnlewis.com/assets/build/oos_strike_through.png') no-repeat;
+    border: 0;
+    box-shadow: none;
+    z-index: 3;
+    height: 35px;
+    left: -5px;
+    position: absolute;
+    top: -5px;
+    width: 35px
+}
+
+.ie8 .selected span.swatch-out-of-stock {
+    left: -6px;
+    top: -6px
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),only screen and (min--moz-device-pixel-ratio:2),only screen and (-o-min-device-pixel-ratio:2/1),only screen and (min-device-pixel-ratio:2),only screen and (min-resolution:192dpi),only screen and (min-resolution:2dppx) {
+    span.swatch-out-of-stock {
+        background-image:url(https://johnlewis.com/assets/build/grid-colour-out-of-stock-retina.gif);
+        background-size: 10px
+    }
+
+    .product-grid .more-colours,.product-list-view .more-colours {
+        display: block;
+        background-image: url(https://johnlewis.com/assets/build/grid-colour-wheel-retina.png);
+        background-size: 17px 17px
+    }
+
+    .brand-space form.search-brands span#brand-search-icon {
+        background-image: url(https://johnlewis.com/assets/build/brandspace-icon-retina.png);
+        background-size: 33px 34px
+    }
+}
+
+@font-face {
+    font-family: 'jlicons';
+    src: url('https://johnlewis.com/assets/fonts/jlicons.eot');
+    src: url('https://johnlewis.com/assets/fonts/jlicons.eot?#iefix') format('embedded-opentype'),url('https://johnlewis.com/assets/fonts/jlicons.ttf') format('truetype'),url('https://johnlewis.com/assets/fonts/jlicons.woff') format('woff'),url('https://johnlewis.com/assets/fonts/jlicons.svg#jlicons') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+
+.main .col-16 header.brandspace-header {
+    padding: 11px 18px 0 18px
+}
+
+.brand-space .col-4 {
+    width: 237px
+}
+
+.brand-space .brands-sticky {
+    z-index: 101
+}
+
+.brand-space .columns-centred {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.brands-letter-header {
+    padding: 0;
+    font-size: 3em;
+    font-weight: bold;
+    line-height: .7;
+    clear: both
+}
+
+.brand-space ul li {
+    line-height: 1.2;
+    margin-bottom: 15px
+}
+
+.brand-space ul li a {
+    text-decoration: none
+}
+
+.brand-space ul li a:hover,.brand-space ul li a:focus {
+    text-decoration: underline
+}
+
+.brand-space .back-to-top {
+    text-align: right;
+    padding: 0 0 24px 0;
+    margin-bottom: 26px;
+    border-bottom: 1px solid #ddd;
+    font-weight: bold;
+    clear: both
+}
+
+.brand-space .back-to-top a {
+    text-decoration: none
+}
+
+.brand-space .back-to-top a:hover,.brand-space .back-to-top a:focus {
+    text-decoration: underline
+}
+
+.brands-letter-container {
+    position: relative
+}
+
+.brands-letter-container-anchor {
+    position: absolute;
+    top: -20px
+}
+
+.col-15>a {
+    padding: 0
+}
+
+.brand-space form.search-brands {
+    padding: 0;
+    border: 1px solid #ddd;
+    margin-bottom: 22px;
+    clear: both;
+    position: relative
+}
+
+.brand-space form.search-brands input[type="text"] {
+    float: none;
+    font-size: 1.6em;
+    height: auto;
+    color: #c9c9c9;
+    border: 0;
+    width: 95%;
+    padding: 22px 20px
+}
+
+.brand-space form.search-brands.focus input,.brand-space form.search-brands input[type="text"]:focus,.brand-space form.search-brands input[type="image"]:focus {
+    background: 0;
+    outline: 0
+}
+
+.brand-space form.search-brands input[type="image"] {
+    float: none;
+    height: auto;
+    border: 0;
+    width: 33px;
+    cursor: text;
+    position: absolute;
+    pointer-events: none;
+    right: 20px;
+    top: 14px
+}
+
+.brand-space form.search-brands #brand-search-icon {
+    background: url(https://johnlewis.com/assets/build/brandspace-icon.png) 0 0 no-repeat;
+    width: 33px;
+    height: 34px;
+    cursor: text;
+    position: absolute;
+    pointer-events: none;
+    right: 20px;
+    top: 50%;
+    margin-top: -17px
+}
+
+.brand-space form.search-brands.active {
+    border-color: #1c6e22;
+    background-color: #edf7ec
+}
+
+.brand-space form.search-brands.active input[type="text"] {
+    color: #5f5f5f
+}
+
+.brand-space .brands-alphabet {
+    padding: 0 10px 5px 10px;
+    border: 1px solid #ddd;
+    z-index: 100
+}
+
+.brand-space .brands-alphabet-header {
+    padding: 14px 14px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.1em
+}
+
+.brands-alphabet-control {
+    font-family: 'jlicons';
+    margin-left: 10px;
+    top: 2px;
+    position: relative
+}
+
+.brand-space .brands-alphabet .brands-alphabet-header .brands-alphabet-control:before {
+    content: "\e61b"
+}
+
+.brand-space .brands-alphabet.active .brands-alphabet-header .brands-alphabet-control:before {
+    content: "\e610"
+}
+
+.brand-space .brands-alphabet-hidden {
+    height: 140px;
+    display: none
+}
+
+.brand-space .brands-alphabet-expanded {
+    height: 140px
+}
+
+.brands-alphabet-divider {
+    border-top: 1px solid #ddd;
+    margin: 0 10px;
+    display: none
+}
+
+.brand-space .brands-alphabet.active .brands-alphabet-divider {
+    display: block
+}
+
+.brand-space .brands-alphabet-letter {
+    border: 1px solid #ddd;
+    float: left;
+    text-align: center;
+    margin: 15px 10px 0 10px
+}
+
+.brand-space .brands-alphabet-letter a {
+    display: block;
+    width: 12px;
+    padding: 16px 18px;
+    text-decoration: none
+}
+
+.brand-space .brands-alphabet-letter.brands-alphabet-all {
+    display: none
+}
+
+.ipad .brand-space .brands-alphabet-letter.brands-alphabet-all {
+    display: block
+}
+
+.ipad .brand-space .brands-alphabet-letter.brands-alphabet-all a {
+    width: 72px
+}
+
+.ipad .brand-space .brands-alphabet-letter a {
+    width: 7px
+}
+
+.brand-space .brands-alphabet-letter a:hover {
+    background: #f3f1ed
+}
+
+.brand-space .brands-alphabet.sticky.active {
+    margin-bottom: 155px
+}
+
+.brand-space .brands-alphabet.sticky .brands-alphabet-hidden,.brand-space .brands-alphabet.sticky .brands-alphabet-expanded {
+    position: fixed;
+    top: -2px;
+    width: 911px;
+    padding: 0 10px 5px 10px;
+    border: 1px solid #ddd;
+    margin-left: -11px;
+    background: #fff;
+    z-index: 2
+}
+
+.brand-space .brands-alphabet.sticky-locked .brands-alphabet-hidden,.brand-space .brands-alphabet.sticky-locked .brands-alphabet-expanded {
+    position: absolute;
+    top: auto;
+    bottom: 109px
+}
+
+.brand-space .brands-alphabet .brands-alphabet-sticky-border {
+    display: none
+}
+
+.brand-space .brands-alphabet.sticky.active .brands-alphabet-sticky-border {
+    position: fixed;
+    display: block;
+    top: 0;
+    width: 933px;
+    height: 192px;
+    z-index: 1;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+    margin-left: -11px
+}
+
+.brand-space .brands-alphabet.sticky-locked.active .brands-alphabet-sticky-border {
+    position: absolute;
+    top: auto;
+    bottom: 60px
+}
+
+.brand-space .mod-site-error {
+    border-top: 2px solid #60bd68;
+    border-bottom: 2px solid #60bd68;
+    margin-bottom: 24px
+}
+
+.brand-space .mod-site-error h1 {
+    padding-top: 0;
+    margin-top: 0;
+    font-size: 1.5em
+}
+
+.brand-space .mod-site-error p {
+    font-weight: normal
+}
+
+.brand-space .mod-site-error .mod-important {
+    border: 0;
+    padding-bottom: 56px;
+    margin-bottom: 0
+}
+
+.brand-space .col-15.brand-space-search-again,.brand-space .brand-space-search-again fieldset {
+    padding: 0
+}
+
+.brand-space fieldset span.btn input.button {
+    background: #85ca92;
+    background: -moz-linear-gradient(top,#85ca92 0,#68be78 7%,#36944a 100%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#85ca92),color-stop(7%,#68be78),color-stop(100%,#36944a));
+    background: -webkit-linear-gradient(top,#85ca92 0,#68be78 7%,#36944a 100%);
+    background: -o-linear-gradient(top,#85ca92 0,#68be78 7%,#36944a 100%);
+    background: -ms-linear-gradient(top,#85ca92 0,#68be78 7%,#36944a 100%);
+    background: linear-gradient(to bottom,#85ca92 0,#68be78 7%,#36944a 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#85ca92',endColorstr='#36944a',GradientType=0);
+    border: 1px solid #2f8d4b;
+    border-radius: 0;
+    color: #fff;
+    font-weight: normal;
+    margin-bottom: 0;
+    width: auto;
+    padding: 0 21px;
+    text-indent: 0;
+    font-size: 1.2em;
+    min-height: 44px;
+    float: right;
+    margin-right: 0
+}
+
+.brand-space fieldset span.btn input.button:hover {
+    background: #438a55;
+    background: -moz-linear-gradient(top,#438a55 0,#478e57 100%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#438a55),color-stop(100%,#478e57));
+    background: -webkit-linear-gradient(top,#438a55 0,#478e57 100%);
+    background: -o-linear-gradient(top,#438a55 0,#478e57 100%);
+    background: -ms-linear-gradient(top,#438a55 0,#478e57 100%);
+    background: linear-gradient(to bottom,#438a55 0,#478e57 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#438a55',endColorstr='#478e57',GradientType=0)
+}
+
+.rollerBlindJourney {
+    width: 100%;
+    text-decoration: none
+}
+
+.rollerBlindContinueShopping {
+    margin-top: 14px;
+    text-decoration: underline;
+    display: block
+}
+
+.btn-text {
+    color: #fff
+}
+
+.rollerBlindOverviewContainer {
+    border-style: solid;
+    border-width: 1px;
+    padding: 16px;
+    z-index: 201;
+    position: absolute;
+    top: 0;
+    background-color: #fff;
+    transition: .2s;
+    transform: translateX(100%)
+}
+
+.rollerBlindOverviewTitle {
+    font-size: large;
+    line-height: 1.4em;
+    margin-bottom: 10px;
+    font-family: "Gill Sans","Gill Sans MT",Calibri,sans-serif
+}
+
+.rollerBlindOverviewText {
+    margin-bottom: 8px
+}
+
+a.btn-go.green-button.rollerBlindJourney:hover {
+    text-decoration: none
+}
+
+.product-grid a.rollerBlindContinueShopping:link {
+    text-decoration: underline
+}
+
+.rollerBlindOverviewClose {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 9px;
+    margin-top: 8px
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),only screen and (min--moz-device-pixel-ratio:2),only screen and (-o-min-device-pixel-ratio:2/1),only screen and (min-device-pixel-ratio:2),only screen and (min-resolution:192dpi),only screen and (min-resolution:2dppx) {
+    .qv-button .qv-icon {
+        background:url(https://johnlewis.com/assets/build/quick-view-icon-x3.png) no-repeat;
+        background-size: 20px 21px
+    }
+}

@@ -31,23 +31,42 @@
 
   <body class="header-banner ua-portrait">
 
+    <div id="body-bg">
 
-{% block jumbotron %}
-
-            {% endblock %}
-    <div class="container">
-
-
-
-            {% block content %}
-
-            {% endblock %}
+      <div id="wrapper">
+        <div id="print-head">
+          <img src="https://www.johnlewis.com/assets/header/john-lewis-logo.gif" title="John Lewis" alt="John Lewis">
+          <span class="print-CS">Customer Services: 03456 049 049</span>
+          <div class="clear"></div>
+        </div>
 
 
-    </div> <!-- /container -->
+        {% include "header.html" %}
+
+        {% include "overlay.html" %}
+        <script type="text/template" id="template-top-messaging">
+
+          <div id="top-messaging">
+            <div class="messaging-content">
+
+            </div>
+          </div>
+        </script>
+
+        {% block content %}
+
+        {% endblock %}
+
+      </div>
+
+
+
+
+    </div>
 
 
 
      {% include "footer.html" %}
+     {% include "javascript.html" %}
   </body>
 </html>

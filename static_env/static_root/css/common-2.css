@@ -97,7 +97,7 @@
 .box-info {
     border-top: #60bd68 2px solid;
     border-bottom: #60bd68 2px solid;
-    background: url("https://www.johnlewis.com/assets/build/bckg-row-important.gif") no-repeat 40px 20px;
+    background: url("https://www.johnlewis.com/static/img/bckg-row-important.gif") no-repeat 40px 20px;
     min-height: 60px;
     padding: 20px 120px;
 }
@@ -162,11 +162,11 @@
 }
 
 .loader-large {
-    background: url(/assets/build/loader.gif) no-repeat 345px 65px;
+    background: url(/static/img/loader.gif) no-repeat 345px 65px;
 }
 
 .loader-small {
-    background: url(/assets/build/loader-small.gif) no-repeat 345px 65px;
+    background: url(/static/img/loader-small.gif) no-repeat 345px 65px;
 }
 
 .text-capitalize {
@@ -242,7 +242,7 @@ header .verisign {
 }
 
 .field-tooltip {
-    background: url(/assets/build/footer-info-icon.gif) center center no-repeat;
+    background: url(/static/img/footer-info-icon.gif) center center no-repeat;
     width: 16px;
     height: 15px;
     display: inline-block;
@@ -436,7 +436,7 @@ ul.nn-main-nav li a.focus {
     right: -10px;
     width: 32px;
     height: 32px;
-    background: url(/assets/build/prim-nav-close.png) no-repeat;
+    background: url(/static/img/prim-nav-close.png) no-repeat;
     overflow: hidden;
     text-indent: -9999px;
     z-index: 10;
@@ -445,7 +445,7 @@ ul.nn-main-nav li a.focus {
 
 @media only screen and (min-device-width :768px) and (max-device-width :1024px) and (-webkit-min-device-pixel-ratio:2) {
     .nn-main-nav-wrap .closeDrop {
-        background-image: url(/assets/build/prim-nav-close-ret.png);
+        background-image: url(/static/img/prim-nav-close-ret.png);
         background-size: 32px 32px;
     }
 }
@@ -633,7 +633,7 @@ ul.nav-hovered li.current-section > a .inner {
 }
 
 .bullet-list > li, .summary > li, .mod-bundle-summary > ul > li, .free-child-prod > li, .upsell-section > ul > li {
-    background: url("https://www.johnlewis.com/assets/build/bckg-default-bullet.gif") no-repeat scroll 2px 6px transparent;
+    background: url("https://www.johnlewis.com/static/img/bckg-default-bullet.gif") no-repeat scroll 2px 6px transparent;
     padding: 0 0 4px 14px;
 }
 
@@ -735,7 +735,7 @@ ul.nav-hovered li.current-section > a .inner {
 }
 
 .search .button, .search button, .search .button:hover, .search button:hover {
-    background: #FFF url(/assets/build/icon-search.gif) no-repeat 9px 6px;
+    background: #FFF url(/static/img/icon-search.gif) no-repeat 9px 6px;
     color: #727270;
     font: bold 12px Arial,Helvetica,Sans-Serif;
     height: 26px;
@@ -756,7 +756,7 @@ ul.nav-hovered li.current-section > a .inner {
 }
 
 .search .search-results-preview {
-    background: #FFF url(/assets/build/search-results-preview-top.gif) no-repeat center top;
+    background: #FFF url(/static/img/search-results-preview-top.gif) no-repeat center top;
     border: 1px solid #bfbdb7;
     border-top: 0;
     color: #727270;
@@ -804,7 +804,7 @@ ul.nav-hovered li.current-section > a .inner {
     }
 
 #search-clear-btn {
-    background: url(/assets/build/ios-cross.png) no-repeat 50% 50%;
+    background: url(/static/img/ios-cross.png) no-repeat 50% 50%;
     height: 26px;
     display: none;
     position: absolute;
@@ -873,7 +873,7 @@ ul.nav-hovered li.current-section > a .inner {
 }
 
     .search .clear-all a {
-        background: url(/assets/build/active-brand-close.png) no-repeat 0 50%;
+        background: url(/static/img/active-brand-close.png) no-repeat 0 50%;
         color: #6f6f6f;
         display: inline-block;
         padding: 0 0 0 16px;
@@ -898,7 +898,7 @@ ul.nav-hovered li.current-section > a .inner {
 }
 
 .search .product-codes li {
-    background: url(/assets/build/search-results-preview-item.gif) no-repeat center top;
+    background: url(/static/img/search-results-preview-item.gif) no-repeat center top;
     float: left;
     padding-top: 1px;
     width: 249px;
@@ -925,14 +925,14 @@ ul.nav-hovered li.current-section > a .inner {
 }
 
 .search .product-codes .see-more {
-    background: url(/assets/build/search-results-preview-item.gif) no-repeat center top;
+    background: url(/static/img/search-results-preview-item.gif) no-repeat center top;
     margin: 0;
     min-height: 0;
     padding: 1px 0 0;
 }
 
     .search .product-codes .see-more a, .cross-sell .more-service-details a, a.view-all-prod {
-        background: transparent url(/assets/build/search-see-more.png) no-repeat 10px 10px;
+        background: transparent url(/static/img/search-see-more.png) no-repeat 10px 10px;
         font-size: 11px;
         font-weight: bold;
         line-height: 13px;
@@ -940,7 +940,7 @@ ul.nav-hovered li.current-section > a .inner {
     }
 
 .cross-sell .more-service-details a, a.view-all-prod {
-    background-image: url(/assets/build/caret_sml.gif);
+    background-image: url(/static/img/caret_sml.gif);
     background-position: 0 7px;
     padding: 4px 4px 4px 12px;
     font-size: 12px;
@@ -1036,7 +1036,7 @@ a.custom-chkbox {
 }
 
 .js .custom-chkbox label .chkbox-img, a.custom-chkbox {
-    background: url('/assets/build/tick-box.gif') no-repeat -15px 0 transparent;
+    background: url('/static/img/tick-box.gif') no-repeat -15px 0 transparent;
 }
 
 .js .custom-chkbox-select label .chkbox-img, a.custom-chkbox-select {
@@ -1057,7 +1057,7 @@ a.custom-chkbox {
 #breadcrumbs .back-button {
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
-    background: url(/assets/build/breadcrumbs-back-button.gif) no-repeat 7px 7px;
+    background: url(/static/img/breadcrumbs-back-button.gif) no-repeat 7px 7px;
     border: 1px solid #dedbd2;
     border-radius: 3px;
     display: block;
@@ -1078,7 +1078,7 @@ a.custom-chkbox {
 }
 
 #breadcrumbs li {
-    background: url(/assets/build/breadcrumbs-divider.gif) no-repeat center right;
+    background: url(/static/img/breadcrumbs-divider.gif) no-repeat center right;
     display: block;
     float: left;
     margin-right: 8px;
@@ -1258,7 +1258,7 @@ a.custom-chkbox {
     }
 
 .mini-basket li.basket-info a {
-    background: url(/assets/build/mini-basket.gif) no-repeat 8px 6px;
+    background: url(/static/img/mini-basket.gif) no-repeat 8px 6px;
     padding: 6px 0 4px 33px;
 }
 
@@ -1323,7 +1323,7 @@ a.custom-chkbox {
 }
 
 .empty .mini-basket li.basket-info div, .empty li.basket-info a {
-    background: url(/assets/build/mini-basket-empty.gif) no-repeat 8px 6px;
+    background: url(/static/img/mini-basket-empty.gif) no-repeat 8px 6px;
     padding: 6px 8px 4px 33px;
     cursor: default;
 }
@@ -1554,7 +1554,7 @@ a.custom-chkbox {
     }
 
 #basket-items .spinner {
-    background: url('/assets/build/loader-small.gif') center center no-repeat #fff;
+    background: url('/static/img/loader-small.gif') center center no-repeat #fff;
     width: 16px;
     height: 15px;
     margin: -1px 0 -2px 47px;
@@ -1639,7 +1639,7 @@ a.custom-chkbox {
 }
 
 #update-quantity .spinner {
-    background: url('/assets/build/loader-small.gif') center center no-repeat #fff;
+    background: url('/static/img/loader-small.gif') center center no-repeat #fff;
     display: block;
     height: 15px;
     right: -20px;
@@ -1649,7 +1649,7 @@ a.custom-chkbox {
 }
 
 #basket .spinner {
-    background: url('/assets/build/loader-small.gif') center center no-repeat #fff;
+    background: url('/static/img/loader-small.gif') center center no-repeat #fff;
     display: block;
     height: 15px;
     right: -20px;
@@ -1932,7 +1932,7 @@ html.ipad #mini-basket-dropdown .increaseQty {
 }
 
 #basket-info {
-    background: url(/assets/build/basket-info.gif) no-repeat 8px 8px;
+    background: url(/static/img/basket-info.gif) no-repeat 8px 8px;
     border: 1px solid #60bd68;
     padding: 8px 8px 8px 48px;
     min-height: 32px;
@@ -1950,7 +1950,7 @@ html.ipad #mini-basket-dropdown .increaseQty {
 
     .bundle-overlay #basket-info li {
         font-size: 12px;
-        background: url("https://www.johnlewis.com/assets/build/basket-info-bullet.gif") no-repeat 2px 9px;
+        background: url("https://www.johnlewis.com/static/img/basket-info-bullet.gif") no-repeat 2px 9px;
     }
 
 .bundle-overlay .warning-highlight-visible {
@@ -1978,7 +1978,7 @@ html.ipad #mini-basket-dropdown .increaseQty {
 
 .special-offer-wrapper .btn-yerr div {
     width: 229px;
-    background: url("https://www.johnlewis.com/assets/build/error_icon.gif") no-repeat 10px center #FFF;
+    background: url("https://www.johnlewis.com/static/img/error_icon.gif") no-repeat 10px center #FFF;
     border-color: #60bd68;
 }
 
@@ -2031,7 +2031,7 @@ aside.extras {
 }
 
 .newsletter-loading {
-    background: url('/assets/build/loader-small-bodycolor-bg.gif') center center no-repeat transparent;
+    background: url('/static/img/loader-small-bodycolor-bg.gif') center center no-repeat transparent;
     height: 15px;
     margin: 4px 0 0 5px;
     display: inline;
@@ -2050,7 +2050,7 @@ aside.extras {
     float: left;
     margin-right: 10px;
     line-height: 22px;
-    background: url('../assets/build/share_email_icon.gif') center left no-repeat;
+    background: url('../static/img/share_email_icon.gif') center left no-repeat;
     padding-left: 25px;
 }
 
@@ -2059,7 +2059,7 @@ aside.extras {
     float: left;
     margin-right: 6px;
     line-height: 22px;
-    background: url('../assets/build/share_email_icon.gif') center left no-repeat;
+    background: url('../static/img/share_email_icon.gif') center left no-repeat;
     padding-left: 25px;
 }
 
@@ -2286,7 +2286,7 @@ html.no-js .newsletter .newsletter-email, html.no-js .newsletter #newsletter-ema
 }
 
 #wrapper-footer {
-    background: url('/assets/build/footer-bck-white.gif') left 31px repeat-x #f3f1ed;
+    background: url('/static/img/footer-bck-white.gif') left 31px repeat-x #f3f1ed;
     margin-top: 11px;
     text-align: left;
     margin-left: -5px;
@@ -2299,7 +2299,7 @@ html.no-js .newsletter .newsletter-email, html.no-js .newsletter #newsletter-ema
     }
 
     #wrapper-footer aside {
-        background: url('/assets/build/footer-top.gif') top left no-repeat #fff;
+        background: url('/static/img/footer-top.gif') top left no-repeat #fff;
         margin: 0 auto;
         padding: 0 0 20px 0;
         position: relative;
@@ -3039,7 +3039,7 @@ hr.tall, .hr.tall {
 }
 
 .mod-passwordreset-success.mod-success {
-    background: url('/assets/build/bckg-row-success.gif') no-repeat 35px 0 #fff;
+    background: url('/static/img/bckg-row-success.gif') no-repeat 35px 0 #fff;
     text-align: left;
     margin-top: -3px;
 }
@@ -3081,7 +3081,7 @@ hr.tall, .hr.tall {
 }
 
 .passwordreset-contexual-help li {
-    background: url("https://www.johnlewis.com/assets/build/bckg-default-bullet.gif") no-repeat scroll 2px 4px;
+    background: url("https://www.johnlewis.com/static/img/bckg-default-bullet.gif") no-repeat scroll 2px 4px;
     list-style: none;
     line-height: 100%;
     padding: 0 0 0 14px;
@@ -3210,7 +3210,7 @@ hr.tall, .hr.tall {
 
 #ssl-forgot-password-ghost .mod-important {
     border: 0;
-    background: url('/assets/build/bckg-row-important-small.gif') no-repeat 14px 50%;
+    background: url('/static/img/bckg-row-important-small.gif') no-repeat 14px 50%;
     margin-bottom: 0;
     padding-bottom: 0;
     min-height: 46px;
@@ -3231,7 +3231,7 @@ hr.tall, .hr.tall {
 
 .no-js .forgot-pwd-ghost .mod-important {
     border: 0;
-    background: url('/assets/build/bckg-row-important-small.gif') no-repeat 0 50%;
+    background: url('/static/img/bckg-row-important-small.gif') no-repeat 0 50%;
     margin-bottom: 0;
     padding-bottom: 0;
     min-height: 46px;
@@ -3253,7 +3253,7 @@ hr.tall, .hr.tall {
 }
 
 .mod-success {
-    background: url('/assets/build/bckg-row-success.gif') no-repeat 0 25px #fff;
+    background: url('/static/img/bckg-row-success.gif') no-repeat 0 25px #fff;
 }
 
     .mod-success h1, .mod-success .infoMsg {
@@ -3275,7 +3275,7 @@ hr.tall, .hr.tall {
     }
 
 .mod-important {
-    background: url('/assets/build/bckg-row-important.gif') no-repeat 44px 15px #fff;
+    background: url('/static/img/bckg-row-important.gif') no-repeat 44px 15px #fff;
     border-color: #60bd68;
     min-height: 56px;
 }
@@ -3290,15 +3290,15 @@ hr.tall, .hr.tall {
         }
 
         .mod-important li, .mod-info li {
-            background: url('/assets/build/bckg-important-bullet.gif') no-repeat 2px 5px #fff;
+            background: url('/static/img/bckg-important-bullet.gif') no-repeat 2px 5px #fff;
         }
 
 .items-added li {
-    background: url('/assets/build/bckgr-green-bullet.jpg') no-repeat 2px 6px #fff;
+    background: url('/static/img/bckgr-green-bullet.jpg') no-repeat 2px 6px #fff;
 }
 
 .mod-important li.link, .mod-important p.link, .mod-important ul.link li {
-    background: url('/assets/build/bckg-important-link.gif') no-repeat 2px 2px #fff;
+    background: url('/static/img/bckg-important-link.gif') no-repeat 2px 2px #fff;
 }
 
 .mod-important .services-notification {
@@ -3321,7 +3321,7 @@ hr.tall, .hr.tall {
     }
 
 .mod-inline-services-notification {
-    background: url('/assets/build/bckg-row-important-small.gif') no-repeat 36px 50% #fff;
+    background: url('/static/img/bckg-row-important-small.gif') no-repeat 36px 50% #fff;
     padding: 0;
     border: 1px solid #60bd68;
     clear: both;
@@ -3343,7 +3343,7 @@ hr.tall, .hr.tall {
 }
 
 .mod-partner {
-    background: url('/assets/build/partner-discount-02.gif') no-repeat 36px 20px #fff;
+    background: url('/static/img/partner-discount-02.gif') no-repeat 36px 20px #fff;
     padding-left: 0;
 }
 
@@ -3357,7 +3357,7 @@ hr.tall, .hr.tall {
         }
 
 .mod-error, .btn-yerr div, .mod-terms.mod-error {
-    background: url('/assets/build/bckg-row-error.gif') no-repeat 45px 15px #fefafb;
+    background: url('/static/img/bckg-row-error.gif') no-repeat 45px 15px #fefafb;
     border-color: #f00001;
     min-height: 50px;
 }
@@ -3398,7 +3398,7 @@ hr.tall, .hr.tall {
 }
 
 .mod-error li {
-    background: url('/assets/build/bckg-error-bullet.gif') no-repeat 2px 4px #fefafb;
+    background: url('/static/img/bckg-error-bullet.gif') no-repeat 2px 4px #fefafb;
 }
 
 .mod-terms.mod-error li {
@@ -3412,7 +3412,7 @@ hr.tall, .hr.tall {
 }
 
 .col-12-center.mod-error.mod-error-center li, .mod-error li.link, .mod-error p.link, .btn-yerr div li {
-    background: url('/assets/build/bckg-error-link.gif') no-repeat 2px 2px #fefafb;
+    background: url('/static/img/bckg-error-link.gif') no-repeat 2px 2px #fefafb;
 }
 
 .mod-important-center {
@@ -3467,7 +3467,7 @@ hr.tall, .hr.tall {
 }
 
 .mod-error-box {
-    background: url('/assets/build/bckg-row-error-xsml.gif') no-repeat 10px 10px;
+    background: url('/static/img/bckg-row-error-xsml.gif') no-repeat 10px 10px;
     border: 1px solid #f00001;
     color: #a80002;
     float: left;
@@ -3476,7 +3476,7 @@ hr.tall, .hr.tall {
 }
 
 #made-to-measure .m2m-wizard-error-box {
-    background: url('/assets/build/bckg-row-error-xsml.gif') no-repeat 10px 6px;
+    background: url('/static/img/bckg-row-error-xsml.gif') no-repeat 10px 6px;
     width: 265px;
     padding-top: 14px;
     padding-bottom: 10px;
@@ -3547,7 +3547,7 @@ hr.tall, .hr.tall {
 }
 
 .mod-inline-serverside-error, .basket-inner .error.qty-err-msg, #basket .basket-inner .errorMessage {
-    background: #fefafb url('/assets/build/bckg-row-error-xxsml.gif') no-repeat 14px center;
+    background: #fefafb url('/static/img/bckg-row-error-xxsml.gif') no-repeat 14px center;
     padding: 10px 15px 10px 47px;
     border: 1px solid #f00001;
     color: #a80002;
@@ -4273,39 +4273,39 @@ label.coll-store, label.uk-del, label.int-del {
 }
 
 label.coll-store {
-    background-image: url('/assets/build/collect_lrge.gif');
+    background-image: url('/static/img/collect_lrge.gif');
 }
 
 .not-available label.coll-store {
-    background-image: url('/assets/build/collect_lrge_putty.gif');
+    background-image: url('/static/img/collect_lrge_putty.gif');
     background-color: #f3f1ed;
 }
 
 label.uk-del {
-    background-image: url('/assets/build/delivery_lrge.gif');
+    background-image: url('/static/img/delivery_lrge.gif');
 }
 
 .not-available label.uk-del {
-    background-image: url('/assets/build/delivery_lrge_putty.gif');
+    background-image: url('/static/img/delivery_lrge_putty.gif');
     background-color: #f3f1ed;
 }
 
 label.int-del {
-    background-image: url('/assets/build/international_lrge.gif');
+    background-image: url('/static/img/international_lrge.gif');
 }
 
 .not-available label.int-del {
-    background-image: url('/assets/build/international_lrge_putty.gif');
+    background-image: url('/static/img/international_lrge_putty.gif');
     background-color: #f3f1ed;
 }
 
 .update, .focus .update {
-    background: url('/assets/build/update-remove-sprite.gif') 0 3px no-repeat;
+    background: url('/static/img/update-remove-sprite.gif') 0 3px no-repeat;
     padding: 0 0 0 15px;
 }
 
 .remove, .prompt-remove, .remove-child, .apply-credit {
-    background: url('/assets/build/update-remove-sprite.gif') 0 -17px no-repeat;
+    background: url('/static/img/update-remove-sprite.gif') 0 -17px no-repeat;
     padding: 0 0 0 13px;
     font-size: 11px;
     display: inline;
@@ -4317,7 +4317,7 @@ label.int-del {
 }
 
 .apply-credit {
-    background: url('/assets/build/apply_credit_icon.gif') 0 50% no-repeat;
+    background: url('/static/img/apply_credit_icon.gif') 0 50% no-repeat;
 }
 
 .pay-action .apply-credit {
@@ -4404,7 +4404,7 @@ label.int-del {
 }
 
 .qty-prompt .cancel-delete {
-    background: url('/assets/build/flyout_arrow.gif') left no-repeat;
+    background: url('/static/img/flyout_arrow.gif') left no-repeat;
     margin-left: 10px;
     padding-left: 10px;
 }
@@ -4500,7 +4500,7 @@ label.int-del {
 }
 
     #timeline ol {
-        background: url('/assets/build/timeline-bckg.gif') repeat-x 0 0 #fff;
+        background: url('/static/img/timeline-bckg.gif') repeat-x 0 0 #fff;
         list-style-type: none;
         padding: 0 0 5px 0;
         width: 744px;
@@ -4531,11 +4531,11 @@ label.int-del {
         #timeline li.active, #timeline li.last.active {
             font-weight: bold;
             color: #076c2b;
-            background: url('/assets/build/timeline-frgrd.gif') no-repeat 100% 0;
+            background: url('/static/img/timeline-frgrd.gif') no-repeat 100% 0;
         }
 
         #timeline li.complete {
-            background: url('/assets/build/timeline-frgrd.gif') no-repeat 0 0;
+            background: url('/static/img/timeline-frgrd.gif') no-repeat 0 0;
         }
 
         #timeline li.first {
@@ -4738,7 +4738,7 @@ span.messages, div.messages {
 }
 
 .mod-info {
-    background: url('/assets/build/bckg-row-important-small.gif') no-repeat 14px 50%;
+    background: url('/static/img/bckg-row-important-small.gif') no-repeat 14px 50%;
     margin: 17px 0 0 0;
     float: left;
     width: 420px;
@@ -4748,7 +4748,7 @@ span.messages, div.messages {
 }
 
 .mod-info-small {
-    background: url('/assets/build/bckg-row-important-xsmall.gif') no-repeat 10px 6px;
+    background: url('/static/img/bckg-row-important-xsmall.gif') no-repeat 10px 6px;
     width: auto;
     padding: 6px 10px 6px 30px;
     height: auto;
@@ -4765,7 +4765,7 @@ span.messages, div.messages {
     float: none;
     height: auto;
     width: 531px;
-    background: #f0fff0 url('/assets/build/bckg-row-important-small-green.gif') no-repeat 28px 50%;
+    background: #f0fff0 url('/static/img/bckg-row-important-small-green.gif') no-repeat 28px 50%;
     margin: 25px 0 31px;
     padding: 12px 18px 12px 65px;
 }
@@ -4832,7 +4832,7 @@ span.messages, div.messages {
 }
 
 small.field-help {
-    background: url('/assets/build/field-note-bckg.gif') no-repeat 3px 2px transparent;
+    background: url('/static/img/field-note-bckg.gif') no-repeat 3px 2px transparent;
     color: #076c2b;
     display: inline-block;
     line-height: 13px;
@@ -5072,7 +5072,7 @@ small.field-error a:link, small.field-error a:visited, small.field-error a:hover
 }
 
 form .error .messages, span.invalid-input-error p, .paymentType .highlight.error .messages {
-    background: #fefafb url('/assets/build/chk-cross.gif') 6px 5px no-repeat;
+    background: #fefafb url('/static/img/chk-cross.gif') 6px 5px no-repeat;
     padding-left: 23px;
     padding-right: 5px;
     border: 1px solid #f00001;
@@ -5086,7 +5086,7 @@ fieldset#personalDetails div.message-holder .messages {
 }
 
 span.invalid-input-error p {
-    background: #fefafb url('/assets/build/chk-cross.gif') 4px 4px no-repeat;
+    background: #fefafb url('/static/img/chk-cross.gif') 4px 4px no-repeat;
     margin-bottom: 12px;
 }
 
@@ -5108,7 +5108,7 @@ span.invalid-input-error {
 
 .add-basket-validator span.messages {
     border: 0;
-    background: url('/assets/build/chk-cross.gif') 1px 5px no-repeat;
+    background: url('/static/img/chk-cross.gif') 1px 5px no-repeat;
 }
 
 form .error input, form.error input, form .error textarea, form .error select, .highlight.pay-sec-code.error input, form input.error {
@@ -5166,7 +5166,7 @@ form .chkbox-set .error, form .error label.radio, form .error .required-chkbox {
 }
 
 p.error-msg {
-    background: url('/assets/build/chk-cross.gif') 0 2px no-repeat;
+    background: url('/static/img/chk-cross.gif') 0 2px no-repeat;
     color: #a80002;
     display: none;
     font-size: 11px;
@@ -5248,7 +5248,7 @@ p.required {
 }
 
 .mod-important.alt {
-    background-image: url("/assets/build/bckg-row-important-transparent.png");
+    background-image: url("/static/img/bckg-row-important-transparent.png");
     background-color: #edf7ec;
     margin: 0 0 24px;
     padding: 14px 0 16px;
@@ -5504,15 +5504,15 @@ form fieldset fieldset label, .pay-type fieldset label {
 }
 
     form fieldset fieldset label[for='visa'] {
-        background-image: url('/assets/build/visa.gif');
+        background-image: url('/static/img/visa.gif');
     }
 
 form label[for='amex'] {
-    background-image: url('/assets/build/amex.gif');
+    background-image: url('/static/img/amex.gif');
 }
 
 form label[for='mastercard'] {
-    background-image: url('/assets/build/mastercard.gif');
+    background-image: url('/static/img/mastercard.gif');
 }
 
 form fieldset fieldset label:hover {
@@ -6472,7 +6472,7 @@ form .date-select .button, form .date-select button {
 }
 
 .product-list .int-delivery {
-    background: transparent url('/assets/build/international_lrge.gif') no-repeat 0 0;
+    background: transparent url('/static/img/international_lrge.gif') no-repeat 0 0;
     padding-left: 60px;
     width: 519px;
 }
@@ -6683,7 +6683,7 @@ form .date-select .button, form .date-select button {
 }
 
 .product-list .gift-message .message {
-    background: url('/assets/build/field-note-bckg-big.gif') no-repeat 0 0 #fff;
+    background: url('/static/img/field-note-bckg-big.gif') no-repeat 0 0 #fff;
     color: #076c2b;
     float: left;
     font-size: 11px;
@@ -7421,7 +7421,7 @@ fieldset.add-extras {
 }
 
 #add_gift_card .voucher-instr {
-    background: url('/assets/build/gift-card2.gif') 0 4px no-repeat;
+    background: url('/static/img/gift-card2.gif') 0 4px no-repeat;
     min-height: 150px;
     position: relative;
 }
@@ -7538,7 +7538,7 @@ fieldset.add-extras {
 }
 
 .voucher-msg {
-    background: url("https://www.johnlewis.com/assets/build/bckg-row-important-small.gif") no-repeat scroll 40px 13px #fff;
+    background: url("https://www.johnlewis.com/static/img/bckg-row-important-small.gif") no-repeat scroll 40px 13px #fff;
     border: 1px solid #70c477;
     color: #066c2b;
     margin: 0 0 30px 215px;
@@ -7551,7 +7551,7 @@ fieldset.add-extras {
     color: #066c2b;
     margin: 26px 0 27px 0;
     padding: 15px 30px 15px 90px;
-    background: url('/assets/build/bckg-row-important-small.gif') no-repeat 40px 18px #fff;
+    background: url('/static/img/bckg-row-important-small.gif') no-repeat 40px 18px #fff;
 }
 
     .gift-card-unavailable strong {
@@ -7559,11 +7559,11 @@ fieldset.add-extras {
     }
 
 #vouchers .service-unavailable {
-    background-image: url('/assets/build/voucher-sample-ghosted.gif');
+    background-image: url('/static/img/voucher-sample-ghosted.gif');
 }
 
 #gift-cards .service-unavailable {
-    background-image: url('/assets/build/gift-card-ghosted.gif');
+    background-image: url('/static/img/gift-card-ghosted.gif');
 }
 
 .service-unavailable .gift-voucher-content, .service-unavailable .gift-card-content {
@@ -7577,7 +7577,7 @@ fieldset.add-extras {
 }
 
 .voucher-instr {
-    background: url('/assets/build/voucher-sample.gif') -2px top no-repeat;
+    background: url('/static/img/voucher-sample.gif') -2px top no-repeat;
     min-height: 150px;
     position: relative;
 }
@@ -7591,7 +7591,7 @@ fieldset.add-extras {
 }
 
 .voucher-instr li, .disc-info li {
-    background: url("https://www.johnlewis.com/assets/build/bckg-default-bullet.gif") no-repeat scroll 2px 4px #fff;
+    background: url("https://www.johnlewis.com/static/img/bckg-default-bullet.gif") no-repeat scroll 2px 4px #fff;
     list-style: none;
     line-height: 100%;
     margin: 0 0 10px 31px;
@@ -7969,7 +7969,7 @@ h2 .order-number {
     }
 
     .pay-details.partner-dis .partner-dis-msg {
-        background: url("https://www.johnlewis.com/assets/build/bckg-row-important-small.gif") no-repeat 30px 18px #fff;
+        background: url("https://www.johnlewis.com/static/img/bckg-row-important-small.gif") no-repeat 30px 18px #fff;
         border: 1px solid #70c477;
         color: #066c2b;
         margin: 11px 0;
@@ -8027,7 +8027,7 @@ h2 .order-number {
 
 #wrapper .pay-details .gc-remaining {
     color: #066c2b;
-    background: url("https://www.johnlewis.com/assets/build/bckg-row-important-xsmall.gif") no-repeat 10px 6px;
+    background: url("https://www.johnlewis.com/static/img/bckg-row-important-xsmall.gif") no-repeat 10px 6px;
     float: none;
     font-size: 11px;
     height: auto;
@@ -8045,7 +8045,7 @@ h2 .order-number {
 }
 
 #pay-3d-secure iframe {
-    background: url('/assets/build/loader.gif') center center no-repeat white;
+    background: url('/static/img/loader.gif') center center no-repeat white;
     height: 520px;
     float: right;
     margin-right: 27px;
@@ -8204,7 +8204,7 @@ h2 .order-number {
 }
 
     .overlay-iframe .close-panel, .overlay .close-panel {
-        background: url('/assets/build/close-icon.gif') 100% 0 no-repeat #fff;
+        background: url('/static/img/close-icon.gif') 100% 0 no-repeat #fff;
         position: absolute;
         top: 15px;
         right: 15px;
@@ -8580,7 +8580,7 @@ h2 .order-number {
     margin: 10px 5px 2px 0;
     display: inline-block;
     vertical-align: text-bottom;
-    background: url("https://www.johnlewis.com/assets/build/email.png") no-repeat;
+    background: url("https://www.johnlewis.com/static/img/email.png") no-repeat;
 }
 
 .mod-stock-email.mod-no-js {
@@ -8717,7 +8717,7 @@ dl.opening-hours {
 }
 
 .plus {
-    background: url('/assets/build/plus-icon.gif') no-repeat 0 0;
+    background: url('/static/img/plus-icon.gif') no-repeat 0 0;
     padding-left: 35px;
 }
 
@@ -8726,7 +8726,7 @@ fieldset.add-extras.col-12-box-bottom .plus, fieldset.add-extras.col-12-box-bott
 }
 
 .minus {
-    background: url('/assets/build/minus-icon.gif') no-repeat 0 0;
+    background: url('/static/img/minus-icon.gif') no-repeat 0 0;
     padding-left: 35px;
 }
 
@@ -8789,7 +8789,7 @@ fieldset.add-extras.col-12-box-bottom .plus, fieldset.add-extras.col-12-box-bott
     }
 
     .val-tooltip .tooltip-arrow {
-        background: url("https://www.johnlewis.com/assets/build/tooltip-arrow-left-alt.png") no-repeat;
+        background: url("https://www.johnlewis.com/static/img/tooltip-arrow-left-alt.png") no-repeat;
         height: 12px;
         left: -7px;
         position: absolute;
@@ -8823,14 +8823,14 @@ fieldset.add-extras.col-12-box-bottom .plus, fieldset.add-extras.col-12-box-bott
     }
 
     .val-tooltip .req-msg .icon {
-        background: url("https://www.johnlewis.com/assets/build/icon-cross-red.png") no-repeat;
+        background: url("https://www.johnlewis.com/static/img/icon-cross-red.png") no-repeat;
         height: 9px;
         margin: 0 5px 0 0;
         width: 9px;
     }
 
     .val-tooltip .req-msg.valid .icon {
-        background: url("https://www.johnlewis.com/assets/build/icon-checkmark-green.png") no-repeat 100% 0;
+        background: url("https://www.johnlewis.com/static/img/icon-checkmark-green.png") no-repeat 100% 0;
     }
 
 .val-tooltip.init-state .req-msg .icon {
@@ -8841,37 +8841,37 @@ fieldset.add-extras.col-12-box-bottom .plus, fieldset.add-extras.col-12-box-bott
 }
 
 .validation-check .val-tooltip .req-msg .icon {
-    background: url("https://www.johnlewis.com/assets/build/red_cross_icon.png") no-repeat;
+    background: url("https://www.johnlewis.com/static/img/red_cross_icon.png") no-repeat;
     height: 12px;
     margin: 0 5px 0 0;
     width: 12px;
 }
 
 .validation-check .focus .val-tooltip .req-msg .icon {
-    background: url("https://www.johnlewis.com/assets/build/green_tick_icon.png") no-repeat;
+    background: url("https://www.johnlewis.com/static/img/green_tick_icon.png") no-repeat;
     opacity: .3;
 }
 
 .ie8 .validation-check .focus .val-tooltip .req-msg .icon {
-    background: url("https://www.johnlewis.com/assets/build/green_tick_icon-transp.png") no-repeat;
+    background: url("https://www.johnlewis.com/static/img/green_tick_icon-transp.png") no-repeat;
 }
 
 .validation-check .val-tooltip .req-msg.valid .icon {
-    background: url("https://www.johnlewis.com/assets/build/green_tick_icon.png") no-repeat !important;
+    background: url("https://www.johnlewis.com/static/img/green_tick_icon.png") no-repeat !important;
     opacity: 1;
 }
 
 .validation-check .val-tooltip.init-state .req-msg .icon {
-    background: url("https://www.johnlewis.com/assets/build/green_tick_icon.png") no-repeat;
+    background: url("https://www.johnlewis.com/static/img/green_tick_icon.png") no-repeat;
     opacity: .3;
 }
 
 .ie8 .validation-check .val-tooltip.init-state .req-msg .icon {
-    background: url("https://www.johnlewis.com/assets/build/green_tick_icon-transp.png") no-repeat;
+    background: url("https://www.johnlewis.com/static/img/green_tick_icon-transp.png") no-repeat;
 }
 
 .validation-check .error .val-tooltip.init-state .req-msg .icon {
-    background: url("https://www.johnlewis.com/assets/build/red_cross_icon.png") no-repeat;
+    background: url("https://www.johnlewis.com/static/img/red_cross_icon.png") no-repeat;
     opacity: 1;
 }
 
@@ -8974,7 +8974,7 @@ fieldset.add-extras.col-12-box-bottom .plus, fieldset.add-extras.col-12-box-bott
     }
 
     .live-chat .live-chat-button {
-        background: url("https://www.johnlewis.com/assets/build/icon-cloud-message.png") no-repeat;
+        background: url("https://www.johnlewis.com/static/img/icon-cloud-message.png") no-repeat;
         color: #5f5f5f;
         cursor: pointer;
         font-size: 1.25em;
@@ -9026,7 +9026,7 @@ fieldset.add-extras.col-12-box-bottom .plus, fieldset.add-extras.col-12-box-bott
 }
 
 .live-chat .tooltip-arrow {
-    background: url("https://www.johnlewis.com/assets/build/tooltip-arrow-right.png") no-repeat;
+    background: url("https://www.johnlewis.com/static/img/tooltip-arrow-right.png") no-repeat;
     bottom: -5px;
     height: 9px;
     left: auto;
@@ -9060,7 +9060,7 @@ fieldset.add-extras.col-12-box-bottom .plus, fieldset.add-extras.col-12-box-bott
 }
 
 .print {
-    background: url('/assets/build/print_sml.gif') top left no-repeat;
+    background: url('/static/img/print_sml.gif') top left no-repeat;
     padding: 1px 0 1px 25px;
     font-weight: normal;
     font-size: 12px;
@@ -9337,7 +9337,7 @@ form .radio-row-top input[type="radio"] {
 }
 
     .js .preview-box .a-preview {
-        background: url(/assets/build/down-arrow-icon.gif) no-repeat 95% 4px #fff;
+        background: url(/static/img/down-arrow-icon.gif) no-repeat 95% 4px #fff;
         border: 1px solid #bfbdb7;
         display: block;
         font-size: 11px;
@@ -9420,7 +9420,7 @@ form .radio-row-top input[type="radio"] {
 }
 
     .minimise a {
-        background: url('/assets/build/minus-icon-sml.gif') no-repeat 13px 6px #fff;
+        background: url('/static/img/minus-icon-sml.gif') no-repeat 13px 6px #fff;
         border-top: 1px solid #bfbdb7;
         display: block;
         font-weight: bold;
@@ -9896,7 +9896,7 @@ ul.list-item-disc {
 
 .order-details li {
     border-bottom: 1px solid #dedbd2;
-    background: url("https://www.johnlewis.com/assets/build/flyout_arrow.gif") no-repeat 0 50% transparent;
+    background: url("https://www.johnlewis.com/static/img/flyout_arrow.gif") no-repeat 0 50% transparent;
     padding: 0 0 0 25px;
     position: relative;
     float: left;
@@ -9917,23 +9917,23 @@ ul.list-item-disc {
     }
 
     .order-details li .back-order {
-        background: url("https://www.johnlewis.com/assets/build/back_order.gif") no-repeat right 0 transparent;
+        background: url("https://www.johnlewis.com/static/img/back_order.gif") no-repeat right 0 transparent;
     }
 
     .order-details li .in-process {
-        background: url("https://www.johnlewis.com/assets/build/in_processing.gif") no-repeat right 8px transparent;
+        background: url("https://www.johnlewis.com/static/img/in_processing.gif") no-repeat right 8px transparent;
     }
 
     .order-details li .dispatched {
-        background: url("https://www.johnlewis.com/assets/build/dispatched.gif") no-repeat right 6px transparent;
+        background: url("https://www.johnlewis.com/static/img/dispatched.gif") no-repeat right 6px transparent;
     }
 
     .order-details li .cancelled {
-        background: url("https://www.johnlewis.com/assets/build/cancelled.gif") no-repeat right 8px transparent;
+        background: url("https://www.johnlewis.com/static/img/cancelled.gif") no-repeat right 8px transparent;
     }
 
     .order-details li .returned {
-        background: url("https://www.johnlewis.com/assets/build/return_icon.gif") no-repeat right 6px transparent;
+        background: url("https://www.johnlewis.com/static/img/return_icon.gif") no-repeat right 6px transparent;
     }
 
 .sub-links {
@@ -9959,7 +9959,7 @@ ul.list-item-disc {
 }
 
 .sub-links .have-trouble {
-    background: url("https://www.johnlewis.com/assets/build/phone-handle-icon.gif") no-repeat right top transparent;
+    background: url("https://www.johnlewis.com/static/img/phone-handle-icon.gif") no-repeat right top transparent;
     font-weight: lighter;
 }
 
@@ -10066,22 +10066,22 @@ ul.list-item-disc {
 }
 
 .email-icon {
-    background: url("https://www.johnlewis.com/assets/build/email-icon.gif") no-repeat;
+    background: url("https://www.johnlewis.com/static/img/email-icon.gif") no-repeat;
     padding-left: 20px;
 }
 
 .post-icon {
-    background: url("https://www.johnlewis.com/assets/build/post-icon.gif") no-repeat;
+    background: url("https://www.johnlewis.com/static/img/post-icon.gif") no-repeat;
     padding-left: 20px;
 }
 
 .sms-icon {
-    background: url("https://www.johnlewis.com/assets/build/sms-icon.gif") no-repeat;
+    background: url("https://www.johnlewis.com/static/img/sms-icon.gif") no-repeat;
     padding-left: 19px;
 }
 
 .call-icon {
-    background: url("https://www.johnlewis.com/assets/build/call-icon.gif") no-repeat;
+    background: url("https://www.johnlewis.com/static/img/call-icon.gif") no-repeat;
     padding-left: 16px;
 }
 
@@ -10217,7 +10217,7 @@ ul.list-item-disc {
 
 #payment .radiobtn {
     text-decoration: none;
-    background: #fff url(/assets/build/radio-button.gif) no-repeat 0 -48px;
+    background: #fff url(/static/img/radio-button.gif) no-repeat 0 -48px;
     padding-left: 20px;
     display: block;
     float: left;
@@ -10656,7 +10656,7 @@ label.base-input, #billingDetails #del-addrs label {
 }
 
 .tab-box .eco {
-    background: url('/assets/build/eco_delivery.gif') 0 0 no-repeat #fff;
+    background: url('/static/img/eco_delivery.gif') 0 0 no-repeat #fff;
 }
 
 .tab-box p.eco {
@@ -10728,15 +10728,15 @@ label.base-input, #billingDetails #del-addrs label {
 }
 
 #wrapper .loading, #wrapper-footer .loading, #login-overlay .loading, .overlay-wrapper .loading, .overlay-iframe .loading {
-    background: url('/assets/build/loader.gif') center center no-repeat #fff;
+    background: url('/static/img/loader.gif') center center no-repeat #fff;
 }
 
 #wrapper .loading-putty, #login-overlay .loading-putty, .overlay-wrapper .loading-putty {
-    background: url('/assets/build/loader-putty.gif') center center no-repeat #f4f2ec;
+    background: url('/static/img/loader-putty.gif') center center no-repeat #f4f2ec;
 }
 
 #wrapper .loading-small, #login-overlay .loading-small, .overlay-wrapper .loading-small {
-    background: url('/assets/build/loader-small.gif') 96% 25px no-repeat #fff;
+    background: url('/static/img/loader-small.gif') 96% 25px no-repeat #fff;
 }
 
 #wrapper .loading-hidden, #login-overlay .loading-hidden, .overlay-wrapper .loading-hidden {
@@ -11035,14 +11035,14 @@ td.status {
 }
 
 a.action {
-    background: url("https://www.johnlewis.com/assets/build/flyout_arrow.gif") no-repeat scroll 0 4px transparent;
+    background: url("https://www.johnlewis.com/static/img/flyout_arrow.gif") no-repeat scroll 0 4px transparent;
     font-weight: bold;
     text-decoration: none;
     padding-left: 14px;
 }
 
 span.cancelled, span.back-order, span.in-process, span.dispatched, span.returned {
-    background: url("https://www.johnlewis.com/assets/build/cancelled.gif") no-repeat scroll 97px 0 transparent;
+    background: url("https://www.johnlewis.com/static/img/cancelled.gif") no-repeat scroll 97px 0 transparent;
     display: block;
     padding: 3px 0 3px;
     margin-top: -3px;
@@ -11051,19 +11051,19 @@ span.cancelled, span.back-order, span.in-process, span.dispatched, span.returned
 }
 
 span.back-order {
-    background: url("https://www.johnlewis.com/assets/build/back_order.gif") no-repeat scroll 98px 0 transparent;
+    background: url("https://www.johnlewis.com/static/img/back_order.gif") no-repeat scroll 98px 0 transparent;
 }
 
 span.in-process {
-    background: url("https://www.johnlewis.com/assets/build/in_processing.gif") no-repeat scroll 98px 0 transparent;
+    background: url("https://www.johnlewis.com/static/img/in_processing.gif") no-repeat scroll 98px 0 transparent;
 }
 
 span.dispatched {
-    background: url("https://www.johnlewis.com/assets/build/dispatched.gif") no-repeat scroll 100px 0 transparent;
+    background: url("https://www.johnlewis.com/static/img/dispatched.gif") no-repeat scroll 100px 0 transparent;
 }
 
 span.returned {
-    background: url("https://www.johnlewis.com/assets/build/return_icon.gif") no-repeat scroll 96px 0 transparent;
+    background: url("https://www.johnlewis.com/static/img/return_icon.gif") no-repeat scroll 96px 0 transparent;
 }
 
 .ie7 #prod-row, .ie8 #prod-row {
@@ -11138,7 +11138,7 @@ span.returned {
     }
 
         .um-footer p span {
-            background: url('/assets/build/lock.gif') 0 50% no-repeat;
+            background: url('/static/img/lock.gif') 0 50% no-repeat;
             padding-left: 20px;
         }
 
@@ -11492,7 +11492,7 @@ li.radio .input-group {
 }
 
 .btn-yerr div {
-    background: url('/assets/build/bckg-row-error-sml.gif') no-repeat 15px 50% #fefafb;
+    background: url('/static/img/bckg-row-error-sml.gif') no-repeat 15px 50% #fefafb;
     position: absolute;
     top: 30px;
     width: 295px;
@@ -11865,7 +11865,7 @@ li.radio .input-group {
 }
 
 .clear-recent-links, .mod-recently-viewed a.clear-recent-links {
-    background: url(/assets/build/clear-recent-links.gif) no-repeat center left;
+    background: url(/static/img/clear-recent-links.gif) no-repeat center left;
     color: #727270;
     cursor: pointer;
     float: right;
@@ -11909,7 +11909,7 @@ li.radio .input-group {
         }
 
         .index-navigation li * {
-            background: url('/assets/build/index-nav-border.gif') no-repeat left center;
+            background: url('/static/img/index-nav-border.gif') no-repeat left center;
             display: block;
             padding: 4px 13px;
             text-decoration: none;
@@ -12099,7 +12099,7 @@ body#site-unavailable {
 }
 
 #site-unavailable .mod-important {
-    background: url('/assets/build/bckg-row-important.gif') no-repeat 32px 32px;
+    background: url('/static/img/bckg-row-important.gif') no-repeat 32px 32px;
     margin: 35px 0 0;
     min-height: auto;
     padding: 32px 135px 40px 110px;
@@ -12204,7 +12204,7 @@ section.ideas-index figcaption {
 }
 
 section.ideas-index a:link figcaption, section.ideas-index a:visited figcaption {
-    background: #FFF url(/assets/build/ideas-figcaption-a.gif) no-repeat 85% 88%;
+    background: #FFF url(/static/img/ideas-figcaption-a.gif) no-repeat 85% 88%;
 }
 
 section.ideas-index a:hover figcaption, section.ideas-index a:focus figcaption, section.ideas-index a:active figcaption {
@@ -12228,7 +12228,7 @@ section.ideas-index a:hover figcaption, section.ideas-index a:focus figcaption, 
 }
 
 .mod-important-small {
-    background: url(/assets/build/info-icon.gif) no-repeat 210px 13px;
+    background: url(/static/img/info-icon.gif) no-repeat 210px 13px;
     border-bottom: 2px solid #62bc67;
     border-top: 2px solid #62bc67;
     color: #076c2b;
@@ -12600,7 +12600,7 @@ section.ideas-index a:hover figcaption, section.ideas-index a:focus figcaption, 
 }
 
     .mod-services .radio-set .label {
-        background: url('/assets/build/chk-star.gif') 100% 3px no-repeat;
+        background: url('/static/img/chk-star.gif') 100% 3px no-repeat;
         font-size: 12px;
         font-weight: normal;
         padding-right: 10px;
@@ -12684,7 +12684,7 @@ section.ideas-index a:hover figcaption, section.ideas-index a:focus figcaption, 
 }
 
 .mod-services-confirm .mod-important {
-    background: url('/assets/build/bckg-services-confirm.gif') no-repeat 63px 21px white;
+    background: url('/static/img/bckg-services-confirm.gif') no-repeat 63px 21px white;
     display: inline-block;
     margin: 0;
     min-height: 88px;
@@ -12757,28 +12757,28 @@ nav .cms-mod {
 }
 
 ::-webkit-scrollbar-button:end:increment {
-    background: url(/assets/build/scroll_lhf_cntrl_down.png) left bottom no-repeat;
+    background: url(/static/img/scroll_lhf_cntrl_down.png) left bottom no-repeat;
     height: 14px;
     width: 14px;
     display: block;
 }
 
 #mini-basket-dropdown ::-webkit-scrollbar-button:end:increment {
-    background: url(/assets/build/scroll_mb_cntrl_down.png) left bottom no-repeat;
+    background: url(/static/img/scroll_mb_cntrl_down.png) left bottom no-repeat;
     height: 19px;
     width: 19px;
     display: block;
 }
 
 ::-webkit-scrollbar-button:start:decrement {
-    background: url(/assets/build/scroll_lhf_cntrl_up.png) left top no-repeat;
+    background: url(/static/img/scroll_lhf_cntrl_up.png) left top no-repeat;
     height: 14px;
     width: 14px;
     display: block;
 }
 
 #mini-basket-dropdown ::-webkit-scrollbar-button:start:decrement {
-    background: url(/assets/build/scroll_mb_cntrl_up.png) left top no-repeat;
+    background: url(/static/img/scroll_mb_cntrl_up.png) left top no-repeat;
     height: 19px;
     width: 19px;
     display: block;
@@ -12879,7 +12879,7 @@ form fieldset .email-us-step-1 .button {
 }
 
 .mod-email-us small.required {
-    background: url('/assets/build/chk-star.gif') 100% 3px no-repeat;
+    background: url('/static/img/chk-star.gif') 100% 3px no-repeat;
 }
 
 .mod-email-us .email-us-step-1 .branches {
@@ -12900,7 +12900,7 @@ form fieldset .email-us-step-1 .button {
 }
 
 .mod-email-us .email-us-step-2 .info-msg, #nku-retailer-details .info-msg {
-    background: url('/assets/build/bckg-row-important-small.gif') no-repeat 14px 10%;
+    background: url('/static/img/bckg-row-important-small.gif') no-repeat 14px 10%;
     float: left;
     width: 466px;
     margin-bottom: 17px;
@@ -12919,7 +12919,7 @@ form fieldset .email-us-step-1 .button {
 }
 
 #nku-retailer-details .show-msg .info-msg {
-    background: url('/assets/build/bckg-row-important-small.gif') no-repeat 14px 0;
+    background: url('/static/img/bckg-row-important-small.gif') no-repeat 14px 0;
 }
 
     #nku-retailer-details .show-msg .info-msg strong {
@@ -12993,7 +12993,7 @@ form fieldset .email-us-step-1 .button {
 }
 
 .nku-form .price-formater {
-    background: url("https://www.johnlewis.com/assets/build/nku-form-bullet.gif") no-repeat scroll 4px 10px transparent;
+    background: url("https://www.johnlewis.com/static/img/nku-form-bullet.gif") no-repeat scroll 4px 10px transparent;
     float: left;
     height: 20px;
     width: 10px;
@@ -13115,7 +13115,7 @@ form fieldset .email-us-step-1 .button {
         .nku-info ul li {
             padding-left: 12px;
             line-height: 18px;
-            background: url("https://www.johnlewis.com/assets/build/bckg-default-bullet.gif") no-repeat scroll 2px 7px #fff;
+            background: url("https://www.johnlewis.com/static/img/bckg-default-bullet.gif") no-repeat scroll 2px 7px #fff;
         }
 
     .nku-info a {
@@ -13149,7 +13149,7 @@ form fieldset .email-us-step-1 .button {
 }
 
 .nku-form-SF .nku-contact-store .info-msg {
-    background: url("https://www.johnlewis.com/assets/build/bckg-row-important-small.gif") no-repeat 14px 9px;
+    background: url("https://www.johnlewis.com/static/img/bckg-row-important-small.gif") no-repeat 14px 9px;
     color: #066c2b;
     margin: 30px 30px 17px 230px;
     padding-left: 52px;
@@ -13260,7 +13260,7 @@ hr.nku-form {
 }
 
 .main-with-row .email-symbol {
-    background: url(/assets/build/email-symbol.gif) 115px -1px no-repeat;
+    background: url(/static/img/email-symbol.gif) 115px -1px no-repeat;
     padding: 7px 0 18px 250px;
 }
 
@@ -13270,7 +13270,7 @@ hr.nku-form {
     }
 
 .mod-confirmation-request {
-    background: url('/assets/build/bckg-services-confirm.gif') no-repeat 66px 25px;
+    background: url('/static/img/bckg-services-confirm.gif') no-repeat 66px 25px;
     border-color: #60bd68;
     border-style: solid;
     border-width: 2px 0;
@@ -13296,7 +13296,7 @@ hr.nku-form {
 }
 
 .mod-confirmation-request {
-    background: url('/assets/build/bckg-services-confirm.gif') no-repeat 66px 25px;
+    background: url('/static/img/bckg-services-confirm.gif') no-repeat 66px 25px;
     border-color: #60bd68;
     border-style: solid;
     border-width: 2px 0;
@@ -13510,7 +13510,7 @@ html.js #delivery-address .accordion .col-12-center .js-hidden {
 }
 
     .mod-stock-email-overlay .product-variants p.error-msg {
-        background: url('/assets/build/chk-cross.gif') 0 2px no-repeat;
+        background: url('/static/img/chk-cross.gif') 0 2px no-repeat;
         color: #a80002;
         display: none;
         font-size: 11px;
@@ -13641,18 +13641,18 @@ html.js #delivery-address .accordion .col-12-center .js-hidden {
 }
 
 .tooltip-trigger:hover .tooltip-arrow {
-    background: url('/assets/build/tooltip-arrow-left.gif') no-repeat 0 0;
+    background: url('/static/img/tooltip-arrow-left.gif') no-repeat 0 0;
     height: 9px;
     position: absolute;
     width: 5px;
 }
 
 .tooltrip-trigger .tooltip-rgt .tooltip-arrow {
-    background: url('/assets/build/tooltip-arrow-right.gif') no-repeat top right;
+    background: url('/static/img/tooltip-arrow-right.gif') no-repeat top right;
 }
 
 .tooltip-trigger:hover .tooltip-rgt .tooltip-arrow {
-    background: url('/assets/build/tooltip-arrow-right.gif') no-repeat top right;
+    background: url('/static/img/tooltip-arrow-right.gif') no-repeat top right;
     height: 9px;
     position: absolute;
     width: 6px;
@@ -13680,13 +13680,13 @@ html.js #delivery-address .accordion .col-12-center .js-hidden {
 }
 
 .tooltip-trigger:hover .tooltip-btm-lft .tooltip-arrow, .tooltip-trigger:hover .tooltip-btm-rgt .tooltip-arrow {
-    background: url('/assets/build/tooltip-arrow-up.gif') no-repeat 0 0;
+    background: url('/static/img/tooltip-arrow-up.gif') no-repeat 0 0;
     height: 5px;
     width: 9px;
 }
 
 .tooltip-trigger:hover .tooltip-top .tooltip-arrow {
-    background: url('/assets/build/tooltip-arrow-down.gif') no-repeat 0 0;
+    background: url('/static/img/tooltip-arrow-down.gif') no-repeat 0 0;
 }
 
 .coll-store-options .tooltip {
@@ -13706,7 +13706,7 @@ html.js #delivery-address .accordion .col-12-center .js-hidden {
 }
 
 .info {
-    background: url('/assets/build/info.gif') 0 0 no-repeat #fff;
+    background: url('/static/img/info.gif') 0 0 no-repeat #fff;
     display: inline-block;
     height: 15px;
     margin-left: 5px;
@@ -13714,7 +13714,7 @@ html.js #delivery-address .accordion .col-12-center .js-hidden {
 }
 
 .delivery-time .info {
-    background: url('/assets/build/info_pty_bg.gif') 0 0 no-repeat #f4f2ec;
+    background: url('/static/img/info_pty_bg.gif') 0 0 no-repeat #f4f2ec;
 }
 
 .info span {
@@ -13794,7 +13794,7 @@ html.js #delivery-address .accordion .col-12-center .js-hidden {
     .mod-RR-cross-sell .cross-sell-more {
         float: right;
         padding-left: 16px;
-        background: transparent url('/assets/build/refresh-icon-13x13.gif') no-repeat 0 0;
+        background: transparent url('/static/img/refresh-icon-13x13.gif') no-repeat 0 0;
         text-decoration: none;
     }
 
@@ -14119,7 +14119,7 @@ div.coll-find-alt {
     }
 
 .mod-create-account, .mod-create-account-1 {
-    background: url('/assets/build/bckg-receipt-account.jpg') no-repeat 50% 0;
+    background: url('/static/img/bckg-receipt-account.jpg') no-repeat 50% 0;
     padding-top: 80px;
     position: relative;
     z-index: 15;
@@ -14147,7 +14147,7 @@ div.coll-find-alt {
 }
 
 .mod-created-account h2 {
-    background: url('/assets/build/green_tick_icon_big.png') no-repeat;
+    background: url('/static/img/green_tick_icon_big.png') no-repeat;
     margin: 0 0 14px -36px;
     padding: 3px 0 5px 36px;
 }
@@ -14174,7 +14174,7 @@ div.coll-find-alt {
 }
 
 .mod-create-account-1 .ghost-account-state h2 {
-    background: url('/assets/build/bckg-row-important-small.gif') no-repeat;
+    background: url('/static/img/bckg-row-important-small.gif') no-repeat;
     margin: 0 0 14px 0;
     padding: 3px 0 5px 34px;
 }
@@ -14427,7 +14427,7 @@ form .my-jl-form-password .no-label {
 }
 
 .mod-confirmation-message {
-    background: url("https://www.johnlewis.com/assets/build/bckg-row-success-tp.gif") no-repeat scroll 35px 50% #fff;
+    background: url("https://www.johnlewis.com/static/img/bckg-row-success-tp.gif") no-repeat scroll 35px 50% #fff;
     color: #026c34;
     border: 1px solid #60bd68;
     font-size: 12px;
@@ -14444,7 +14444,7 @@ form .my-jl-form-password .no-label {
     }
 
 .tradeplace-date .mod-confirmation-message.not-available {
-    background: url("https://www.johnlewis.com/assets/build/bckg-row-important-small.gif") no-repeat scroll 35px 50% #fff;
+    background: url("https://www.johnlewis.com/static/img/bckg-row-important-small.gif") no-repeat scroll 35px 50% #fff;
 }
 
 #delivery-options .tradeplace-date .mod-inline-serverside-error, #delivery-options .tradeplace-date batch_oos.mod-inline-serverside-error {
@@ -15645,14 +15645,14 @@ div.no-border {
 }
 
 .spinner-lge {
-    background: transparent url("/assets/build/loader-41.gif") no-repeat 0 0;
+    background: transparent url("/static/img/loader-41.gif") no-repeat 0 0;
     height: 41px;
     width: 41px;
     margin: 20px auto;
 }
 
 .spinner-sml {
-    background: transparent url("/assets/build/loader-18.gif") no-repeat 0 0;
+    background: transparent url("/static/img/loader-18.gif") no-repeat 0 0;
     height: 18px;
     width: 18px;
     margin: 0 8px;
@@ -15673,7 +15673,7 @@ div.no-border {
 }
 
 .error-tooltip .arrow {
-    background: url("https://www.johnlewis.com/assets/build/tooltip-arrow-up.gif") no-repeat;
+    background: url("https://www.johnlewis.com/static/img/tooltip-arrow-up.gif") no-repeat;
     height: 5px;
     left: 40px;
     position: absolute;
@@ -16315,12 +16315,12 @@ div.no-border {
 
 @media only screen and (-webkit-min-device-pixel-ratio:2) and (min-width:1300px),only screen and (min--moz-device-pixel-ratio:2) and (min-width:1300px),only screen and (-o-min-device-pixel-ratio:2/1) and (min-width:1300px),only screen and (min-device-pixel-ratio:2) and (min-width:1300px),only screen and (min-resolution:192dpi) and (min-width:1300px),only screen and (min-resolution:2dppx) and (min-width:1300px) {
     .spinner-lge {
-        background-image: url("/assets/build/loader-82.gif");
+        background-image: url("/static/img/loader-82.gif");
         background-size: 41px 41px;
     }
 
     .spinner-sml {
-        background-image: url("/assets/build/loader-36.gif");
+        background-image: url("/static/img/loader-36.gif");
         background-size: 36px 36px;
     }
 }

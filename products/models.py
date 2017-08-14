@@ -52,11 +52,22 @@ class Product(models.Model):
 		return img #None
 
 
+def image_upload_to_variation(instance, filename):
+	title = instance.product.title
+	slug = slugify(title)
+	basename, file_extension = filename.split(".")
+	new_filename = "%s-%s.%s" %(slug, instance.id, file_extension)
+	return "products/%s/variation/%s" %(slug, new_filename)
+
 
 
 class Variation(models.Model):
 	product = models.ForeignKey(Product)
 	title = models.CharField(max_length=120)
+	code = models.CharField(max_length=120, blank=True, null=True)
+	brand = models.CharField(max_length=120, blank=True, null=True)
+	size = models.CharField(max_length=120, blank=True, null=True)
+	image = models.ImageField(upload_to=image_upload_to_variation, null=True, blank=True)
 	price = models.DecimalField(decimal_places=2, max_digits=20)
 	sale_price = models.DecimalField(decimal_places=2, max_digits=20, null=True, blank=True)
 	active = models.BooleanField(default=True)
@@ -83,6 +94,39 @@ class Variation(models.Model):
 
 	def get_title(self):
 		return "%s - %s" %(self.product.title, self.title)
+
+
+class Sizes(models.Model):
+	variation = models.ForeignKey(Variation)
+	code = models.CharField(max_length=120)
+	size = models.CharField(max_length=120)
+	price = models.DecimalField(decimal_places=2, max_digits=20)
+	sale_price = models.DecimalField(decimal_places=2, max_digits=20, null=True, blank=True)
+	instock = models.BooleanField(default=True)
+	inventory = models.IntegerField(null=True, blank=True) #refer none == unlimited amount
+
+	def __unicode__(self):
+		return self.title
+
+
+	def get_price(self):
+		if self.sale_price is not None:
+			return self.sale_price
+		else:
+			return self.price
+
+
+	def get_absolute_url(self):
+		return self.variation.get_absolute_url()
+
+	# def add_to_cart(self):
+	# 	return "%s?item=%s&qty=1" %(reverse("cart"), self.id)
+	#
+	# def remove_from_cart(self):
+	# 	return "%s?item=%s&qty=1&delete=True" %(reverse("cart"), self.id)
+
+	def get_title(self):
+		return "%s - %s" %(self.variation.title, self.title)
 
 
 
@@ -140,8 +184,6 @@ def image_upload_to_featured(instance, filename):
 	basename, file_extension = filename.split(".")
 	new_filename = "%s-%s.%s" %(slug, instance.id, file_extension)
 	return "products/%s/featured/%s" %(slug, new_filename)
-
-
 
 
 class ProductFeatured(models.Model):

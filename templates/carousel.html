@@ -1,0 +1,155 @@
+<div>
+  <div class="par parsys">
+    <div class="cms30r section">
+      <div class="free-html">
+        <div class="SL_swap" id="int_hp_hero">
+
+          <style>
+          .carousel-header-holder .carousel-header-container {
+            height: 360px;
+            background: none;
+            border-bottom: none;
+            padding: 0;
+          }
+
+          .header-banner .carousel-header-holder {
+            height: 360px;
+            margin-bottom: -1px;
+          }
+
+          .carousel-header-holder {
+            height: 360px;
+            margin: 0px 5px 0;
+          }
+
+          .carousel-header-holder .carousel-container .hero-right-container {
+            left: 10px;
+            background: #f3f1ed;
+            ;
+          }
+
+          .carousel-header-holder .carousel-container .carousel-control-bar-prev {
+            left: 17px;
+            top: -10px;
+          }
+
+          .carousel-header-holder .carousel-container .carousel-control-bar-next {
+            right: 23px;
+            top: -10px;
+          }
+
+          .carousel-header-holder .carousel-static {
+            height: 360px;
+            position: relative;
+            width: 100%;
+            z-index: 4;
+            clear: both;
+          }
+
+          .carousel-header-holder .carousel-static .hero-right-container {
+            left: -7px;
+          }
+
+          .carousel-header-holder .carousel-static .hero-right-container {
+            top: 0;
+            right: 0;
+            position: absolute;
+            z-index: 0;
+            border: 0;
+            margin: 0;
+          }
+
+          .carousel-header-holder .carousel-container .hero-right-container .multi-link {
+            width: 2100px;
+            position: relative;
+            left: 50%;
+            margin-left: -1050px;
+          }
+
+          .carousel-header-holder .carousel-container .hero-right-container .multi-link .cq-twolink-blk {
+            display: inline-block;
+            float: left;
+          }
+          /* nku */
+
+          .cq-hp-nku {
+            width: 2100px;
+            position: relative;
+            left: 50%;
+            margin-left: -1050px;
+          }
+
+          .cq-hp-nku .cq-hp-nku__section {
+            float: left;
+          }
+
+          .cq-hp-nku .cq-hp-nku__section img {
+            float: left;
+          }
+
+          .cq-hp-nku .cq-hp-nku__section a {
+            float: left;
+          }
+
+          .cq-hp-nku .cq-hp-nku__section ul {
+            float: left;
+            margin: 0;
+            width: 237px;
+          }
+
+          .cq-hp-nku .cq-hp-nku__section ul li {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+          }
+
+          .cq-hp-nku .cq-hp-nku__section ul li a {
+            padding: 0;
+          }
+
+          .carousel-header-holder .hero-right-container .hero-inner .cq-hp-nku a, .carousel-header-holder .hero-right-container-static .hero-inner .cq-hp-nku a {
+            display: block;
+            height: auto;
+          }
+          </style>
+          <div class="carousel-header-holder">
+            <div class="carousel-header-container">
+              <div class="carousel-container">
+                <div class="carousel-slide-indicator" style="display: block;">
+                  <ul>
+                    <li data-jl-indicator="0" class="">
+                      <a href="#"></a>
+                    </li>
+                    <li data-jl-indicator="1" class="active">
+                      <a href="#"></a>
+                    </li>
+                    <li data-jl-indicator="2" class="last">
+                      <a href="#"></a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="side_btns_holder no-js-hidden">
+                  <div class="carousel-control-bar-prev" style="display: block;">
+                    <a href="#">Previous</a>
+                  </div>
+                  <div class="carousel-control-bar-next" style="display: block;">
+                    <a href="#">Next</a>
+                  </div>
+                </div>
+               {% for image in featured_images %}
+                <div class="hero-right-container" style="display: {% cycle '' 'block' '' %};">
+                  <div class="hero-inner">
+                    <a class="image2" style='background-image:url({{image.image.url}})' href="www.johnlewis.com/browse/electricals/headphones/headphones/_/N-al9?intcmp=hp_he_02_ele_headphones_x040817" target="_self"><span class="ir">Music on the move - Take your music with you</span></a>
+                  </div>
+                </div>
+              {% endfor %}
+              </div>
+              <!-- end carousel-header-container -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- THIS MUST BE HERE FOR INTERNATIONAL TO WORK -->
+    </div>
+  </div>
+</div>

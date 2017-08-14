@@ -1,0 +1,1709 @@
+--2017-08-10 15:00:05--  https://johnlewis.com/assets/build/bckg-row-important.gif
+Resolving johnlewis.com... 193.35.250.192, 193.35.254.192
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/bckg-row-important.gif [following]
+--2017-08-10 15:00:05--  https://www.johnlewis.com/assets/build/bckg-row-important.gif
+Resolving www.johnlewis.com... 193.35.254.192, 193.35.250.192
+Connecting to www.johnlewis.com|193.35.254.192|:443... connected.
+HTTP request sent, awaiting response... Read error (Operation timed out) in headers.
+Retrying.
+
+--2017-08-10 15:19:34--  (try: 2)  https://www.johnlewis.com/assets/build/bckg-row-important.gif
+Connecting to www.johnlewis.com|193.35.254.192|:443... connected.
+HTTP request sent, awaiting response... Read error (Operation timed out) in headers.
+Retrying.
+
+--2017-08-10 15:34:37--  (try: 3)  https://www.johnlewis.com/assets/build/bckg-row-important.gif
+Connecting to www.johnlewis.com|193.35.254.192|:443... connected.
+HTTP request sent, awaiting response... Read error (Operation timed out) in headers.
+Retrying.
+
+--2017-08-10 15:49:40--  (try: 4)  https://www.johnlewis.com/assets/build/bckg-row-important.gif
+Connecting to www.johnlewis.com|193.35.254.192|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 576 [image/gif]
+Saving to: ‘bckg-row-important.gif.1’
+
+     0K                                                       100% 7.97K=0.07s
+
+2017-08-10 15:49:41 (7.97 KB/s) - ‘bckg-row-important.gif.1’ saved [576/576]
+
+--2017-08-10 15:49:41--  https://johnlewis.com/assets/build/loader.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/loader.gif [following]
+--2017-08-10 15:49:42--  https://www.johnlewis.com/assets/build/loader.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2373 (2.3K) [image/gif]
+Saving to: ‘loader.gif.1’
+
+     0K ..                                                    100% 1.51M=0.002s
+
+2017-08-10 15:49:42 (1.51 MB/s) - ‘loader.gif.1’ saved [2373/2373]
+
+--2017-08-10 15:49:42--  https://johnlewis.com/assets/build/loader-small.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/loader-small.gif [following]
+--2017-08-10 15:49:43--  https://www.johnlewis.com/assets/build/loader-small.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1482 (1.4K) [image/gif]
+Saving to: ‘loader-small.gif.1’
+
+     0K .                                                     100%  438K=0.003s
+
+2017-08-10 15:49:43 (438 KB/s) - ‘loader-small.gif.1’ saved [1482/1482]
+
+--2017-08-10 15:49:43--  https://johnlewis.com/assets/build/footer-info-icon.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/footer-info-icon.gif [following]
+--2017-08-10 15:49:44--  https://www.johnlewis.com/assets/build/footer-info-icon.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 118 [image/gif]
+Saving to: ‘footer-info-icon.gif.1’
+
+     0K                                                       100% 3.22M=0s
+
+2017-08-10 15:49:44 (3.22 MB/s) - ‘footer-info-icon.gif.1’ saved [118/118]
+
+--2017-08-10 15:49:44--  https://johnlewis.com/assets/header/bg-my-account.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/header/bg-my-account.gif [following]
+--2017-08-10 15:49:45--  https://www.johnlewis.com/assets/header/bg-my-account.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 45 [image/gif]
+Saving to: ‘bg-my-account.gif.2’
+
+     0K                                                       100% 1.48M=0s
+
+2017-08-10 15:49:45 (1.48 MB/s) - ‘bg-my-account.gif.2’ saved [45/45]
+
+--2017-08-10 15:49:45--  https://johnlewis.com/assets/header/bg-my-account.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/header/bg-my-account.gif [following]
+--2017-08-10 15:49:46--  https://www.johnlewis.com/assets/header/bg-my-account.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 45 [image/gif]
+Saving to: ‘bg-my-account.gif.3’
+
+     0K                                                       100%  153K=0s
+
+2017-08-10 15:49:46 (153 KB/s) - ‘bg-my-account.gif.3’ saved [45/45]
+
+--2017-08-10 15:49:46--  https://johnlewis.com/assets/build/prim-nav-close.png
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/prim-nav-close.png [following]
+--2017-08-10 15:49:47--  https://www.johnlewis.com/assets/build/prim-nav-close.png
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 911 [image/png]
+Saving to: ‘prim-nav-close.png’
+
+     0K                                                       100% 30.2K=0.03s
+
+2017-08-10 15:49:47 (30.2 KB/s) - ‘prim-nav-close.png’ saved [911/911]
+
+--2017-08-10 15:49:47--  https://johnlewis.com/assets/build/prim-nav-close-ret.png
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/prim-nav-close-ret.png [following]
+--2017-08-10 15:49:48--  https://www.johnlewis.com/assets/build/prim-nav-close-ret.png
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1768 (1.7K) [image/png]
+Saving to: ‘prim-nav-close-ret.png’
+
+     0K .                                                     100% 34.1K=0.05s
+
+2017-08-10 15:49:48 (34.1 KB/s) - ‘prim-nav-close-ret.png’ saved [1768/1768]
+
+--2017-08-10 15:49:48--  https://johnlewis.com/assets/build/bckg-default-bullet.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/bckg-default-bullet.gif [following]
+--2017-08-10 15:49:49--  https://www.johnlewis.com/assets/build/bckg-default-bullet.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 44 [image/gif]
+Saving to: ‘bckg-default-bullet.gif’
+
+     0K                                                       100%  977K=0s
+
+2017-08-10 15:49:49 (977 KB/s) - ‘bckg-default-bullet.gif’ saved [44/44]
+
+--2017-08-10 15:49:49--  https://johnlewis.com/assets/build/icon-search.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/icon-search.gif [following]
+--2017-08-10 15:49:50--  https://www.johnlewis.com/assets/build/icon-search.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 116 [image/gif]
+Saving to: ‘icon-search.gif’
+
+     0K                                                       100% 3.81M=0s
+
+2017-08-10 15:49:51 (3.81 MB/s) - ‘icon-search.gif’ saved [116/116]
+
+--2017-08-10 15:49:51--  https://johnlewis.com/assets/build/search-results-preview-top.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/search-results-preview-top.gif [following]
+--2017-08-10 15:49:51--  https://www.johnlewis.com/assets/build/search-results-preview-top.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 58 [image/gif]
+Saving to: ‘search-results-preview-top.gif’
+
+     0K                                                       100%  510K=0s
+
+2017-08-10 15:49:51 (510 KB/s) - ‘search-results-preview-top.gif’ saved [58/58]
+
+--2017-08-10 15:49:51--  https://johnlewis.com/assets/build/ios-cross.png
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/ios-cross.png [following]
+--2017-08-10 15:49:52--  https://www.johnlewis.com/assets/build/ios-cross.png
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 3369 (3.3K) [image/png]
+Saving to: ‘ios-cross.png’
+
+     0K ...                                                   100%  192K=0.02s
+
+2017-08-10 15:49:52 (192 KB/s) - ‘ios-cross.png’ saved [3369/3369]
+
+--2017-08-10 15:49:52--  https://johnlewis.com/assets/build/active-brand-close.png
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/active-brand-close.png [following]
+--2017-08-10 15:49:53--  https://www.johnlewis.com/assets/build/active-brand-close.png
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1043 (1.0K) [image/png]
+Saving to: ‘active-brand-close.png’
+
+     0K .                                                     100% 13.3M=0s
+
+2017-08-10 15:49:53 (13.3 MB/s) - ‘active-brand-close.png’ saved [1043/1043]
+
+--2017-08-10 15:49:53--  https://johnlewis.com/assets/build/search-results-preview-item.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/search-results-preview-item.gif [following]
+--2017-08-10 15:49:54--  https://www.johnlewis.com/assets/build/search-results-preview-item.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1110 (1.1K) [image/gif]
+Saving to: ‘search-results-preview-item.gif’
+
+     0K .                                                     100% 57.7K=0.02s
+
+2017-08-10 15:49:54 (57.7 KB/s) - ‘search-results-preview-item.gif’ saved [1110/1110]
+
+--2017-08-10 15:49:54--  https://johnlewis.com/assets/build/search-results-preview-item.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/search-results-preview-item.gif [following]
+--2017-08-10 15:49:55--  https://www.johnlewis.com/assets/build/search-results-preview-item.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1110 (1.1K) [image/gif]
+Saving to: ‘search-results-preview-item.gif.1’
+
+     0K .                                                     100% 33.1M=0s
+
+2017-08-10 15:49:56 (33.1 MB/s) - ‘search-results-preview-item.gif.1’ saved [1110/1110]
+
+--2017-08-10 15:49:56--  https://johnlewis.com/assets/build/search-see-more.png
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/search-see-more.png [following]
+--2017-08-10 15:49:56--  https://www.johnlewis.com/assets/build/search-see-more.png
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 269 [image/png]
+Saving to: ‘search-see-more.png’
+
+     0K                                                       100% 7.13M=0s
+
+2017-08-10 15:49:56 (7.13 MB/s) - ‘search-see-more.png’ saved [269/269]
+
+--2017-08-10 15:49:56--  https://johnlewis.com/assets/build/caret_sml.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/caret_sml.gif [following]
+--2017-08-10 15:49:57--  https://www.johnlewis.com/assets/build/caret_sml.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1221 (1.2K) [image/gif]
+Saving to: ‘caret_sml.gif’
+
+     0K .                                                     100% 88.0K=0.01s
+
+2017-08-10 15:49:57 (88.0 KB/s) - ‘caret_sml.gif’ saved [1221/1221]
+
+--2017-08-10 15:49:57--  https://johnlewis.com/assets/build/tick-box.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/tick-box.gif [following]
+--2017-08-10 15:49:58--  https://www.johnlewis.com/assets/build/tick-box.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1343 (1.3K) [image/gif]
+Saving to: ‘tick-box.gif’
+
+     0K .                                                     100% 27.9K=0.05s
+
+2017-08-10 15:49:58 (27.9 KB/s) - ‘tick-box.gif’ saved [1343/1343]
+
+--2017-08-10 15:49:58--  https://johnlewis.com/assets/build/breadcrumbs-back-button.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/breadcrumbs-back-button.gif [following]
+--2017-08-10 15:49:59--  https://www.johnlewis.com/assets/build/breadcrumbs-back-button.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 82 [image/gif]
+Saving to: ‘breadcrumbs-back-button.gif’
+
+     0K                                                       100% 1.42M=0s
+
+2017-08-10 15:50:00 (1.42 MB/s) - ‘breadcrumbs-back-button.gif’ saved [82/82]
+
+--2017-08-10 15:50:00--  https://johnlewis.com/assets/build/breadcrumbs-divider.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/breadcrumbs-divider.gif [following]
+--2017-08-10 15:50:01--  https://www.johnlewis.com/assets/build/breadcrumbs-divider.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 73 [image/gif]
+Saving to: ‘breadcrumbs-divider.gif’
+
+     0K                                                       100% 2.49M=0s
+
+2017-08-10 15:50:01 (2.49 MB/s) - ‘breadcrumbs-divider.gif’ saved [73/73]
+
+--2017-08-10 15:50:01--  https://johnlewis.com/assets/buttons/checkout_btn_sml.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/buttons/checkout_btn_sml.gif [following]
+--2017-08-10 15:50:02--  https://www.johnlewis.com/assets/buttons/checkout_btn_sml.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 6174 (6.0K) [image/gif]
+Saving to: ‘checkout_btn_sml.gif’
+
+     0K ......                                                100%  798K=0.008s
+
+2017-08-10 15:50:02 (798 KB/s) - ‘checkout_btn_sml.gif’ saved [6174/6174]
+
+--2017-08-10 15:50:02--  https://johnlewis.com/assets/buttons/checkout_btn_lrg.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/buttons/checkout_btn_lrg.gif [following]
+--2017-08-10 15:50:03--  https://www.johnlewis.com/assets/buttons/checkout_btn_lrg.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 7442 (7.3K) [image/gif]
+Saving to: ‘checkout_btn_lrg.gif’
+
+     0K .......                                               100% 1.22M=0.006s
+
+2017-08-10 15:50:03 (1.22 MB/s) - ‘checkout_btn_lrg.gif’ saved [7442/7442]
+
+--2017-08-10 15:50:03--  https://johnlewis.com/assets/build/mini-basket.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/mini-basket.gif [following]
+--2017-08-10 15:50:04--  https://www.johnlewis.com/assets/build/mini-basket.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 106 [image/gif]
+Saving to: ‘mini-basket.gif’
+
+     0K                                                       100% 3.37M=0s
+
+2017-08-10 15:50:05 (3.37 MB/s) - ‘mini-basket.gif’ saved [106/106]
+
+--2017-08-10 15:50:05--  https://johnlewis.com/assets/buttons/view_basket_btn.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/buttons/view_basket_btn.gif [following]
+--2017-08-10 15:50:06--  https://www.johnlewis.com/assets/buttons/view_basket_btn.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 5133 (5.0K) [image/gif]
+Saving to: ‘view_basket_btn.gif’
+
+     0K .....                                                 100%  832K=0.006s
+
+2017-08-10 15:50:06 (832 KB/s) - ‘view_basket_btn.gif’ saved [5133/5133]
+
+--2017-08-10 15:50:06--  https://johnlewis.com/assets/build/mini-basket-empty.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/mini-basket-empty.gif [following]
+--2017-08-10 15:50:07--  https://www.johnlewis.com/assets/build/mini-basket-empty.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 100 [image/gif]
+Saving to: ‘mini-basket-empty.gif’
+
+     0K                                                       100% 3.53M=0s
+
+2017-08-10 15:50:07 (3.53 MB/s) - ‘mini-basket-empty.gif’ saved [100/100]
+
+--2017-08-10 15:50:07--  https://johnlewis.com/assets/buttons/checkout_inactive.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/buttons/checkout_inactive.gif [following]
+--2017-08-10 15:50:08--  https://www.johnlewis.com/assets/buttons/checkout_inactive.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2636 (2.6K) [image/gif]
+Saving to: ‘checkout_inactive.gif’
+
+     0K ..                                                    100%  218K=0.01s
+
+2017-08-10 15:50:08 (218 KB/s) - ‘checkout_inactive.gif’ saved [2636/2636]
+
+--2017-08-10 15:50:08--  https://johnlewis.com/assets/build/loader-small.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/loader-small.gif [following]
+--2017-08-10 15:50:09--  https://www.johnlewis.com/assets/build/loader-small.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1482 (1.4K) [image/gif]
+Saving to: ‘loader-small.gif.2’
+
+     0K .                                                     100%  703K=0.002s
+
+2017-08-10 15:50:09 (703 KB/s) - ‘loader-small.gif.2’ saved [1482/1482]
+
+--2017-08-10 15:50:09--  https://johnlewis.com/assets/build/loader-small.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/loader-small.gif [following]
+--2017-08-10 15:50:10--  https://www.johnlewis.com/assets/build/loader-small.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1482 (1.4K) [image/gif]
+Saving to: ‘loader-small.gif.3’
+
+     0K .                                                     100% 1.15M=0.001s
+
+2017-08-10 15:50:10 (1.15 MB/s) - ‘loader-small.gif.3’ saved [1482/1482]
+
+--2017-08-10 15:50:10--  https://johnlewis.com/assets/build/loader-small.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/loader-small.gif [following]
+--2017-08-10 15:50:12--  https://www.johnlewis.com/assets/build/loader-small.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1482 (1.4K) [image/gif]
+Saving to: ‘loader-small.gif.4’
+
+     0K .                                                     100% 20.0K=0.07s
+
+2017-08-10 15:50:12 (20.0 KB/s) - ‘loader-small.gif.4’ saved [1482/1482]
+
+--2017-08-10 15:50:12--  https://johnlewis.com/assets/build/basket-info.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/basket-info.gif [following]
+--2017-08-10 15:50:12--  https://www.johnlewis.com/assets/build/basket-info.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 247 [image/gif]
+Saving to: ‘basket-info.gif’
+
+     0K                                                       100% 8.72M=0s
+
+2017-08-10 15:50:12 (8.72 MB/s) - ‘basket-info.gif’ saved [247/247]
+
+--2017-08-10 15:50:12--  https://johnlewis.com/assets/build/basket-info-bullet.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/basket-info-bullet.gif [following]
+--2017-08-10 15:50:13--  https://www.johnlewis.com/assets/build/basket-info-bullet.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... Read error (Operation timed out) in headers.
+Retrying.
+
+--2017-08-10 16:05:14--  (try: 2)  https://www.johnlewis.com/assets/build/basket-info-bullet.gif
+Connecting to www.johnlewis.com|193.35.254.192|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1096 (1.1K) [image/gif]
+Saving to: ‘basket-info-bullet.gif’
+
+     0K .                                                     100% 20.6K=0.05s
+
+2017-08-10 16:05:15 (20.6 KB/s) - ‘basket-info-bullet.gif’ saved [1096/1096]
+
+--2017-08-10 16:05:15--  https://johnlewis.com/assets/build/error_icon.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/error_icon.gif [following]
+--2017-08-10 16:05:16--  https://www.johnlewis.com/assets/build/error_icon.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1301 (1.3K) [image/gif]
+Saving to: ‘error_icon.gif’
+
+     0K .                                                     100% 22.5K=0.06s
+
+2017-08-10 16:05:16 (22.5 KB/s) - ‘error_icon.gif’ saved [1301/1301]
+
+--2017-08-10 16:05:16--  https://johnlewis.com/assets/build/loader-small-bodycolor-bg.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/loader-small-bodycolor-bg.gif [following]
+--2017-08-10 16:05:17--  https://www.johnlewis.com/assets/build/loader-small-bodycolor-bg.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1737 (1.7K) [image/gif]
+Saving to: ‘loader-small-bodycolor-bg.gif’
+
+     0K .                                                     100%  255K=0.007s
+
+2017-08-10 16:05:17 (255 KB/s) - ‘loader-small-bodycolor-bg.gif’ saved [1737/1737]
+
+--2017-08-10 16:05:17--  https://johnlewis.com/assets/build/share_email_icon.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/share_email_icon.gif [following]
+--2017-08-10 16:05:17--  https://www.johnlewis.com/assets/build/share_email_icon.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 202 [image/gif]
+Saving to: ‘share_email_icon.gif’
+
+     0K                                                       100% 3.93M=0s
+
+2017-08-10 16:05:17 (3.93 MB/s) - ‘share_email_icon.gif’ saved [202/202]
+
+--2017-08-10 16:05:17--  https://johnlewis.com/assets/build/share_email_icon.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/share_email_icon.gif [following]
+--2017-08-10 16:05:19--  https://www.johnlewis.com/assets/build/share_email_icon.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 202 [image/gif]
+Saving to: ‘share_email_icon.gif.1’
+
+     0K                                                       100% 10.1M=0s
+
+2017-08-10 16:05:19 (10.1 MB/s) - ‘share_email_icon.gif.1’ saved [202/202]
+
+--2017-08-10 16:05:19--  https://johnlewis.com/assets/buttons/btn-sign-up.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/buttons/btn-sign-up.gif [following]
+--2017-08-10 16:05:20--  https://www.johnlewis.com/assets/buttons/btn-sign-up.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 3045 (3.0K) [image/gif]
+Saving to: ‘btn-sign-up.gif’
+
+     0K ..                                                    100%  278K=0.01s
+
+2017-08-10 16:05:20 (278 KB/s) - ‘btn-sign-up.gif’ saved [3045/3045]
+
+--2017-08-10 16:05:20--  https://johnlewis.com/assets/build/footer-bck-white.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/footer-bck-white.gif [following]
+--2017-08-10 16:05:21--  https://www.johnlewis.com/assets/build/footer-bck-white.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 869 [image/gif]
+Saving to: ‘footer-bck-white.gif’
+
+     0K                                                       100% 20.1K=0.04s
+
+2017-08-10 16:05:21 (20.1 KB/s) - ‘footer-bck-white.gif’ saved [869/869]
+
+--2017-08-10 16:05:21--  https://johnlewis.com/assets/build/footer-top.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/footer-top.gif [following]
+--2017-08-10 16:05:22--  https://www.johnlewis.com/assets/build/footer-top.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 372 [image/gif]
+Saving to: ‘footer-top.gif’
+
+     0K                                                       100% 9.74K=0.04s
+
+2017-08-10 16:05:22 (9.74 KB/s) - ‘footer-top.gif’ saved [372/372]
+
+--2017-08-10 16:05:22--  https://johnlewis.com/assets/header/header-bck.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/header/header-bck.gif [following]
+--2017-08-10 16:05:23--  https://www.johnlewis.com/assets/header/header-bck.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 60 [image/gif]
+Saving to: ‘header-bck.gif’
+
+     0K                                                       100% 1.63M=0s
+
+2017-08-10 16:05:23 (1.63 MB/s) - ‘header-bck.gif’ saved [60/60]
+
+--2017-08-10 16:05:23--  https://johnlewis.com/assets/header/checkout-header-bck.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/header/checkout-header-bck.gif [following]
+--2017-08-10 16:05:24--  https://www.johnlewis.com/assets/header/checkout-header-bck.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 59 [image/gif]
+Saving to: ‘checkout-header-bck.gif’
+
+     0K                                                       100% 2.16M=0s
+
+2017-08-10 16:05:24 (2.16 MB/s) - ‘checkout-header-bck.gif’ saved [59/59]
+
+--2017-08-10 16:05:24--  https://johnlewis.com/assets/build/bckg-row-success.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/bckg-row-success.gif [following]
+--2017-08-10 16:05:25--  https://www.johnlewis.com/assets/build/bckg-row-success.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1661 (1.6K) [image/gif]
+Saving to: ‘bckg-row-success.gif’
+
+     0K .                                                     100% 1.16M=0.001s
+
+2017-08-10 16:05:26 (1.16 MB/s) - ‘bckg-row-success.gif’ saved [1661/1661]
+
+--2017-08-10 16:05:26--  https://johnlewis.com/assets/buttons/btn-reset-your-password-and-continue.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/buttons/btn-reset-your-password-and-continue.gif [following]
+--2017-08-10 16:05:29--  https://www.johnlewis.com/assets/buttons/btn-reset-your-password-and-continue.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 9512 (9.3K) [image/gif]
+Saving to: ‘btn-reset-your-password-and-continue.gif’
+
+     0K .........                                             100%  978K=0.009s
+
+2017-08-10 16:05:29 (978 KB/s) - ‘btn-reset-your-password-and-continue.gif’ saved [9512/9512]
+
+--2017-08-10 16:05:29--  https://johnlewis.com/assets/build/bckg-default-bullet.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/bckg-default-bullet.gif [following]
+--2017-08-10 16:05:30--  https://www.johnlewis.com/assets/build/bckg-default-bullet.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 44 [image/gif]
+Saving to: ‘bckg-default-bullet.gif.2’
+
+     0K                                                       100% 2.47M=0s
+
+2017-08-10 16:05:30 (2.47 MB/s) - ‘bckg-default-bullet.gif.2’ saved [44/44]
+
+--2017-08-10 16:05:30--  https://johnlewis.com/assets/build/bckg-row-important-small.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/bckg-row-important-small.gif [following]
+--2017-08-10 16:05:31--  https://www.johnlewis.com/assets/build/bckg-row-important-small.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 218 [image/gif]
+Saving to: ‘bckg-row-important-small.gif’
+
+     0K                                                       100% 7.43M=0s
+
+2017-08-10 16:05:31 (7.43 MB/s) - ‘bckg-row-important-small.gif’ saved [218/218]
+
+--2017-08-10 16:05:31--  https://johnlewis.com/assets/build/bckg-row-important-small.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/bckg-row-important-small.gif [following]
+--2017-08-10 16:05:32--  https://www.johnlewis.com/assets/build/bckg-row-important-small.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 218 [image/gif]
+Saving to: ‘bckg-row-important-small.gif.1’
+
+     0K                                                       100% 7.17M=0s
+
+2017-08-10 16:05:33 (7.17 MB/s) - ‘bckg-row-important-small.gif.1’ saved [218/218]
+
+--2017-08-10 16:05:33--  https://johnlewis.com/assets/build/bckg-row-success.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/bckg-row-success.gif [following]
+--2017-08-10 16:05:34--  https://www.johnlewis.com/assets/build/bckg-row-success.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1661 (1.6K) [image/gif]
+Saving to: ‘bckg-row-success.gif.1’
+
+     0K .                                                     100% 1.66M=0.001s
+
+2017-08-10 16:05:35 (1.66 MB/s) - ‘bckg-row-success.gif.1’ saved [1661/1661]
+
+--2017-08-10 16:05:35--  https://johnlewis.com/assets/build/bckg-row-important.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/bckg-row-important.gif [following]
+--2017-08-10 16:05:36--  https://www.johnlewis.com/assets/build/bckg-row-important.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... Read error (Operation timed out) in headers.
+Retrying.
+
+--2017-08-10 16:20:37--  (try: 2)  https://www.johnlewis.com/assets/build/bckg-row-important.gif
+Connecting to www.johnlewis.com|193.35.254.192|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 576 [image/gif]
+Saving to: ‘bckg-row-important.gif.2’
+
+     0K                                                       100%  632 =0.9s
+
+2017-08-10 16:20:39 (632 B/s) - ‘bckg-row-important.gif.2’ saved [576/576]
+
+--2017-08-10 16:20:39--  https://johnlewis.com/assets/build/bckg-important-bullet.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/bckg-important-bullet.gif [following]
+--2017-08-10 16:20:40--  https://www.johnlewis.com/assets/build/bckg-important-bullet.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 45 [image/gif]
+Saving to: ‘bckg-important-bullet.gif’
+
+     0K                                                       100%  935K=0s
+
+2017-08-10 16:20:40 (935 KB/s) - ‘bckg-important-bullet.gif’ saved [45/45]
+
+--2017-08-10 16:20:40--  https://johnlewis.com/assets/build/bckgr-green-bullet.jpg
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/bckgr-green-bullet.jpg [following]
+--2017-08-10 16:20:42--  https://www.johnlewis.com/assets/build/bckgr-green-bullet.jpg
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 404 Not Found
+2017-08-10 16:20:42 ERROR 404: Not Found.
+
+--2017-08-10 16:20:42--  https://johnlewis.com/assets/build/bckg-important-link.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/bckg-important-link.gif [following]
+--2017-08-10 16:20:44--  https://www.johnlewis.com/assets/build/bckg-important-link.gif
+Connecting to www.johnlewis.com|193.35.254.192|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 114 [image/gif]
+Saving to: ‘bckg-important-link.gif’
+
+     0K                                                       100% 4.73M=0s
+
+2017-08-10 16:20:47 (4.73 MB/s) - ‘bckg-important-link.gif’ saved [114/114]
+
+--2017-08-10 16:20:47--  https://johnlewis.com/assets/build/bckg-row-important-small.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/bckg-row-important-small.gif [following]
+--2017-08-10 16:20:50--  https://www.johnlewis.com/assets/build/bckg-row-important-small.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 218 [image/gif]
+Saving to: ‘bckg-row-important-small.gif.2’
+
+     0K                                                       100% 6.11M=0s
+
+2017-08-10 16:20:53 (6.11 MB/s) - ‘bckg-row-important-small.gif.2’ saved [218/218]
+
+--2017-08-10 16:20:53--  https://johnlewis.com/assets/build/partner-discount-02.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/partner-discount-02.gif [following]
+--2017-08-10 16:20:54--  https://www.johnlewis.com/assets/build/partner-discount-02.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 624 [image/gif]
+Saving to: ‘partner-discount-02.gif’
+
+     0K                                                       100% 6.40M=0s
+
+2017-08-10 16:20:55 (6.40 MB/s) - ‘partner-discount-02.gif’ saved [624/624]
+
+--2017-08-10 16:20:55--  https://johnlewis.com/assets/build/bckg-row-error.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/bckg-row-error.gif [following]
+--2017-08-10 16:21:04--  https://www.johnlewis.com/assets/build/bckg-row-error.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2219 (2.2K) [image/gif]
+Saving to: ‘bckg-row-error.gif’
+
+     0K ..                                                    100% 11.7K=0.2s
+
+2017-08-10 16:21:04 (11.7 KB/s) - ‘bckg-row-error.gif’ saved [2219/2219]
+
+--2017-08-10 16:21:04--  https://johnlewis.com/assets/build/bckg-error-bullet.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/bckg-error-bullet.gif [following]
+--2017-08-10 16:21:06--  https://www.johnlewis.com/assets/build/bckg-error-bullet.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1097 (1.1K) [image/gif]
+Saving to: ‘bckg-error-bullet.gif’
+
+     0K .                                                     100% 17.7K=0.06s
+
+2017-08-10 16:21:06 (17.7 KB/s) - ‘bckg-error-bullet.gif’ saved [1097/1097]
+
+--2017-08-10 16:21:06--  https://johnlewis.com/assets/build/bckg-error-link.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/bckg-error-link.gif [following]
+--2017-08-10 16:21:07--  https://www.johnlewis.com/assets/build/bckg-error-link.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1292 (1.3K) [image/gif]
+Saving to: ‘bckg-error-link.gif’
+
+     0K .                                                     100% 8.80K=0.1s
+
+2017-08-10 16:21:07 (8.80 KB/s) - ‘bckg-error-link.gif’ saved [1292/1292]
+
+--2017-08-10 16:21:07--  https://johnlewis.com/assets/build/bckg-row-error-xsml.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/bckg-row-error-xsml.gif [following]
+--2017-08-10 16:21:08--  https://www.johnlewis.com/assets/build/bckg-row-error-xsml.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2520 (2.5K) [image/gif]
+Saving to: ‘bckg-row-error-xsml.gif’
+
+     0K ..                                                    100% 83.0K=0.03s
+
+2017-08-10 16:21:08 (83.0 KB/s) - ‘bckg-row-error-xsml.gif’ saved [2520/2520]
+
+--2017-08-10 16:21:08--  https://johnlewis.com/assets/build/bckg-row-error-xsml.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/bckg-row-error-xsml.gif [following]
+--2017-08-10 16:21:09--  https://www.johnlewis.com/assets/build/bckg-row-error-xsml.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2520 (2.5K) [image/gif]
+Saving to: ‘bckg-row-error-xsml.gif.1’
+
+     0K ..                                                    100% 6.21K=0.4s
+
+2017-08-10 16:21:10 (6.21 KB/s) - ‘bckg-row-error-xsml.gif.1’ saved [2520/2520]
+
+--2017-08-10 16:21:10--  https://johnlewis.com/assets/build/bckg-row-error-xxsml.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/bckg-row-error-xxsml.gif [following]
+--2017-08-10 16:21:11--  https://www.johnlewis.com/assets/build/bckg-row-error-xxsml.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1787 (1.7K) [image/gif]
+Saving to: ‘bckg-row-error-xxsml.gif’
+
+     0K .                                                     100% 49.0K=0.04s
+
+2017-08-10 16:21:12 (49.0 KB/s) - ‘bckg-row-error-xxsml.gif’ saved [1787/1787]
+
+--2017-08-10 16:21:12--  https://johnlewis.com/assets/buttons/btn-retry.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/buttons/btn-retry.gif [following]
+--2017-08-10 16:21:13--  https://www.johnlewis.com/assets/buttons/btn-retry.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 5421 (5.3K) [image/gif]
+Saving to: ‘btn-retry.gif’
+
+     0K .....                                                 100% 32.5K=0.2s
+
+2017-08-10 16:21:13 (32.5 KB/s) - ‘btn-retry.gif’ saved [5421/5421]
+
+--2017-08-10 16:21:13--  https://johnlewis.com/assets/build/collect_lrge.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/collect_lrge.gif [following]
+--2017-08-10 16:21:14--  https://www.johnlewis.com/assets/build/collect_lrge.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 184 [image/gif]
+Saving to: ‘collect_lrge.gif’
+
+     0K                                                       100% 5.85M=0s
+
+2017-08-10 16:21:14 (5.85 MB/s) - ‘collect_lrge.gif’ saved [184/184]
+
+--2017-08-10 16:21:14--  https://johnlewis.com/assets/build/collect_lrge_putty.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/collect_lrge_putty.gif [following]
+--2017-08-10 16:21:16--  https://www.johnlewis.com/assets/build/collect_lrge_putty.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 221 [image/gif]
+Saving to: ‘collect_lrge_putty.gif’
+
+     0K                                                       100% 21.1M=0s
+
+2017-08-10 16:21:17 (21.1 MB/s) - ‘collect_lrge_putty.gif’ saved [221/221]
+
+--2017-08-10 16:21:17--  https://johnlewis.com/assets/build/delivery_lrge.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/delivery_lrge.gif [following]
+--2017-08-10 16:21:18--  https://www.johnlewis.com/assets/build/delivery_lrge.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 274 [image/gif]
+Saving to: ‘delivery_lrge.gif’
+
+     0K                                                       100% 4.56K=0.06s
+
+2017-08-10 16:21:18 (4.56 KB/s) - ‘delivery_lrge.gif’ saved [274/274]
+
+--2017-08-10 16:21:18--  https://johnlewis.com/assets/build/delivery_lrge_putty.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/delivery_lrge_putty.gif [following]
+--2017-08-10 16:21:19--  https://www.johnlewis.com/assets/build/delivery_lrge_putty.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 242 [image/gif]
+Saving to: ‘delivery_lrge_putty.gif’
+
+     0K                                                       100% 7.69M=0s
+
+2017-08-10 16:21:19 (7.69 MB/s) - ‘delivery_lrge_putty.gif’ saved [242/242]
+
+--2017-08-10 16:21:19--  https://johnlewis.com/assets/build/international_lrge.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/international_lrge.gif [following]
+--2017-08-10 16:21:20--  https://www.johnlewis.com/assets/build/international_lrge.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 278 [image/gif]
+Saving to: ‘international_lrge.gif’
+
+     0K                                                       100% 4.14K=0.07s
+
+2017-08-10 16:21:21 (4.14 KB/s) - ‘international_lrge.gif’ saved [278/278]
+
+--2017-08-10 16:21:21--  https://johnlewis.com/assets/build/international_lrge_putty.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/international_lrge_putty.gif [following]
+--2017-08-10 16:21:24--  https://www.johnlewis.com/assets/build/international_lrge_putty.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 417 [image/gif]
+Saving to: ‘international_lrge_putty.gif’
+
+     0K                                                       100% 7.10M=0s
+
+2017-08-10 16:21:25 (7.10 MB/s) - ‘international_lrge_putty.gif’ saved [417/417]
+
+--2017-08-10 16:21:25--  https://johnlewis.com/assets/build/update-remove-sprite.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/update-remove-sprite.gif [following]
+--2017-08-10 16:21:25--  https://www.johnlewis.com/assets/build/update-remove-sprite.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... Read error (Operation timed out) in headers.
+Retrying.
+
+--2017-08-10 16:36:26--  (try: 2)  https://www.johnlewis.com/assets/build/update-remove-sprite.gif
+Connecting to www.johnlewis.com|193.35.254.192|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1430 (1.4K) [image/gif]
+Saving to: ‘update-remove-sprite.gif’
+
+     0K .                                                     100%  439K=0.003s
+
+2017-08-10 16:36:27 (439 KB/s) - ‘update-remove-sprite.gif’ saved [1430/1430]
+
+--2017-08-10 16:36:27--  https://johnlewis.com/assets/build/update-remove-sprite.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/update-remove-sprite.gif [following]
+--2017-08-10 16:36:28--  https://www.johnlewis.com/assets/build/update-remove-sprite.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1430 (1.4K) [image/gif]
+Saving to: ‘update-remove-sprite.gif.1’
+
+     0K .                                                     100%  414K=0.003s
+
+2017-08-10 16:36:28 (414 KB/s) - ‘update-remove-sprite.gif.1’ saved [1430/1430]
+
+--2017-08-10 16:36:28--  https://johnlewis.com/assets/build/apply_credit_icon.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/apply_credit_icon.gif [following]
+--2017-08-10 16:36:29--  https://www.johnlewis.com/assets/build/apply_credit_icon.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1136 (1.1K) [image/gif]
+Saving to: ‘apply_credit_icon.gif’
+
+     0K .                                                     100%  402K=0.003s
+
+2017-08-10 16:36:29 (402 KB/s) - ‘apply_credit_icon.gif’ saved [1136/1136]
+
+--2017-08-10 16:36:29--  https://johnlewis.com/assets/build/flyout_arrow.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/flyout_arrow.gif [following]
+--2017-08-10 16:36:30--  https://www.johnlewis.com/assets/build/flyout_arrow.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 82 [image/gif]
+Saving to: ‘flyout_arrow.gif’
+
+     0K                                                       100% 2.61M=0s
+
+2017-08-10 16:36:30 (2.61 MB/s) - ‘flyout_arrow.gif’ saved [82/82]
+
+--2017-08-10 16:36:30--  https://johnlewis.com/assets/build/timeline-bckg.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/timeline-bckg.gif [following]
+--2017-08-10 16:36:31--  https://www.johnlewis.com/assets/build/timeline-bckg.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1242 (1.2K) [image/gif]
+Saving to: ‘timeline-bckg.gif’
+
+     0K .                                                     100% 22.9K=0.05s
+
+2017-08-10 16:36:31 (22.9 KB/s) - ‘timeline-bckg.gif’ saved [1242/1242]
+
+--2017-08-10 16:36:31--  https://johnlewis.com/assets/build/timeline-frgrd.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/timeline-frgrd.gif [following]
+--2017-08-10 16:36:31--  https://www.johnlewis.com/assets/build/timeline-frgrd.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1384 (1.4K) [image/gif]
+Saving to: ‘timeline-frgrd.gif’
+
+     0K .                                                     100%  370K=0.004s
+
+2017-08-10 16:36:32 (370 KB/s) - ‘timeline-frgrd.gif’ saved [1384/1384]
+
+--2017-08-10 16:36:32--  https://johnlewis.com/assets/build/timeline-frgrd.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/timeline-frgrd.gif [following]
+--2017-08-10 16:36:33--  https://www.johnlewis.com/assets/build/timeline-frgrd.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1384 (1.4K) [image/gif]
+Saving to: ‘timeline-frgrd.gif.1’
+
+     0K .                                                     100% 21.9K=0.06s
+
+2017-08-10 16:36:33 (21.9 KB/s) - ‘timeline-frgrd.gif.1’ saved [1384/1384]
+
+--2017-08-10 16:36:33--  https://johnlewis.com/assets/build/bckg-row-important-small.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/bckg-row-important-small.gif [following]
+--2017-08-10 16:36:34--  https://www.johnlewis.com/assets/build/bckg-row-important-small.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 218 [image/gif]
+Saving to: ‘bckg-row-important-small.gif.4’
+
+     0K                                                       100% 7.17M=0s
+
+2017-08-10 16:36:35 (7.17 MB/s) - ‘bckg-row-important-small.gif.4’ saved [218/218]
+
+--2017-08-10 16:36:35--  https://johnlewis.com/assets/build/bckg-row-important-xsmall.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/bckg-row-important-xsmall.gif [following]
+--2017-08-10 16:36:35--  https://www.johnlewis.com/assets/build/bckg-row-important-xsmall.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1220 (1.2K) [image/gif]
+Saving to: ‘bckg-row-important-xsmall.gif’
+
+     0K .                                                     100%  263K=0.005s
+
+2017-08-10 16:36:36 (263 KB/s) - ‘bckg-row-important-xsmall.gif’ saved [1220/1220]
+
+--2017-08-10 16:36:36--  https://johnlewis.com/assets/build/bckg-row-important-small-green.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/bckg-row-important-small-green.gif [following]
+--2017-08-10 16:36:36--  https://www.johnlewis.com/assets/build/bckg-row-important-small-green.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 210 [image/gif]
+Saving to: ‘bckg-row-important-small-green.gif’
+
+     0K                                                       100% 13.4M=0s
+
+2017-08-10 16:36:36 (13.4 MB/s) - ‘bckg-row-important-small-green.gif’ saved [210/210]
+
+--2017-08-10 16:36:36--  https://johnlewis.com/assets/build/field-note-bckg.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/field-note-bckg.gif [following]
+--2017-08-10 16:36:37--  https://www.johnlewis.com/assets/build/field-note-bckg.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1235 (1.2K) [image/gif]
+Saving to: ‘field-note-bckg.gif’
+
+     0K .                                                     100% 34.9K=0.03s
+
+2017-08-10 16:36:37 (34.9 KB/s) - ‘field-note-bckg.gif’ saved [1235/1235]
+
+--2017-08-10 16:36:37--  https://johnlewis.com/assets/build/chk-cross.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/chk-cross.gif [following]
+--2017-08-10 16:36:38--  https://www.johnlewis.com/assets/build/chk-cross.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1243 (1.2K) [image/gif]
+Saving to: ‘chk-cross.gif’
+
+     0K .                                                     100% 30.6K=0.04s
+
+2017-08-10 16:36:39 (30.6 KB/s) - ‘chk-cross.gif’ saved [1243/1243]
+
+--2017-08-10 16:36:39--  https://johnlewis.com/assets/build/chk-cross.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/chk-cross.gif [following]
+--2017-08-10 16:36:39--  https://www.johnlewis.com/assets/build/chk-cross.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1243 (1.2K) [image/gif]
+Saving to: ‘chk-cross.gif.1’
+
+     0K .                                                     100% 26.3M=0s
+
+2017-08-10 16:36:40 (26.3 MB/s) - ‘chk-cross.gif.1’ saved [1243/1243]
+
+--2017-08-10 16:36:40--  https://johnlewis.com/assets/build/chk-cross.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/chk-cross.gif [following]
+--2017-08-10 16:36:41--  https://www.johnlewis.com/assets/build/chk-cross.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1243 (1.2K) [image/gif]
+Saving to: ‘chk-cross.gif.2’
+
+     0K .                                                     100% 8.51K=0.1s
+
+2017-08-10 16:36:41 (8.51 KB/s) - ‘chk-cross.gif.2’ saved [1243/1243]
+
+--2017-08-10 16:36:41--  https://johnlewis.com/assets/build/chk-cross.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/chk-cross.gif [following]
+--2017-08-10 16:36:42--  https://www.johnlewis.com/assets/build/chk-cross.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1243 (1.2K) [image/gif]
+Saving to: ‘chk-cross.gif.3’
+
+     0K .                                                     100% 11.3K=0.1s
+
+2017-08-10 16:36:42 (11.3 KB/s) - ‘chk-cross.gif.3’ saved [1243/1243]
+
+--2017-08-10 16:36:42--  https://johnlewis.com/assets/buttons/btn-go.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/buttons/btn-go.gif [following]
+--2017-08-10 16:36:43--  https://www.johnlewis.com/assets/buttons/btn-go.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 3187 (3.1K) [image/gif]
+Saving to: ‘btn-go.gif’
+
+     0K ...                                                   100%  435K=0.007s
+
+2017-08-10 16:36:43 (435 KB/s) - ‘btn-go.gif’ saved [3187/3187]
+
+--2017-08-10 16:36:43--  https://johnlewis.com/assets/build/bckg-row-important-transparent.png
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/bckg-row-important-transparent.png [following]
+--2017-08-10 16:36:44--  https://www.johnlewis.com/assets/build/bckg-row-important-transparent.png
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 404 Not Found
+2017-08-10 16:36:45 ERROR 404: Not Found.
+
+--2017-08-10 16:36:45--  https://johnlewis.com/assets/build/visa.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/visa.gif [following]
+--2017-08-10 16:36:46--  https://www.johnlewis.com/assets/build/visa.gif
+Connecting to www.johnlewis.com|193.35.254.192|:443... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2017-08-10 16:36:47 ERROR 404: Not Found.
+
+--2017-08-10 16:36:47--  https://johnlewis.com/assets/build/amex.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/amex.gif [following]
+--2017-08-10 16:36:47--  https://www.johnlewis.com/assets/build/amex.gif
+Connecting to www.johnlewis.com|193.35.254.192|:443... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2017-08-10 16:36:48 ERROR 404: Not Found.
+
+--2017-08-10 16:36:48--  https://johnlewis.com/assets/build/mastercard.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/build/mastercard.gif [following]
+--2017-08-10 16:36:50--  https://www.johnlewis.com/assets/build/mastercard.gif
+Connecting to www.johnlewis.com|193.35.254.192|:443... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2017-08-10 16:36:51 ERROR 404: Not Found.
+
+--2017-08-10 16:36:51--  https://johnlewis.com/assets/buttons/btn-another-fabric.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/buttons/btn-another-fabric.gif [following]
+--2017-08-10 16:36:52--  https://www.johnlewis.com/assets/buttons/btn-another-fabric.gif
+Connecting to www.johnlewis.com|193.35.254.192|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 5820 (5.7K) [image/gif]
+Saving to: ‘btn-another-fabric.gif’
+
+     0K .....                                                 100% 56.1K=0.1s
+
+2017-08-10 16:36:53 (56.1 KB/s) - ‘btn-another-fabric.gif’ saved [5820/5820]
+
+--2017-08-10 16:36:53--  https://johnlewis.com/assets/buttons/btn-psml-add.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/buttons/btn-psml-add.gif [following]
+--2017-08-10 16:36:54--  https://www.johnlewis.com/assets/buttons/btn-psml-add.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 4250 (4.2K) [image/gif]
+Saving to: ‘btn-psml-add.gif’
+
+     0K ....                                                  100% 16.3K=0.3s
+
+2017-08-10 16:36:54 (16.3 KB/s) - ‘btn-psml-add.gif’ saved [4250/4250]
+
+--2017-08-10 16:36:54--  https://johnlewis.com/assets/buttons/btn-psml-addtobasket.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/buttons/btn-psml-addtobasket.gif [following]
+--2017-08-10 16:36:55--  https://www.johnlewis.com/assets/buttons/btn-psml-addtobasket.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 5304 (5.2K) [image/gif]
+Saving to: ‘btn-psml-addtobasket.gif’
+
+     0K .....                                                 100%  268K=0.02s
+
+2017-08-10 16:36:55 (268 KB/s) - ‘btn-psml-addtobasket.gif’ saved [5304/5304]
+
+--2017-08-10 16:36:55--  https://johnlewis.com/assets/buttons/btn-psml-addtogiftlist.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/buttons/btn-psml-addtogiftlist.gif [following]
+--2017-08-10 16:36:56--  https://www.johnlewis.com/assets/buttons/btn-psml-addtogiftlist.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2712 (2.6K) [image/gif]
+Saving to: ‘btn-psml-addtogiftlist.gif’
+
+     0K ..                                                    100%  165K=0.02s
+
+2017-08-10 16:36:57 (165 KB/s) - ‘btn-psml-addtogiftlist.gif’ saved [2712/2712]
+
+--2017-08-10 16:36:57--  https://johnlewis.com/assets/buttons/btn-psml-cont.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/buttons/btn-psml-cont.gif [following]
+--2017-08-10 16:36:57--  https://www.johnlewis.com/assets/buttons/btn-psml-cont.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 4507 (4.4K) [image/gif]
+Saving to: ‘btn-psml-cont.gif’
+
+     0K ....                                                  100%  201K=0.02s
+
+2017-08-10 16:36:58 (201 KB/s) - ‘btn-psml-cont.gif’ saved [4507/4507]
+
+--2017-08-10 16:36:58--  https://johnlewis.com/assets/buttons/btn-psml-conf.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/buttons/btn-psml-conf.gif [following]
+--2017-08-10 16:36:58--  https://www.johnlewis.com/assets/buttons/btn-psml-conf.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 4478 (4.4K) [image/gif]
+Saving to: ‘btn-psml-conf.gif’
+
+     0K ....                                                  100%  302K=0.01s
+
+2017-08-10 16:36:59 (302 KB/s) - ‘btn-psml-conf.gif’ saved [4478/4478]
+
+--2017-08-10 16:36:59--  https://johnlewis.com/assets/buttons/btn-psml-done.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/buttons/btn-psml-done.gif [following]
+--2017-08-10 16:37:00--  https://www.johnlewis.com/assets/buttons/btn-psml-done.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 4203 (4.1K) [image/gif]
+Saving to: ‘btn-psml-done.gif’
+
+     0K ....                                                  100%  959K=0.004s
+
+2017-08-10 16:37:00 (959 KB/s) - ‘btn-psml-done.gif’ saved [4203/4203]
+
+--2017-08-10 16:37:00--  https://johnlewis.com/assets/buttons/btn-psml-yes.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/buttons/btn-psml-yes.gif [following]
+--2017-08-10 16:37:01--  https://www.johnlewis.com/assets/buttons/btn-psml-yes.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 4157 (4.1K) [image/gif]
+Saving to: ‘btn-psml-yes.gif’
+
+     0K ....                                                  100% 42.2M=0s
+
+2017-08-10 16:37:01 (42.2 MB/s) - ‘btn-psml-yes.gif’ saved [4157/4157]
+
+--2017-08-10 16:37:01--  https://johnlewis.com/assets/buttons/btn-psml-save.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/buttons/btn-psml-save.gif [following]
+--2017-08-10 16:37:02--  https://www.johnlewis.com/assets/buttons/btn-psml-save.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 4224 (4.1K) [image/gif]
+Saving to: ‘btn-psml-save.gif’
+
+     0K ....                                                  100%  701K=0.006s
+
+2017-08-10 16:37:02 (701 KB/s) - ‘btn-psml-save.gif’ saved [4224/4224]
+
+--2017-08-10 16:37:02--  https://johnlewis.com/assets/buttons/btn-pmed-cont.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/buttons/btn-pmed-cont.gif [following]
+--2017-08-10 16:37:03--  https://www.johnlewis.com/assets/buttons/btn-pmed-cont.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... Read error (Operation timed out) in headers.
+Retrying.
+
+--2017-08-10 16:52:04--  (try: 2)  https://www.johnlewis.com/assets/buttons/btn-pmed-cont.gif
+Connecting to www.johnlewis.com|193.35.254.192|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 5432 (5.3K) [image/gif]
+Saving to: ‘btn-pmed-cont.gif’
+
+     0K .....                                                 100% 33.2M=0s
+
+2017-08-10 16:52:04 (33.2 MB/s) - ‘btn-pmed-cont.gif’ saved [5432/5432]
+
+--2017-08-10 16:52:04--  https://johnlewis.com/assets/buttons/btn-pmed-conf.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/buttons/btn-pmed-conf.gif [following]
+--2017-08-10 16:52:05--  https://www.johnlewis.com/assets/buttons/btn-pmed-conf.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 5548 (5.4K) [image/gif]
+Saving to: ‘btn-pmed-conf.gif’
+
+     0K .....                                                 100% 25.0K=0.2s
+
+2017-08-10 16:52:06 (25.0 KB/s) - ‘btn-pmed-conf.gif’ saved [5548/5548]
+
+--2017-08-10 16:52:06--  https://johnlewis.com/assets/buttons/btn-plrg-cont.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/buttons/btn-plrg-cont.gif [following]
+--2017-08-10 16:52:07--  https://www.johnlewis.com/assets/buttons/btn-plrg-cont.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 6160 (6.0K) [image/gif]
+Saving to: ‘btn-plrg-cont.gif’
+
+     0K ......                                                100% 80.3K=0.07s
+
+2017-08-10 16:52:07 (80.3 KB/s) - ‘btn-plrg-cont.gif’ saved [6160/6160]
+
+--2017-08-10 16:52:07--  https://johnlewis.com/assets/buttons/btn-plrg-createlist.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/buttons/btn-plrg-createlist.gif [following]
+--2017-08-10 16:52:07--  https://www.johnlewis.com/assets/buttons/btn-plrg-createlist.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 8071 (7.9K) [image/gif]
+Saving to: ‘btn-plrg-createlist.gif’
+
+     0K .......                                               100%  322K=0.02s
+
+2017-08-10 16:52:08 (322 KB/s) - ‘btn-plrg-createlist.gif’ saved [8071/8071]
+
+--2017-08-10 16:52:08--  https://johnlewis.com/assets/buttons/btn-plrg-createlist-disabled.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/buttons/btn-plrg-createlist-disabled.gif [following]
+--2017-08-10 16:52:09--  https://www.johnlewis.com/assets/buttons/btn-plrg-createlist-disabled.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2855 (2.8K) [image/gif]
+Saving to: ‘btn-plrg-createlist-disabled.gif’
+
+     0K ..                                                    100%  150K=0.02s
+
+2017-08-10 16:52:09 (150 KB/s) - ‘btn-plrg-createlist-disabled.gif’ saved [2855/2855]
+
+--2017-08-10 16:52:09--  https://johnlewis.com/assets/buttons/btn-plrg-home.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/buttons/btn-plrg-home.gif [following]
+--2017-08-10 16:52:09--  https://www.johnlewis.com/assets/buttons/btn-plrg-home.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... Read error (Operation timed out) in headers.
+Retrying.
+
+--2017-08-10 17:07:10--  (try: 2)  https://www.johnlewis.com/assets/buttons/btn-plrg-home.gif
+Connecting to www.johnlewis.com|193.35.254.192|:443... connected.
+HTTP request sent, awaiting response... Read error (Operation timed out) in headers.
+Retrying.
+
+--2017-08-10 17:22:14--  (try: 3)  https://www.johnlewis.com/assets/buttons/btn-plrg-home.gif
+Connecting to www.johnlewis.com|193.35.254.192|:443... connected.
+HTTP request sent, awaiting response... Read error (Operation timed out) in headers.
+Retrying.
+
+--2017-08-10 17:37:17--  (try: 4)  https://www.johnlewis.com/assets/buttons/btn-plrg-home.gif
+Connecting to www.johnlewis.com|193.35.254.192|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 6687 (6.5K) [image/gif]
+Saving to: ‘btn-plrg-home.gif’
+
+     0K ......                                                100% 29.4M=0s
+
+2017-08-10 17:37:17 (29.4 MB/s) - ‘btn-plrg-home.gif’ saved [6687/6687]
+
+--2017-08-10 17:37:17--  https://johnlewis.com/assets/buttons/btn-pmed-saveu.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/buttons/btn-pmed-saveu.gif [following]
+--2017-08-10 17:37:18--  https://www.johnlewis.com/assets/buttons/btn-pmed-saveu.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... Read error (Operation timed out) in headers.
+Retrying.
+
+--2017-08-10 17:52:19--  (try: 2)  https://www.johnlewis.com/assets/buttons/btn-pmed-saveu.gif
+Connecting to www.johnlewis.com|193.35.254.192|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 5572 (5.4K) [image/gif]
+Saving to: ‘btn-pmed-saveu.gif’
+
+     0K .....                                                 100%  481K=0.01s
+
+2017-08-10 17:52:19 (481 KB/s) - ‘btn-pmed-saveu.gif’ saved [5572/5572]
+
+--2017-08-10 17:52:19--  https://johnlewis.com/assets/buttons/btn-pmed-save.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/buttons/btn-pmed-save.gif [following]
+--2017-08-10 17:52:20--  https://www.johnlewis.com/assets/buttons/btn-pmed-save.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 5235 (5.1K) [image/gif]
+Saving to: ‘btn-pmed-save.gif’
+
+     0K .....                                                 100% 17.7K=0.3s
+
+2017-08-10 17:52:20 (17.7 KB/s) - ‘btn-pmed-save.gif’ saved [5235/5235]
+
+--2017-08-10 17:52:20--  https://johnlewis.com/assets/buttons/btn-pmed-signin.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/buttons/btn-pmed-signin.gif [following]
+--2017-08-10 17:52:21--  https://www.johnlewis.com/assets/buttons/btn-pmed-signin.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 5391 (5.3K) [image/gif]
+Saving to: ‘btn-pmed-signin.gif’
+
+     0K .....                                                 100%  363K=0.01s
+
+2017-08-10 17:52:21 (363 KB/s) - ‘btn-pmed-signin.gif’ saved [5391/5391]
+
+--2017-08-10 17:52:21--  https://johnlewis.com/assets/buttons/btn-pmed-update.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/buttons/btn-pmed-update.gif [following]
+--2017-08-10 17:52:21--  https://www.johnlewis.com/assets/buttons/btn-pmed-update.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 4165 (4.1K) [image/gif]
+Saving to: ‘btn-pmed-update.gif’
+
+     0K ....                                                  100%  257K=0.02s
+
+2017-08-10 17:52:21 (257 KB/s) - ‘btn-pmed-update.gif’ saved [4165/4165]
+
+--2017-08-10 17:52:21--  https://johnlewis.com/assets/buttons/btn-pmed-vieworder.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/buttons/btn-pmed-vieworder.gif [following]
+--2017-08-10 17:52:22--  https://www.johnlewis.com/assets/buttons/btn-pmed-vieworder.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 6666 (6.5K) [image/gif]
+Saving to: ‘btn-pmed-vieworder.gif’
+
+     0K ......                                                100%  763K=0.009s
+
+2017-08-10 17:52:22 (763 KB/s) - ‘btn-pmed-vieworder.gif’ saved [6666/6666]
+
+--2017-08-10 17:52:22--  https://johnlewis.com/assets/buttons/btn-smed-snd-cancel.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/buttons/btn-smed-snd-cancel.gif [following]
+--2017-08-10 17:52:22--  https://www.johnlewis.com/assets/buttons/btn-smed-snd-cancel.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 4795 (4.7K) [image/gif]
+Saving to: ‘btn-smed-snd-cancel.gif’
+
+     0K ....                                                  100%  339K=0.01s
+
+2017-08-10 17:52:23 (339 KB/s) - ‘btn-smed-snd-cancel.gif’ saved [4795/4795]
+
+--2017-08-10 17:52:23--  https://johnlewis.com/assets/buttons/btn-plrg-create.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/buttons/btn-plrg-create.gif [following]
+--2017-08-10 17:52:23--  https://www.johnlewis.com/assets/buttons/btn-plrg-create.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 6843 (6.7K) [image/gif]
+Saving to: ‘btn-plrg-create.gif’
+
+     0K ......                                                100% 2.09M=0.003s
+
+2017-08-10 17:52:23 (2.09 MB/s) - ‘btn-plrg-create.gif’ saved [6843/6843]
+
+--2017-08-10 17:52:23--  https://johnlewis.com/assets/buttons/btn-go.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/buttons/btn-go.gif [following]
+--2017-08-10 17:52:24--  https://www.johnlewis.com/assets/buttons/btn-go.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 3187 (3.1K) [image/gif]
+Saving to: ‘btn-go.gif.2’
+
+     0K ...                                                   100%  900K=0.003s
+
+2017-08-10 17:52:24 (900 KB/s) - ‘btn-go.gif.2’ saved [3187/3187]
+
+--2017-08-10 17:52:24--  https://johnlewis.com/assets/buttons/btn-plrg-new-voucher.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/buttons/btn-plrg-new-voucher.gif [following]
+--2017-08-10 17:52:24--  https://www.johnlewis.com/assets/buttons/btn-plrg-new-voucher.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 8427 (8.2K) [image/gif]
+Saving to: ‘btn-plrg-new-voucher.gif’
+
+     0K ........                                              100%  693K=0.01s
+
+2017-08-10 17:52:24 (693 KB/s) - ‘btn-plrg-new-voucher.gif’ saved [8427/8427]
+
+--2017-08-10 17:52:24--  https://johnlewis.com/assets/buttons/btn-plrg-contsec.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/buttons/btn-plrg-contsec.gif [following]
+--2017-08-10 17:52:25--  https://www.johnlewis.com/assets/buttons/btn-plrg-contsec.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 6919 (6.8K) [image/gif]
+Saving to: ‘btn-plrg-contsec.gif’
+
+     0K ......                                                100% 45.8M=0s
+
+2017-08-10 17:52:25 (45.8 MB/s) - ‘btn-plrg-contsec.gif’ saved [6919/6919]
+
+--2017-08-10 17:52:25--  https://johnlewis.com/assets/buttons/btn-plrg-confshop.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/buttons/btn-plrg-confshop.gif [following]
+--2017-08-10 17:52:26--  https://www.johnlewis.com/assets/buttons/btn-plrg-confshop.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 6974 (6.8K) [image/gif]
+Saving to: ‘btn-plrg-confshop.gif’
+
+     0K ......                                                100% 71.5M=0s
+
+2017-08-10 17:52:26 (71.5 MB/s) - ‘btn-plrg-confshop.gif’ saved [6974/6974]
+
+--2017-08-10 17:52:26--  https://johnlewis.com/assets/buttons/btn-plrg-cshop.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/buttons/btn-plrg-cshop.gif [following]
+--2017-08-10 17:52:26--  https://www.johnlewis.com/assets/buttons/btn-plrg-cshop.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 7177 (7.0K) [image/gif]
+Saving to: ‘btn-plrg-cshop.gif’
+
+     0K .......                                               100%  813K=0.009s
+
+2017-08-10 17:52:26 (813 KB/s) - ‘btn-plrg-cshop.gif’ saved [7177/7177]
+
+--2017-08-10 17:52:26--  https://johnlewis.com/assets/buttons/btn-plrg-backtowishlist.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/buttons/btn-plrg-backtowishlist.gif [following]
+--2017-08-10 17:52:27--  https://www.johnlewis.com/assets/buttons/btn-plrg-backtowishlist.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 8195 (8.0K) [image/gif]
+Saving to: ‘btn-plrg-backtowishlist.gif’
+
+     0K ........                                              100%  277K=0.03s
+
+2017-08-10 17:52:27 (277 KB/s) - ‘btn-plrg-backtowishlist.gif’ saved [8195/8195]
+
+--2017-08-10 17:52:27--  https://johnlewis.com/assets/buttons/btn-sxlrg-another-location.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/buttons/btn-sxlrg-another-location.gif [following]
+--2017-08-10 17:52:27--  https://www.johnlewis.com/assets/buttons/btn-sxlrg-another-location.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 5058 (4.9K) [image/gif]
+Saving to: ‘btn-sxlrg-another-location.gif’
+
+     0K ....                                                  100%  466K=0.01s
+
+2017-08-10 17:52:27 (466 KB/s) - ‘btn-sxlrg-another-location.gif’ saved [5058/5058]
+
+--2017-08-10 17:52:27--  https://johnlewis.com/assets/buttons/btn-plrg-addnew.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/buttons/btn-plrg-addnew.gif [following]
+--2017-08-10 17:52:28--  https://www.johnlewis.com/assets/buttons/btn-plrg-addnew.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 8281 (8.1K) [image/gif]
+Saving to: ‘btn-plrg-addnew.gif’
+
+     0K ........                                              100% 2.96M=0.003s
+
+2017-08-10 17:52:28 (2.96 MB/s) - ‘btn-plrg-addnew.gif’ saved [8281/8281]
+
+--2017-08-10 17:52:28--  https://johnlewis.com/assets/buttons/btn-plrg-saveaddress.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/buttons/btn-plrg-saveaddress.gif [following]
+--2017-08-10 17:52:28--  https://www.johnlewis.com/assets/buttons/btn-plrg-saveaddress.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 5118 (5.0K) [image/gif]
+Saving to: ‘btn-plrg-saveaddress.gif’
+
+     0K ....                                                  100%  137K=0.04s
+
+2017-08-10 17:52:29 (137 KB/s) - ‘btn-plrg-saveaddress.gif’ saved [5118/5118]
+
+--2017-08-10 17:52:29--  https://johnlewis.com/assets/buttons/btn-plrg-rmvecont.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/buttons/btn-plrg-rmvecont.gif [following]
+--2017-08-10 17:52:29--  https://www.johnlewis.com/assets/buttons/btn-plrg-rmvecont.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 7000 (6.8K) [image/gif]
+Saving to: ‘btn-plrg-rmvecont.gif’
+
+     0K ......                                                100%  566K=0.01s
+
+2017-08-10 17:52:29 (566 KB/s) - ‘btn-plrg-rmvecont.gif’ saved [7000/7000]
+
+--2017-08-10 17:52:29--  https://johnlewis.com/assets/buttons/btn-plrg-upqty.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/buttons/btn-plrg-upqty.gif [following]
+--2017-08-10 17:52:30--  https://www.johnlewis.com/assets/buttons/btn-plrg-upqty.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 6943 (6.8K) [image/gif]
+Saving to: ‘btn-plrg-upqty.gif’
+
+     0K ......                                                100%  927K=0.007s
+
+2017-08-10 17:52:30 (927 KB/s) - ‘btn-plrg-upqty.gif’ saved [6943/6943]
+
+--2017-08-10 17:52:30--  https://johnlewis.com/assets/buttons/btn-plrg-crtepass.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/buttons/btn-plrg-crtepass.gif [following]
+--2017-08-10 17:52:30--  https://www.johnlewis.com/assets/buttons/btn-plrg-crtepass.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 7165 (7.0K) [image/gif]
+Saving to: ‘btn-plrg-crtepass.gif’
+
+     0K ......                                                100%  280K=0.03s
+
+2017-08-10 17:52:30 (280 KB/s) - ‘btn-plrg-crtepass.gif’ saved [7165/7165]
+
+--2017-08-10 17:52:30--  https://johnlewis.com/assets/buttons/btn-plrg-chgpass.gif
+Connecting to johnlewis.com|193.35.250.192|:443... connected.
+HTTP request sent, awaiting response... 301 MOVED PERMANENTLY
+Location: https://www.johnlewis.com/assets/buttons/btn-plrg-chgpass.gif [following]
+--2017-08-10 17:52:31--  https://www.johnlewis.com/assets/buttons/btn-plrg-chgpass.gif
+Reusing existing connection to www.johnlewis.com:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 7353 (7.2K) [image/gif]
+Saving to: ‘btn-plrg-chgpass.gif’
+
+     0K .......

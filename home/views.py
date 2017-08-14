@@ -5,7 +5,7 @@ from django.shortcuts import render
 
 from django.views.generic.list import ListView
 
-from products.models import Product
+from products.models import Product, ProductFeatured
 
 # Create your views here.
 
@@ -13,6 +13,11 @@ from products.models import Product
 class HomeView(ListView):
 
     model = Product
-    queryset = Product.objects.all()
+    queryset = Product.objects.all().order_by("?")[:6]
 
     template_name = "home/index.html"
+
+    def get_context_data(self, *args, **kwargs):
+		context = super(HomeView, self).get_context_data(*args, **kwargs)
+		context["featured"] = ProductFeatured.objects.all()
+		return context

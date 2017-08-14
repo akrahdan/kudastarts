@@ -1026,7 +1026,7 @@ ul.io-primary {
 }
 
 .io-primary li span.iso-code {
-    padding: 0 0 0 20px;
+    /*padding: 0 0 0 20px;*/
     display: inline-block
 }
 

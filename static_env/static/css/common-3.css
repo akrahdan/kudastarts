@@ -7,7 +7,7 @@ body.header-banner {
 }
 
 .header-banner #body-bg {
-    background: url(https://www.johnlewis.com/assets/build/header-bck-banner.gif) repeat-x;
+    background: url(/static/img/header-bck-banner.gif) repeat-x;
     width: 100%;
     position: relative;
 }
@@ -29,7 +29,7 @@ body.header-banner {
     }
 
 .header-banner ul.my-account {
-    background-image: url(https://www.johnlewis.com/assets/header/bg-my-account-banner.gif);
+    background-image: url(/static/img/bg-my-account-banner.gif);
 }
 
     .header-banner ul.my-account li {
@@ -37,7 +37,7 @@ body.header-banner {
     }
 
         .header-banner ul.my-account li.first {
-            background-image: url(https://www.johnlewis.com/assets/header/bg-my-account-banner.gif);
+            background-image: url(/static/img/bg-my-account-banner.gif);
         }
 
 .header-banner .main-logo {
@@ -87,7 +87,7 @@ body.header-banner {
 }
 
 .header-banner #basket-wrapper .mini-basket .checkout-link {
-    background-image: url(https://www.johnlewis.com/assets/buttons/checkout-btn-banner.gif);
+    background-image: url(/static/img/checkout-btn-banner.gif);
 }
 
 .header-banner #basket-wrapper.open .mini-basket {
@@ -106,12 +106,12 @@ body.header-banner {
     }
 
 .header-banner #wrapper #basket-wrapper .loading-small {
-    background: url('https://www.johnlewis.com/assets/build/loader-small.gif') 12px 14px no-repeat #fff;
+    background: url('/static/img/loader-small.gif') 12px 14px no-repeat #fff;
 }
 
 .header-banner #basket-wrapper.empty .mini-basket ul li.checkout-li div {
     height: 44px;
-    background-image: url(https://www.johnlewis.com/assets/buttons/checkout-btn-banner-inactive.gif);
+    background-image: url(/static/img/checkout-btn-banner-inactive.gif);
 }
 
 .header-banner #basket-wrapper .mini-basket ul li.checkout-li a.checkout-link {
@@ -142,13 +142,13 @@ body.header-banner {
 
 .header-banner #basket-wrapper .mini-basket ul li.basket-info a.basket-switcher {
     padding: 14px 0 12px 40px;
-    background-image: url(https://www.johnlewis.com/assets/build/mini-basket-banner-active.gif);
+    background-image: url(/static/img/mini-basket-banner-active.gif);
     background-position: 8px 14px;
 }
 
 .header-banner #basket-wrapper.empty .mini-basket ul li.basket-info div {
     padding: 14px 0 12px 40px;
-    background-image: url(https://www.johnlewis.com/assets/build/mini-basket-banner-inactive.gif);
+    background-image: url(/static/img/mini-basket-banner-inactive.gif);
     background-position: 8px 14px;
 }
 
@@ -167,7 +167,7 @@ body.header-banner {
     right: 44px;
     width: 42px;
     height: 42px;
-    background-image: url(https://www.johnlewis.com/assets/build/ios-cross-banner.png);
+    background-image: url(/static/img/ios-cross-banner.png);
     background-size: 16px;
 }
 
@@ -195,7 +195,7 @@ body.header-banner {
     background: 0;
     cursor: pointer;
     overflow: hidden;
-    background: url(https://www.johnlewis.com/assets/build/dropdown-arrows-banner.png) right center no-repeat;
+    background: url(/static/img/dropdown-arrows-banner.png) right center no-repeat;
     border-right: 1px solid #bebdb8;
 }
 
@@ -244,7 +244,7 @@ body.header-banner {
 }
 
 .header-banner .search .search-inner-wrap input.search-button {
-    background: url(https://www.johnlewis.com/assets/build/search-icon-banner.gif) top left no-repeat;
+    background: url(/static/img/search-icon-banner.gif) top left no-repeat;
     text-indent: -999em;
     position: absolute;
     right: 0;
@@ -313,7 +313,7 @@ body.header-banner {
     .header-banner .search .search-results-preview .clear-all a {
         padding: 0 16px 0 0;
         background-position: right center;
-        background-image: url(https://www.johnlewis.com/assets/build/searchbar-close.png);
+        background-image: url(/static/img/searchbar-close.png);
     }
 
 .header-banner .search .clear-all a:hover, .header-banner .search .clear-all a:focus, .header-banner .search .see-more a:hover, .header-banner .search .see-more a:focus {
@@ -375,37 +375,37 @@ body.header-banner {
 
 @media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min--moz-device-pixel-ratio:2),only screen and (-o-min-device-pixel-ratio:2/1),only screen and (min-device-pixel-ratio:2),only screen and (min-resolution:192dpi),only screen and (min-resolution:2dppx) {
     .header-banner .search .search-inner-wrap input.search-button {
-        background-image: url(https://www.johnlewis.com/assets/build/search-icon-banner-retina.gif);
+        background-image: url(/static/img/search-icon-banner-retina.gif);
         background-size: 45px 126px;
     }
 
     .header-banner .search .search-inner-wrap .select-department {
-        background-image: url(https://www.johnlewis.com/assets/build/dropdown-arrows-banner-retina.png);
+        background-image: url(/static/img/dropdown-arrows-banner-retina.png);
         background-size: 14px 14px;
     }
 
     .header-banner #basket-wrapper.empty .mini-basket ul li.basket-info div {
-        background-image: url(https://www.johnlewis.com/assets/build/mini-basket-banner-inactive-retina.gif);
+        background-image: url(/static/img/mini-basket-banner-inactive-retina.gif);
         background-size: 20px 16px;
     }
 
     .header-banner #basket-wrapper .mini-basket ul li.basket-info a.basket-switcher {
-        background-image: url(https://www.johnlewis.com/assets/build/mini-basket-banner-active-retina.gif);
+        background-image: url(/static/img/mini-basket-banner-active-retina.gif);
         background-size: 20px 16px;
     }
 
     .header-banner #basket-wrapper .mini-basket .checkout-link {
-        background-image: url(https://www.johnlewis.com/assets/buttons/checkout-btn-banner-retina.gif);
+        background-image: url(/static/img/checkout-btn-banner-retina.gif);
         background-size: 89px 132px;
     }
 
     .header-banner #basket-wrapper.empty .mini-basket ul li.checkout-li div {
-        background-image: url(https://www.johnlewis.com/assets/buttons/checkout-btn-banner-inactive-retina.gif);
+        background-image: url(/static/img/checkout-btn-banner-inactive-retina.gif);
         background-size: 89px 44px;
     }
 
     .header-banner .search .search-results-preview .clear-all a {
-        background-image: url(https://www.johnlewis.com/assets/build/searchbar-close-retina.png);
+        background-image: url(/static/img/searchbar-close-retina.png);
         background-size: 8px 7px;
     }
 }
@@ -466,11 +466,11 @@ body.header-banner {
         }
 
     .promo-head .expand-items {
-        background: url('https://www.johnlewis.com/assets/build/expand-btn.gif') no-repeat 0 0;
+        background: url('/static/img/expand-btn.gif') no-repeat 0 0;
     }
 
     .promo-head .shrink-items {
-        background: url('https://www.johnlewis.com/assets/build/minus-icon.gif') no-repeat 1px 1px;
+        background: url('/static/img/minus-icon.gif') no-repeat 1px 1px;
     }
 
     .promo-head h4 {
@@ -496,7 +496,7 @@ body.header-banner {
 }
 
 .promo-head .clear-all {
-    background: url('https://www.johnlewis.com/assets/build/clear-all.gif') no-repeat 0 50%;
+    background: url('/static/img/clear-all.gif') no-repeat 0 50%;
     color: #5f5f5f;
     cursor: pointer;
     height: auto;
@@ -651,12 +651,12 @@ body.header-banner {
 }
 
 .mod-global-promo a.btn-prev {
-    background: url("https://www.johnlewis.com/assets/buttons/btn-prev.gif") no-repeat -20px 0;
+    background: url("/static/img/btn-prev.gif") no-repeat -20px 0;
     left: 9px;
 }
 
 .mod-global-promo a.btn-next {
-    background: url("https://www.johnlewis.com/assets/buttons/btn-next.gif") no-repeat -20px 0;
+    background: url("/static/img/btn-next.gif") no-repeat -20px 0;
     right: 11px;
 }
 
@@ -684,7 +684,7 @@ body.header-banner {
 }
 
 .promo-list li a.rmv-item {
-    background: url('https://www.johnlewis.com/assets/build/sprite-ios-cross.png') no-repeat 0 0;
+    background: url('/static/img/sprite-ios-cross.png') no-repeat 0 0;
     position: absolute;
     cursor: pointer;
     z-index: 100;
@@ -725,7 +725,7 @@ body.header-banner {
 }
 
     .ctm-tooltip.left {
-        background: url('https://www.johnlewis.com/assets/build/sprite-ctm-tooltip-left.png') no-repeat 100% -21px;
+        background: url('/static/img/sprite-ctm-tooltip-left.png') no-repeat 100% -21px;
         padding: 0 7px 0 0;
         right: 16px;
         top: -1px;
@@ -740,7 +740,7 @@ body.header-banner {
     }
 
     .ctm-tooltip.left .inner {
-        background: url('https://www.johnlewis.com/assets/build/sprite-ctm-tooltip-left.png') no-repeat 0 0;
+        background: url('/static/img/sprite-ctm-tooltip-left.png') no-repeat 0 0;
     }
 
 .promo-list a.promo-view-all {
@@ -781,7 +781,7 @@ body.header-banner {
     }
 
 .popupArrow {
-    background: url('https://www.johnlewis.com/assets/build/popupPointer.png') transparent no-repeat top center;
+    background: url('/static/img/popupPointer.png') transparent no-repeat top center;
     display: block;
     height: 10px;
     left: 81px;
@@ -828,7 +828,7 @@ body.header-banner {
 .popup li {
     color: #5f5f5f;
     padding-left: 14px;
-    background: url("https://www.johnlewis.com/assets/build/bckg-default-bullet.gif") no-repeat scroll 2px 6px transparent;
+    background: url("/static/img/bckg-default-bullet.gif") no-repeat scroll 2px 6px transparent;
     margin-top: 4px;
 }
 
@@ -1076,11 +1076,11 @@ body.header-banner {
 }
 
 .side-facets .expand-more {
-    background: url(https://www.johnlewis.com/assets/build/plus-icon-sml.gif) no-repeat 0 0;
+    background: url(/static/img/plus-icon-sml.gif) no-repeat 0 0;
 }
 
 .side-facets .expand-less {
-    background: url(https://www.johnlewis.com/assets/build/minus-icon-sml.gif) no-repeat 0 0;
+    background: url(/static/img/minus-icon-sml.gif) no-repeat 0 0;
 }
 
 .side-facets .content h3 {
@@ -1164,7 +1164,7 @@ body.header-banner {
 .side-facets .search-box .btn-reset {
     height: 20px;
     width: 20px;
-    background: url(https://www.johnlewis.com/assets/build/active-brand-close.png) no-repeat 50% 50% transparent;
+    background: url(/static/img/active-brand-close.png) no-repeat 50% 50% transparent;
     position: absolute;
     top: 11px;
     right: 0;
@@ -1253,7 +1253,7 @@ body.header-banner {
 }
 
 .facet-bread-box .split-facet {
-    background: url("https://www.johnlewis.com/assets/build/split.gif") repeat-x 0 0 #fff;
+    background: url("/static/img/split.gif") repeat-x 0 0 #fff;
     height: 12px;
     margin: 0 -11px;
 }
@@ -1275,7 +1275,7 @@ body.header-banner {
 }
 
 .facet-bread-box .facet-container li a.clear-selection {
-    background: url(https://www.johnlewis.com/assets/build/clear-bread-box-selection.gif) no-repeat 0 0 #fff;
+    background: url(/static/img/clear-bread-box-selection.gif) no-repeat 0 0 #fff;
     float: left;
     height: auto;
     min-height: 15px;
@@ -1322,7 +1322,7 @@ body.header-banner {
 }
 
 .facet-container li a.clear-selection {
-    background: url(https://www.johnlewis.com/assets/build/clear-selection.gif) no-repeat 0 0 #fff;
+    background: url(/static/img/clear-selection.gif) no-repeat 0 0 #fff;
     display: inline-block;
     float: right;
     margin: 4px 0;
@@ -1503,7 +1503,7 @@ body.header-banner {
 }
 
 #facet-averagerating .review-star, .facet-averagerating .review-star, .facet-bread-box .review-star {
-    background: #fff url(/assets/build/review-star.gif) no-repeat 0 0;
+    background: #fff url(/static/img/review-star.gif) no-repeat 0 0;
     width: 16px;
     height: 15px;
     display: inline-block;
@@ -1545,7 +1545,7 @@ body.header-banner {
     }
 
     #facet-averagerating li.single-selected span.clear-selection {
-        background: url(https://www.johnlewis.com/assets/build/clear-selection.gif) no-repeat 0 0 #fff;
+        background: url(/static/img/clear-selection.gif) no-repeat 0 0 #fff;
         display: inline-block;
         height: 15px;
         float: right;
@@ -2403,12 +2403,12 @@ div.new-register {
     }
 
     .spinner-lge {
-        background-image: url("https://www.johnlewis.com/assets/build/loader-82.gif");
+        background-image: url("/static/img/loader-82.gif");
         background-size: 41px 41px;
     }
 
     .spinner-sml {
-        background-image: url("https://www.johnlewis.com/assets/build/loader-36.gif");
+        background-image: url("/static/img/loader-36.gif");
         background-size: 18px 18px;
     }
 
